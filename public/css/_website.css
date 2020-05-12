@@ -1,0 +1,145 @@
+html,
+body,
+.view {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel {
+  height: 100%;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100%;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.top-nav-collapse {
+  background-color: #000;
+}
+
+/* Adding color to the Navbar on mobile */
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #000;
+  }
+}
+
+.navbar .active {
+  background-color: transparent !important;
+  border-bottom: 3px solid #fac81a;
+  color: #fff !important;
+}
+
+.navbar a {
+  font-size: 16px;
+}
+
+.bg-image {
+  max-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#first-slide {
+  background-image: url(/images/first-slide.jpg?c05cb23102d6070fcc4f23b7dfd1930b);
+}
+
+#second-slide {
+  background-image: url(/images/second-slide.jpg?a0fbbd7f89b55cd7f02f25eab2ee582b);
+}
+
+#video {
+  background: url(/images/video.jpg?5e5532dc27c0bf88fb1e112c0708a247) no-repeat center center fixed;
+  background-size: auto;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 7% !important;
+}
+
+.more-btn:hover {
+  background-color: #fff !important;
+  color: #fac81a !important;
+}
+
+.whatsapp-floating {
+  z-index: 2 !important;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  left: 15px;
+  background-color: #0C9;
+}
+
+.slide-title {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.slide-text {
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.lumen-data {
+  position: absolute;
+  margin-top: -50px;
+  z-index: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .slide-title {
+    font-size: 38px !important;
+  }
+
+  .slide-text {
+    font-size: 38px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  .slide-title {
+    font-size: 38px !important;
+  }
+
+  .slide-text {
+    font-size: 38px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .slide-title {
+    font-size: 49px !important;
+  }
+
+  .slide-text {
+    font-size: 40px !important;
+  }
+}
+
