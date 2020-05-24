@@ -173,7 +173,7 @@
         <div class="container py-3">
             <div class="row py-5">
                 <div class="col-12 col-md-6 d-flex align-items-center order-2 order-md-1">
-                    <div>
+                    <div class="pt-4 pt-md-0">
                         <img src="{{asset('img/backgrounds/7.jpg')}}" class="img-fluid rounded">
                     </div>
                 </div>
@@ -223,7 +223,7 @@
                                     <div class="p-3 d-flex justify-content-center">
                                         <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
                                     </div>
-                                    <p class="text-center font-weight-bold">Conexão da rede</p>
+                                    <p class="text-center font-weight-bold">Conexão da rede elétrica</p>
                                 </div>
                             </div>
                         </div>
