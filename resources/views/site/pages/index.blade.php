@@ -172,12 +172,12 @@
     <section class="p-2 bg-light">
         <div class="container py-3">
             <div class="row py-5">
-                <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="col-12 col-md-6 d-flex align-items-center order-2 order-md-1">
                     <div>
                         <img src="{{asset('img/backgrounds/7.jpg')}}" class="img-fluid rounded">
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 order-1 order-md-2">
                     <h2 class="font-weight-bold" style="line-height: 50px">Conheça os serviços da <span style="letter-spacing: 2px; font-size: 53px"><br>Lumen Solar</span></h2>
                     <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     <p class="pt-2 text-muted" style="clear: both">
