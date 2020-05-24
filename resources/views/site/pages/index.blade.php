@@ -169,7 +169,7 @@
             </div>
         </div>
     </section>
-    <section class="p-5 bg-light">
+    <section class="p-2 bg-light">
         <div class="container py-3">
             <div class="row py-5">
                 <div class="col-12 col-md-6 d-flex align-items-center">
