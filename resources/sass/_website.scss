@@ -76,7 +76,7 @@ html, body, .view {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 20px;
+    bottom: 5px;
     left: 15px;
     background-color: #0C9;
 }
@@ -104,6 +104,12 @@ html, body, .view {
     }
     .slide-text{
         font-size: 38px !important;
+    }
+    #video h1{
+        font-size: 26px;
+    }
+    #video h3{
+        font-size: 18px !important;
     }
 }
 

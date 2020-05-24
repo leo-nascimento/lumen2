@@ -169,23 +169,65 @@
             </div>
         </div>
     </section>
-    <section class="p-5">
-        <div class="container py-5">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h1 class="font-weight-bold">Entenda o serviço que realizamos</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
+    <section class="p-5 bg-light">
+        <div class="container py-3">
+            <div class="row py-5">
+                <div class="col-12 col-md-6 d-flex align-items-center">
                     <div>
-                        <img src="{{asset('img/backgrounds/services.jpg')}}" class="img-fluid rounded">
+                        <img src="{{asset('img/backgrounds/7.jpg')}}" class="img-fluid rounded">
                     </div>
                 </div>
-                <div class="col-6">
-                    <h2>O que oferecemos</h2>
+                <div class="col-12 col-md-6">
+                    <h2 class="font-weight-bold" style="line-height: 50px">Conheça os serviços da <span style="letter-spacing: 2px; font-size: 53px"><br>Lumen Solar</span></h2>
                     <hr class="primary-bg w-25 float-left" style="height: 3px;">
-
+                    <p class="pt-2 text-muted" style="clear: both">
+                        Entenda toda as etapas que executamos quando você contrata nossos serviços. Prezamos pela qualidade
+                        e eficiência do sistema garantido a economia que você precisa.
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card">
+                                <div class="p-4">
+                                    <div class="p-3 d-flex justify-content-center">
+                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                    </div>
+                                    <p class="text-center font-weight-bold">Análise de consumo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card">
+                                <div class="p-4">
+                                    <div class="p-3 d-flex justify-content-center">
+                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                    </div>
+                                    <p class="text-center font-weight-bold">Planejamento do cenário</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-6">
+                            <div class="card">
+                                <div class="p-4">
+                                    <div class="p-3 d-flex justify-content-center">
+                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                    </div>
+                                    <p class="text-center font-weight-bold">Implantação do sistema</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card">
+                                <div class="p-4">
+                                    <div class="p-3 d-flex justify-content-center">
+                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                    </div>
+                                    <p class="text-center font-weight-bold">Conexão da rede</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
