@@ -186,44 +186,100 @@
                     </p>
                     <div class="row">
                         <div class="col-6">
-                            <div class="card">
-                                <div class="p-4">
-                                    <div class="p-3 d-flex justify-content-center">
-                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                            <div class="card-wrapper">
+                                <div id="card-1" class="card card-rotating text-center">
+                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body rotate-btn phases-front" data-card="card-1">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                            </div>
+                                            <p class="text-center font-weight-bold">Análise de consumo</p>
+                                        </div>
                                     </div>
-                                    <p class="text-center font-weight-bold">Análise de consumo</p>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                            <h4 class="font-weight-bold mb-0">Análise</h4>
+                                            <hr>
+                                            <p>
+                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                identificar qual a melhor solução para o seu cenário.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="card">
-                                <div class="p-4">
-                                    <div class="p-3 d-flex justify-content-center">
-                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                            <div class="card-wrapper">
+                                <div id="card-2" class="card card-rotating text-center">
+                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body rotate-btn phases-front" data-card="card-2">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/planning.png')}}" class="rounded-circle" height="80">
+                                            </div>
+                                            <p class="text-center font-weight-bold">Planejamento do cenário</p>
+                                        </div>
                                     </div>
-                                    <p class="text-center font-weight-bold">Planejamento do cenário</p>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-2">
+                                            <h4 class="font-weight-bold mb-0">Planejamento</h4>
+                                            <hr>
+                                            <p>
+                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                identificar qual a melhor solução para o seu cenário.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row pt-3">
                         <div class="col-6">
-                            <div class="card">
-                                <div class="p-4">
-                                    <div class="p-3 d-flex justify-content-center">
-                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                            <div class="card-wrapper">
+                                <div id="card-2" class="card card-rotating text-center">
+                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body rotate-btn phases-front" data-card="card-2">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/power.png')}}" class="rounded-circle" height="80">
+                                            </div>
+                                            <p class="text-center font-weight-bold">Implantação do sistema</p>
+                                        </div>
                                     </div>
-                                    <p class="text-center font-weight-bold">Implantação do sistema</p>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-2">
+                                            <h4 class="font-weight-bold mb-0">Implantação</h4>
+                                            <hr>
+                                            <p>
+                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                identificar qual a melhor solução para o seu cenário.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="card">
-                                <div class="p-4">
-                                    <div class="p-3 d-flex justify-content-center">
-                                        <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                            <div class="card-wrapper">
+                                <div id="card-2" class="card card-rotating text-center">
+                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body rotate-btn phases-front" data-card="card-2">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/energy.png')}}" class="rounded-circle" height="80">
+                                            </div>
+                                            <p class="text-center font-weight-bold">Conexão da rede eletrica</p>
+                                        </div>
                                     </div>
-                                    <p class="text-center font-weight-bold">Conexão da rede elétrica</p>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-2">
+                                            <h4 class="font-weight-bold mb-0">Conexão</h4>
+                                            <hr>
+                                            <p>
+                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                identificar qual a melhor solução para o seu cenário.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -231,5 +287,103 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="project-bg" style="height: 600px;">
+        <div class="container-fluid h-100 rgba-black-strong">
+            <div class="row text-white h-100">
+                <div id="residence" class="col-3 h-100 border-right d-flex align-items-end project-section">
+                    <div class="py-3">
+                        <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos <br><span>Residenciais</span></h4>
+                        <div id="residence-content">
+                            <p class="pt-3">
+                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                especialmente desenvolvidas para o seu consumo.
+                            </p>
+                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="comercial" class="col-3 h-100 border-right d-flex align-items-end project-section">
+                    <div class="py-3">
+                        <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos <br><span>Comerciais</span></h4>
+                        <div id="comercial-content">
+                            <p class="pt-3">
+                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                especialmente desenvolvidas para o seu consumo.
+                            </p>
+                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="condominium" class="col-3 h-100 border-right d-flex align-items-end project-section">
+                    <div class="py-3">
+                        <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos em<br><span>Condominios</span></h4>
+                        <div id="condominium-content">
+                            <p class="pt-3">
+                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                especialmente desenvolvidas para o seu consumo.
+                            </p>
+                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="rural" class="col-3 h-100 d-flex align-items-end project-section">
+                    <div class="py-3">
+                            <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos<br><span>Rurais</span></h4>
+                        <div id="rural-content">
+                            <p class="pt-3">
+                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                especialmente desenvolvidas para o seu consumo.
+                            </p>
+                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+
+        </div>
+    </section>
+    <section class="px-0" id="footer">
+        <footer class="page-footer font-small" style="background-color: rgba(0,0,0,0.9)">
+            <div class="container-fluid px-5 text-center text-md-left">
+                <div class="row p-md-5 py-5 d-flex align-items-center">
+                    <div class="col-md-3">
+                        <img class="img-fluid " src="{{asset('img/logos/logo-navbar-white.png')}}">
+                        <p class="pt-4 text-justify">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        </p>
+                        <div></div>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none">
+                    <div class="col-md-5 col-12 mx-auto px-0">
+                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4">Acessos</h6>
+                        <ul class="list-group list-group-vertical">
+                            <li class="list-group-item text-white bg-transparent links-footer">
+                                <a href="#begin">Inicio</a>
+                            </li>
+                            <li class="list-group-item text-white bg-transparent links-footer">
+                                <a href="#!">Cursos</a>
+                            </li>
+                            <li class="list-group-item text-white bg-transparent links-footer">
+                                <a href="#!">Atendimento</a>
+                            </li>
+                            <li class="list-group-item text-white bg-transparent links-footer">
+                                <a href="#!">Login</a>
+                            </li>
+                            <li class="list-group-item text-white bg-transparent links-footer">
+                                <a href="https://renataintrovini.com.br/webmail" target="_blank">Webmail</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a target="_blank" href="https://rafaelcparanhos.com.br"> rafaelcparanhos.com.br</a>
+            </div>
+        </footer>
     </section>
 @endsection

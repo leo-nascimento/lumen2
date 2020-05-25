@@ -61,6 +61,27 @@ html, body, .view {
     -o-background-size: cover;
 }
 
+#footer{
+    background: url('../img/backgrounds/footer.jpg') no-repeat center center;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#project-bg{
+    background: url('../img/backgrounds/residence.jpg') no-repeat center center;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#residence-content, #comercial-content, #condominium-content, #rural-content{
+    display: none;
+}
 
 .carousel-control-prev, .carousel-control-next {
     width: 7% !important;

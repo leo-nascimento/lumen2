@@ -18,6 +18,18 @@
                     <a class="nav-link" href="#">A Lumen</a>
                 </li>
                 <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Nossos serviços</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Projetos</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Sistema</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item px-2">
                     <a class="nav-link" href="{{ route('login') }}">Login</a>
                 </li>
             </ul>
