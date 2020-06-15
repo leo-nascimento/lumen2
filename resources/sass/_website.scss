@@ -79,12 +79,48 @@ html, body, .view {
     -o-background-size: cover;
 }
 
+#depoiments-bg{
+    background: url('../img/backgrounds/depoiments.jpg') no-repeat center center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#budget-bg{
+    background: url('../img/backgrounds/budget.jpg') no-repeat center center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#contact-bg{
+    background: url('../img/backgrounds/contact.jpg') no-repeat center center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 #residence-content, #comercial-content, #condominium-content, #rural-content{
     display: none;
 }
 
 .carousel-control-prev, .carousel-control-next {
     width: 7% !important;
+}
+
+.pic{
+    transition: transform .2s;
+}
+
+.pic:hover {
+    transform: scale(0.9);
 }
 
 .more-btn:hover{
@@ -118,6 +154,31 @@ html, body, .view {
     z-index: 1;
 }
 
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 5px !important;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .slide-title{
@@ -131,6 +192,18 @@ html, body, .view {
     }
     #video h3{
         font-size: 18px !important;
+    }
+    #budget-call h1, #depoiments-bg h1{
+        font-size: 26px;
+    }
+    #budget-call h4, #depoiments-bg h4{
+        font-size: 18px;
+    }
+    #contact-bg h2{
+        font-size: 30px;
+    }
+    #contact-bg h3{
+        font-size: 20px;
     }
 }
 

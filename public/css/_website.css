@@ -85,6 +85,27 @@ body,
   -o-background-size: cover;
 }
 
+#depoiments-bg {
+  background: url(/images/depoiments.jpg?5c36b7a75802b4ac269defd8cf4f14f1) no-repeat center center fixed;
+  background-size: auto;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#budget-bg {
+  background: url(/images/budget.jpg?f241e0f0023e6555d714cd43ea396872) no-repeat center center fixed;
+  background-size: auto;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#contact-bg {
+  background: url(/images/contact.jpg?9d98c8563df20d22a730c55942fc3337) no-repeat center center fixed;
+  background-size: auto;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #residence-content,
 #comercial-content,
 #condominium-content,
@@ -95,6 +116,14 @@ body,
 .carousel-control-prev,
 .carousel-control-next {
   width: 7% !important;
+}
+
+.pic {
+  transition: transform 0.2s;
+}
+
+.pic:hover {
+  transform: scale(0.9);
 }
 
 .more-btn:hover {
@@ -128,6 +157,21 @@ body,
   z-index: 1;
 }
 
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  margin: 5px !important;
+}
+
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
@@ -145,6 +189,24 @@ body,
 
   #video h3 {
     font-size: 18px !important;
+  }
+
+  #budget-call h1,
+  #depoiments-bg h1 {
+    font-size: 26px;
+  }
+
+  #budget-call h4,
+  #depoiments-bg h4 {
+    font-size: 18px;
+  }
+
+  #contact-bg h2 {
+    font-size: 30px;
+  }
+
+  #contact-bg h3 {
+    font-size: 20px;
   }
 }
 

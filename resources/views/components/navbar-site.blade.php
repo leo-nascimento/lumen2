@@ -35,7 +35,7 @@
             </ul>
             <ul class="navbar-nav nav-flex-icons mt-1">
                 <li class="nav-item">
-                    <a class="btn-sm primary-bg btn-rounded text-white py-2 px-4"  data-toggle="modal" data-target="#budget">Solicitar Orçamento</a>
+                    <a class="btn-sm primary-bg btn-rounded text-white py-2 px-4 animated pulse infinite"  data-toggle="modal" data-target="#budget">Solicitar Orçamento</a>
                 </li>
             </ul>
         </div>

@@ -30,5 +30,7 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('components.title-view', 'title-view');
         Blade::component('components.navbar-site', 'navbar');
         Blade::component('components.fluid-modal', 'fluid-modal');
+        Blade::component('components.video-modal', 'video-modal');
+
     }
 }

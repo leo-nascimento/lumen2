@@ -1,9 +1,48 @@
 $(document).ready(function() {
+    new WOW().init();
+
     $('.phases-front').on('mouseenter',function(){
         $(this).trigger('click');
     });
+
     $('.phases-back').on('mouseleave',function(){
         $(this).trigger('click');
+    });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
+    var depoiments = new Swiper ('.swiper-depoiments', {
+        slidesPerView: 1,
+        spaceBetween: 40,
+        freeMode: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    var blog = new Swiper('.swiper-blog', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        grabCursor: true,
+        freeMode: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        }
+        ,breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            480: {
+                slidesPerView: 1,
+            },
+            640: {
+                slidesPerView: 3,
+            }
+        }
     });
 
     $('.project-section').hover(function () {

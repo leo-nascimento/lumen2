@@ -4,17 +4,14 @@
             <div class="modal-header bg-dark text-white">
                 <h5 class="modal-title text-center w-100" id="myModalLabel">Faça seu orçamento</h5>
             </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer justify-content-center">
-                <div class="row w-100">
-                    <div class="col-6">
-                        <button type="button" class="btn btn-sm btn-light btn-block" data-dismiss="modal">Fechar</button>
-                    </div>
-                    <div class="col-6">
-                        <button type="button" class="btn btn-sm primary-bg btn-block text-white">Enviar</button>
-                    </div>
+            <div class="modal-body d-flex align-items-center">
+                <div>
+                    <p class="text-center pb-3">
+                        Para realizarmos o seu orçamento vamos precisar de algumas informações, para facilitar você pode anexar
+                        a sua conta de luz, ou então pode optar por preencher nosso formulário.
+                    </p>
+                    <button class="btn btn-block primary-bg text-white">Anexar conta</button>
+                    <button class="mt-3 btn btn-block">Preencher formulário</button>
                 </div>
             </div>
         </div>
