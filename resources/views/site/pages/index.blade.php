@@ -845,7 +845,7 @@
             <div class="container text-center text-md-left mt-5">
                 <div class="row mt-3">
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <img class="img-fluid " src="{{asset('img/logos/logo-navbar-white.png')}}">
+                        <img class="img-fluid w-75" src="{{asset('img/logos/logo-navbar-white.png')}}">
                         <p class="mt-4">
                             Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                             consectetur adipisicing elit.
