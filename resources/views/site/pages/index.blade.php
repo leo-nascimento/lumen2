@@ -182,7 +182,7 @@
                 </div>
                 <div class="col-12 col-md-6 order-1 order-md-2">
                     <div class="wow fadeInUp">
-                        <h2 class="font-weight-bold" style="line-height: 50px">Conheça os serviços da <span style="letter-spacing: 2px; font-size: 53px"><br>Lumen Solar</span></h2>
+                        <h2 class="font-weight-bold" style="line-height: 50px">Conheça os serviços da <span style="letter-spacing: 2px; font-size: 50px"><br>Lumen Solar</span></h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
                         <p class="pt-2 text-muted" style="clear: both">
                             Entenda toda as etapas que executamos quando você contrata nossos serviços. Prezamos pela qualidade
