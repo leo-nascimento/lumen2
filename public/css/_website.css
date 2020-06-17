@@ -71,6 +71,14 @@ body,
   transform: scaleX(-1);
 }
 
+#about-section {
+  background-image: url(/images/about.png?7596362922eec0b195dab35c11285e48);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-attachment: fixed;
+  background-size: 1000px;
+}
+
 .slide-bg {
   background-repeat: no-repeat;
   background-size: cover;

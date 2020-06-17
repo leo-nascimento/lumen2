@@ -54,9 +54,7 @@
         </a>
     </div>
     <section id="about">
-        <div class="container py-5" style="height: 300px;">
-            <p>teste</p>
-        </div>
+        <div class="container py-5" style="height: 300px;"></div>
     </section>
     <section class="d-flex justify-content-center">
         <div class="container lumen-data">
@@ -116,10 +114,10 @@
             </div>
         </div>
     </section>
-    <section class="p-md-5 p-2">
+    <section id="about-section" class="p-md-5 p-2">
         <div class="container py-5">
             <div class="row pt-5 d-flex justify-content-between">
-                <div class="col-md-7 col-12 d-flex align-items-center">
+                <div class="col-md-8 col-12 d-flex align-items-center">
                     <div class="wow zoomIn">
                         <h2>A Lumen Solar</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
@@ -142,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <!--<div class="col-12 col-md-4">
                     <div class="row">
                         <div class="col-12 wow slideInUp">
                             <img src="{{asset('img/photos/1.jpg')}}" class="img-fluid rounded z-depth-1 pic">
@@ -154,7 +152,7 @@
                             <img src="{{asset('img/photos/3.jpg')}}" class="img-fluid rounded z-depth-1 pic">
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
