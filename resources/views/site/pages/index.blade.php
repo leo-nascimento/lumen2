@@ -5,7 +5,7 @@
     <a target="_blank" href="https://wa.me/5562999445440?text=Agende%20uma%20consulta" class="whatsapp-floating btn-floating btn-lg waves-effect waves-light">
         <i class="fab fa-2x fa-whatsapp whatsapp-icon" aria-hidden="true"></i>
     </a>
-    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-1z" class="carousel slide carousel-fade mt-5" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
                 <div class="view slide-bg" id="first-slide">

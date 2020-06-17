@@ -23,21 +23,29 @@ body,
 }
 
 .top-nav-collapse {
-  background-color: #000;
+  background-color: #fff;
+}
+
+.top-nav-collapse .nav-item .nav-link {
+  color: #000 !important;
 }
 
 /* Adding color to the Navbar on mobile */
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #000;
+    background-color: #fff;
+  }
+
+  .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #000 !important;
   }
 }
 
 .navbar .active {
   background-color: transparent !important;
   border-bottom: 3px solid #fac81a;
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .navbar a {
