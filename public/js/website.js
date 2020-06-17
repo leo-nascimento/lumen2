@@ -1,6 +1,23 @@
 $(document).ready(function() {
     new WOW().init();
 
+    var domain = window.location.hostname;
+
+    if (domain == '127.0.0.1')
+        domain = domain + ':8000';
+
+    var blackImgSource = 'http://' + domain + '/img/logos/logo-navbar.png';
+    var whiteImgSource = 'http://' + domain + '/img/logos/logo-navbar-white.png';
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 19) {
+            $('.navbar-brand img').attr('src', blackImgSource);
+        }else {
+            $('.navbar-brand img').attr('src', whiteImgSource)
+        }
+    });
+
     $('.phases-front').on('mouseenter',function(){
         $(this).trigger('click');
     });
