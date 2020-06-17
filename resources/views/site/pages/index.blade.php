@@ -53,11 +53,16 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <section id="about">
+        <div class="container py-5" style="height: 300px;">
+            <p>teste</p>
+        </div>
+    </section>
     <section class="d-flex justify-content-center">
         <div class="container lumen-data">
             <div class="row animated slideInUp">
                 <div class="col-md-3 col-6">
-                    <div class="card pt-3 pb-0">
+                    <div class="card z-depth-2 pt-3 pb-0">
                         <div class="row px-3 pb-3">
                             <div class="col-4 d-flex align-items-center">
                                 <img src="{{asset('img/icons/co2.svg')}}" class="img-fluid">
@@ -67,11 +72,10 @@
                                 <p class="mb-0 text-muted">Economia em CO²</p>
                             </div>
                         </div>
-                        <hr class="mb-0 mt-2 bg-dark" style="height: 3px;">
                     </div>
                 </div>
                 <div class="col-md-3 col-6 d-none d-md-block">
-                    <div class="card pt-3 pb-0">
+                    <div class="card z-depth-2 pt-3 pb-0">
                         <div class="row px-3 pb-3">
                             <div class="col-4 d-flex align-items-center">
                                 <img src="{{asset('img/icons/money.svg')}}" class="img-fluid">
@@ -81,11 +85,10 @@
                                 <p class="mb-0 text-muted">Economia em reais</p>
                             </div>
                         </div>
-                        <hr class="mb-0 mt-2 bg-dark" style="height: 3px;">
                     </div>
                 </div>
                 <div class="col-md-3 col-6 d-none d-md-block">
-                    <div class="card pt-3 pb-0">
+                    <div class="card z-depth-2 pt-3 pb-0">
                         <div class="row px-3 pb-3">
                             <div class="col-4 d-flex align-items-center">
                                 <img src="{{asset('img/icons/energy.svg')}}" class="img-fluid">
@@ -95,11 +98,10 @@
                                 <p class="mb-0 text-muted">Energia gerada</p>
                             </div>
                         </div>
-                        <hr class="mb-0 mt-2 bg-dark" style="height: 3px;">
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
-                    <div class="card pt-3 pb-0">
+                    <div class="card z-depth-2 pt-3 pb-0">
                         <div class="row px-3 pb-3">
                             <div class="col-4 d-flex align-items-center">
                                 <img src="{{asset('img/icons/plates.svg')}}" class="img-fluid">
@@ -109,7 +111,6 @@
                                 <p class="mb-0 text-muted">Placas instaladas</p>
                             </div>
                         </div>
-                        <hr class="mb-0 mt-2 bg-dark" style="height: 3px;">
                     </div>
                 </div>
             </div>

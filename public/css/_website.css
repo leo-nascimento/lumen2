@@ -59,6 +59,18 @@ body,
   background-size: cover;
 }
 
+#about {
+  background-image: url(/images/pattern2.png?ef4586c3282b8d8b0805273f13fefc6a);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px 350px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  margin-top: -170px;
+  transform: scaleX(-1);
+}
+
 .slide-bg {
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,7 +152,7 @@ body,
 }
 
 .whatsapp-floating {
-  z-index: 2 !important;
+  z-index: 4 !important;
   position: fixed;
   width: 60px;
   height: 60px;
@@ -162,7 +174,7 @@ body,
 .lumen-data {
   position: absolute;
   margin-top: -50px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .swiper-slide {
