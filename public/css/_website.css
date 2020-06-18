@@ -183,7 +183,7 @@ body,
 }
 
 .whatsapp-floating {
-  z-index: 4 !important;
+  z-index: 6 !important;
   position: fixed;
   width: 60px;
   height: 60px;

@@ -159,10 +159,10 @@
     <div id="pattern-top" style="height: 300px;"></div>
     <div id="pattern-bottom" style="height: 300px;"></div>
     <section class="py-5 mt-5">
-        <div class="container py-5 mt-5">
+        <div class="container-fluid px-5 py-5 mt-5">
             <div class="row">
-                <div class="col-12 col-md-7">
-                    <div id="video" class="card" style="z-index: 5;">
+                <div class="col-12 col-md-6">
+                    <div id="video" class="card z-depth-2" style="z-index: 5;">
                         <div class="h-100 mask rgba-black-light d-flex align-items-center justify-content-center">
                             <div class="my-auto text-center px-5">
                                 <h3 class="text-white pb-3 font-weight-bold">Saiba como funciona a energia solar</h3>
@@ -173,7 +173,48 @@
                     </div>
                 </div>
                 <div class="col-6">
-
+                    <h1 class="font-weight-bold mb-0">Vantagens</h1>
+                    <hr class="primary-bg w-25 float-left" style="height: 3px;">
+                    <h5 class="text-muted" style="clear:both;">Por que investir em energia solar?</h5>
+                    <p class="lead text-muted mt-4">
+                        Conheça as vantagens da energia solar fotovoltaica e entenda porque essa fonte de energia está
+                        em constante crescimento.
+                    </p>
+                    <div class="row">
+                        <div class="col-12 px-0">
+                            <ul class="nav md-pills nav-justified pills-rounded pills-purple-gradient">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#panel100" role="tab">Fashion</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade in show active" id="panel100" role="tabpanel">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                                        reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                                        porro voluptate odit minima.
+                                    </p>
+                                </div>
+                                <div class="tab-pane fade" id="panel101" role="tabpanel">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
+                                        reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
+                                        porro voluptate odit minima.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -315,7 +356,7 @@
         </div>
     </section>-->
     <section id="project-bg" class="d-none d-md-block mt-5" style="height: 600px;">
-        <div class="container-fluid h-100 rgba-black-strong">
+        <div class="container-fluid h-100 rgba-black-light">
             <div class="row text-white h-100">
                 <div id="residence" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
