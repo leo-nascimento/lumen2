@@ -71,6 +71,29 @@ body,
   transform: scaleX(-1);
 }
 
+#pattern-top {
+  background-image: url(/images/pattern.png?e93509428aeaab98dcd2096961040f8c);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px 800px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  margin-top: -270px;
+  transform: scaleY(-1);
+}
+
+#pattern-bottom {
+  background-image: url(/images/pattern.png?e93509428aeaab98dcd2096961040f8c);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px 800px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  margin-top: 0px;
+}
+
 #about-section {
   background-image: url(/images/about.png?2d2bf19b5385409134476987d3533d1d);
   background-repeat: no-repeat;
@@ -92,10 +115,11 @@ body,
 }
 
 #video {
-  background: url(/images/video.jpg?3718b1aa7919b6587ffc4546ec9740d6) no-repeat center center fixed;
+  background: url(/images/video.jpg?3718b1aa7919b6587ffc4546ec9740d6) no-repeat center center;
   background-size: auto;
   background-size: cover;
   -o-background-size: cover;
+  height: 450px;
 }
 
 #footer {

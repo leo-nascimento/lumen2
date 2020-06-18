@@ -121,7 +121,7 @@
                     <div class="wow zoomIn">
                         <h2>A Lumen Solar</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
-                        <h6 class="text-muted" style="clear: both">Economia e sustentabilidade é nosso lema</h6>
+                        <h6 class="text-muted" style="clear: both">Dê um futuro de presente</h6>
                         <div class="py-4">
                             <p class="lead text-justify">
                                 Luz. A história do mundo pode ser contada pela história da luz. Milhões de anos atrás,
@@ -156,7 +156,29 @@
             </div>
         </div>
     </section>
-    <section>
+    <div id="pattern-top" style="height: 300px;"></div>
+    <div id="pattern-bottom" style="height: 300px;"></div>
+    <section class="py-5 mt-5">
+        <div class="container py-5 mt-5">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div id="video" class="card" style="z-index: 5;">
+                        <div class="h-100 mask rgba-black-light d-flex align-items-center justify-content-center">
+                            <div class="my-auto text-center px-5">
+                                <h3 class="text-white pb-3 font-weight-bold">Saiba como funciona a energia solar</h3>
+                                <p class="text-white d-none d-md-block lead">Fizemos um video para facilitar o entendimento e assim você compreenda como funciona a energia solar</p>
+                                <button class="btn primary-bg text-white"><i class="fas fa-play mr-1"></i> Assistir video</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section>
         <div class="slide-bg" id="video">
             <div class="mask rgba-black-strong">
                 <div class="container py-5">
@@ -170,8 +192,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="p-2 bg-light">
+    </section>-->
+    <!--<section class="p-2 bg-light">
         <div class="container py-md-3 py-1">
             <div class="row py-5">
                 <div class="col-12 col-md-6 d-flex align-items-center order-2 order-md-1 wow slideInLeft">
@@ -291,8 +313,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section id="project-bg" class="d-none d-md-block" style="height: 600px;">
+    </section>-->
+    <section id="project-bg" class="d-none d-md-block mt-5" style="height: 600px;">
         <div class="container-fluid h-100 rgba-black-strong">
             <div class="row text-white h-100">
                 <div id="residence" class="col-3 h-100 border-right d-flex align-items-end project-section">
