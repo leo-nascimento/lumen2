@@ -161,7 +161,7 @@
     <section class="py-5 mt-5">
         <div class="container py-5 mt-5">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-7">
                     <div id="video" class="card" style="z-index: 5;">
                         <div class="h-100 mask rgba-black-light d-flex align-items-center justify-content-center">
                             <div class="my-auto text-center px-5">
@@ -325,7 +325,7 @@
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -337,7 +337,7 @@
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -349,7 +349,7 @@
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -361,7 +361,7 @@
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md bg-dark text-white">VER PROJETOS</a>
+                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
