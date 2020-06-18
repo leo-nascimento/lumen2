@@ -409,12 +409,12 @@
             </div>
         </div>
     </section>
-    <section id="budget-call" class="black">
+    <section id="budget-call" class="white mt-5">
         <div class="container p-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-8 col-12">
-                    <h1 class="font-weight-bold text-white">Comece a economizar</h1>
-                    <h4 class="text-white py-md-0 py-3">Não perca tempo, investa em qualidade de vida e reduza custos</h4>
+                    <h1 class="font-weight-bold text-dark">Comece a economizar</h1>
+                    <h4 class="text-muted py-md-0 py-3">Não perca tempo, investa em qualidade de vida e reduza custos</h4>
                 </div>
                 <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end">
                     <div class="d-flex align-items-center">
@@ -424,6 +424,7 @@
             </div>
         </div>
     </section>
+    <section id="section-transition" class="white" style="height: 300px;"></section>
     <section id="depoiments-bg">
         <div class="mask rgba-black-light">
             <div class="container-fluid p-md-5 px-md-0 px-3 pt-5">

@@ -1,6 +1,7 @@
 html, body, .view {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background: #fff;
 }
 .carousel {
     height: 100%;
@@ -91,6 +92,13 @@ html, body, .view {
     background-position: center right;
     background-size: 900px;
     background-attachment: fixed;
+}
+
+#section-transition {
+    background-image: url('../img/backgrounds/transition.png');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    margin-top: -50px;
 }
 
 .slide-bg{
