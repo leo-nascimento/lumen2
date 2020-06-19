@@ -103,6 +103,13 @@ body,
   background-attachment: fixed;
 }
 
+#section-thin-transition {
+  background-image: url(/images/transition.png?628bcb22efa9a50672d91c5883f70d3b);
+  background-repeat: no-repeat;
+  background-size: 2000px 1300px;
+  transform: scaleX(-1);
+}
+
 #section-transition {
   background-image: url(/images/transition2.png?73328434c440317e12afeebe71cb66ea);
   background-repeat: no-repeat;

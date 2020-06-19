@@ -94,6 +94,13 @@ html, body, .view {
     background-attachment: fixed;
 }
 
+#section-thin-transition {
+    background-image: url('../img/backgrounds/transition.png');
+    background-repeat: no-repeat;
+    background-size: 2000px 1300px;
+    transform: scaleX(-1);
+}
+
 #section-transition {
     background-image: url('../img/backgrounds/transition2.png');
     background-repeat: no-repeat;

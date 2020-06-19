@@ -425,6 +425,53 @@
         </div>
     </section>
     <section id="section-transition" class="white" style="height: 300px;"></section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1>O que dizem nossos clientes</h1>
+                        <hr class="primary-bg w-25" style="height: 3px;">
+                        <h4 style="clear: both">Confira os depoimentos de quem já fez a diferença usando energia solar</h4>
+                    </div>
+                    <div class="wrapper-carousel-fix">
+                        <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active mt-5 py-5">
+                                    <div class="testimonial text-center">
+                                        <p><i class="fas fa-quote-left"></i>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
+                                            id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
+                                            sit, aspernatur praesentium iste impedit quidem dolor veniam.
+                                        </p>
+                                        <h4 class="font-weight-bold">Anna Deynah</h4>
+                                        <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star-half-alt text-warning"> </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
+                               data-slide="prev">
+                                <span class="icon-prev" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
+                               data-slide="next">
+                                <span class="icon-next" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-thin-transition" style="height: 300px"></section>
     <section id="depoiments-bg">
         <div class="mask rgba-black-light">
             <div class="container-fluid p-md-5 px-md-0 px-3 pt-5">
