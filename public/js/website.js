@@ -20,6 +20,7 @@ $(document).ready(function() {
         });
     }
 
+
     $('.phases-front').on('mouseenter',function(){
         $(this).trigger('click');
     });
@@ -43,7 +44,7 @@ $(document).ready(function() {
     });
 
     var blog = new Swiper('.swiper-blog', {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 30,
         grabCursor: true,
         freeMode: true,
@@ -59,7 +60,7 @@ $(document).ready(function() {
                 slidesPerView: 1,
             },
             640: {
-                slidesPerView: 3,
+                slidesPerView: 2,
             }
         }
     });

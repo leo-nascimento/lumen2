@@ -472,89 +472,120 @@
         </div>
     </section>
     <section id="section-thin-transition" style="height: 300px"></section>
-    <section id="depoiments-bg">
-        <div class="mask rgba-black-light">
-            <div class="container-fluid p-md-5 px-md-0 px-3 pt-5">
+    <section>
+        <div class="container-fluid p-md-5 px-md-0 px-3 pt-5">
                 <div class="row py-md-5 py-0 d-flex justify-content-between">
-                    <div class="order-1 col-md-4 col-12 my-auto">
-                        <div class="text-center pb-md-5 pb-3">
-                            <h1 class="font-weight-bold text-white">Nossos clientes</h1>
-                            <h4 class="text-white pt-2">Faça como nossos clientes e comece a economizar na sua conta de luz</h4>
+                    <div class="order-1 col-md-5 col-12">
+                        <div class="pb-5">
+                            <h2>Como funciona nossos serviços</h2>
+                            <hr class="primary-bg w-25 float-left" style="height: 3px;">
                         </div>
-                        <div class="swiper-container swiper-depoiments py-md-3 py-1">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide bg-transparent">
-                                    <div class="card testimonial-card">
-                                        <div class="card-up black"></div>
-                                        <div class="avatar mx-auto white">
-                                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
+                        <div class="row d-flex justify-content-around" style="clear: both;">
+                            <div class="col-6">
+                                <div class="card-wrapper">
+                                    <div id="card-1" class="card card-rotating text-center">
+                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                            <div class="card-body  " data-card="card-1">
+                                                <div class="p-3 d-flex justify-content-center">
+                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                                </div>
+                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                            </div>
                                         </div>
-                                        <div class="card-body">
-                                            <h4 class="font-weight-bold mb-4">John Doe</h4>
-                                            <hr>
-                                            <p class="dark-grey-text mt-4">
-                                                <i class="fas fa-quote-left pr-2"></i>
-                                                Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing elit.
-                                                Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing elit.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide bg-transparent">
-                                    <div class="card testimonial-card">
-                                        <div class="card-up black"></div>
-                                        <div class="avatar mx-auto white">
-                                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
-                                        </div>
-                                        <div class="card-body">
-                                            <h4 class="font-weight-bold mb-4">John Doe</h4>
-                                            <hr>
-                                            <p class="dark-grey-text mt-4">
-                                                <i class="fas fa-quote-left pr-2"></i>
-                                                Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing elit.
-                                            </p>
+                                        <div class="face back">
+                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                                <h4 class="font-weight-bold mb-0">Análise</h4>
+                                                <hr>
+                                                <p>
+                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                    identificar qual a melhor solução para o seu cenário.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide bg-transparent">
-                                    <div class="card testimonial-card">
-                                        <div class="card-up black" ></div>
-                                        <div class="avatar mx-auto white">
-                                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
+                            </div>
+                            <div class="col-6">
+                                <div class="card-wrapper">
+                                    <div id="card-1" class="card card-rotating text-center">
+                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                            <div class="card-body  " data-card="card-1">
+                                                <div class="p-3 d-flex justify-content-center">
+                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                                </div>
+                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                            </div>
                                         </div>
-                                        <div class="card-body">
-                                            <h4 class="font-weight-bold mb-4">John Doe</h4>
-                                            <hr>
-                                            <p class="dark-grey-text mt-4">
-                                                <i class="fas fa-quote-left pr-2"></i>
-                                                Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing elit.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide bg-transparent">
-                                    <div class="card testimonial-card">
-                                        <div class="card-up black"></div>
-                                        <div class="avatar mx-auto white">
-                                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
-                                        </div>
-                                        <div class="card-body">
-                                            <h4 class="font-weight-bold mb-4">John Doe</h4>
-                                            <hr>
-                                            <p class="dark-grey-text mt-4">
-                                                <i class="fas fa-quote-left pr-2"></i>
-                                                Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing elit.
-                                            </p>
+                                        <div class="face back">
+                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                                <h4 class="font-weight-bold mb-0">Análise</h4>
+                                                <hr>
+                                                <p>
+                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                    identificar qual a melhor solução para o seu cenário.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <div class="swiper-pagination"></div>
+                        <div class="row d-flex justify-content-around pt-4" style="clear: both;">
+                            <div class="col-6">
+                                <div class="card-wrapper">
+                                    <div id="card-1" class="card card-rotating text-center">
+                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                            <div class="card-body  " data-card="card-1">
+                                                <div class="p-3 d-flex justify-content-center">
+                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                                </div>
+                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                            </div>
+                                        </div>
+                                        <div class="face back">
+                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                                <h4 class="font-weight-bold mb-0">Análise</h4>
+                                                <hr>
+                                                <p>
+                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                    identificar qual a melhor solução para o seu cenário.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card-wrapper">
+                                    <div id="card-1" class="card card-rotating text-center">
+                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                            <div class="card-body  " data-card="card-1">
+                                                <div class="p-3 d-flex justify-content-center">
+                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
+                                                </div>
+                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                            </div>
+                                        </div>
+                                        <div class="face back">
+                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                                <h4 class="font-weight-bold mb-0">Análise</h4>
+                                                <hr>
+                                                <p>
+                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
+                                                    identificar qual a melhor solução para o seu cenário.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="order-2 col-md-7 col-12 mt-5 mt-md-0 pb-5 pb-md-0">
+                        <div class="pb-5">
+                            <h2>Principais dúvidas sobre energia solar</h2>
+                            <hr class="primary-bg w-25 float-left" style="height: 3px;">
+                        </div>
                         <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist"
                              aria-multiselectable="true">
                             <div class="card">
@@ -726,15 +757,82 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-    <section class="py-5">
+    <section id="section-thin-transition" style="height: 300px"></section>
+    <section>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1>A Lumen Solar conectando você</h1>
-                    <hr class="primary-bg w-50 float-left" style="height: 3px;">
-                    <div style="clear: both; margin-top: 70px;">
+                <div class="col-4">
+                    <h1 style="line-height: 50px;">Venha tomar um café conosco!</h1>
+                    <hr class="primary-bg w-25 float-left" style="height: 3px; clear: both">
+                    <div class="mt-5" style="clear: both;">
+                        <button class="btn primary-bg text-white">Agende sua visita</button>
+                    </div>
+                </div>
+                <div class="col-8" style="height: 300px;">
+                    <div id='map' class="h-100"></div>
+                    <script>
+                        mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
+                        var map = new mapboxgl.Map({
+                            container: 'map',
+                            style: 'mapbox://styles/mapbox/dark-v10',
+                            center: [-47.9304321, -15.8660905],
+                            zoom: 12.15
+                        });
+
+                        var marker = new mapboxgl.Marker()
+                            .setLngLat([-47.9304321, -15.8660905])
+                            .addTo(map);
+
+                        map.addControl(new mapboxgl.NavigationControl());
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-thin-transition-left" style="height: 300px"></section>
+    <section class="py-md-5 py-3">
+        <div class="container ">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-heading h1 pt-4">Ainda está com dúvidas?</h2>
+                        <p class="section-description pt-2 pb-4">
+                            Não fique com dúvidas, entre em contato conosco estamos a disposição para explicar nosso sistema
+                            para você. A Lumen é uma solução!
+                        </p>
+                    </div>
+                </div>
+                <div class="row py-md-5 py-3">
+                    <div class="col-md-5 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="form-header primary-bg accent-1">
+                                    <h3 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato conosco</h3>
+                                </div>
+                                <p>Informe seus dados abaixo que entraremos em contato</p>
+                                <div class="md-form">
+                                    <input type="text" id="form-name" class="form-control">
+                                    <label for="form-name">Seu nome</label>
+                                </div>
+                                <div class="md-form">
+                                    <input type="text" id="form-email" class="form-control">
+                                    <label for="form-email">Seu e-mail</label>
+                                </div>
+                                <div class="md-form">
+                                    <input type="text" id="form-Subject" class="form-control">
+                                    <label for="form-Subject">Assunto</label>
+                                </div>
+                                <div class="md-form">
+                                    <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                                    <label for="form-text">Descrição</label>
+                                </div>
+                                <div class="text-center mt-4">
+                                    <button class="btn primary-bg btn-block text-white">ENVIAR CONTATO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
                         <div class="swiper-container swiper-blog">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -857,69 +955,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-md-5 py-3" id="contact-bg">
-        <div class="container ">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="section-heading h1 pt-4">Está com dúvidas ainda?</h2>
-                        <p class="section-description pt-2 pb-4">
-                            Não fique com dúvidas, entre em contato conosco estamos a disposição para explicar nosso sistema
-                            para você. A Lumen é uma solução!
-                        </p>
-                    </div>
-                </div>
-                <div class="row py-md-5 py-3">
-                    <div class="col-md-5 col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="form-header primary-bg accent-1">
-                                    <h3 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato conosco</h3>
-                                </div>
-                                <p>Informe seus dados abaixo que entraremos em contato</p>
-                                <div class="md-form">
-                                    <input type="text" id="form-name" class="form-control">
-                                    <label for="form-name">Seu nome</label>
-                                </div>
-                                <div class="md-form">
-                                    <input type="text" id="form-email" class="form-control">
-                                    <label for="form-email">Seu e-mail</label>
-                                </div>
-                                <div class="md-form">
-                                    <input type="text" id="form-Subject" class="form-control">
-                                    <label for="form-Subject">Assunto</label>
-                                </div>
-                                <div class="md-form">
-                                    <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-                                    <label for="form-text">Descrição</label>
-                                </div>
-                                <div class="text-center mt-4">
-                                    <button class="btn primary-bg btn-block text-white">ENVIAR CONTATO</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div id='map' class="h-100"></div>
-                        <script>
-                            mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
-                            var map = new mapboxgl.Map({
-                                container: 'map',
-                                style: 'mapbox://styles/mapbox/dark-v10',
-                                center: [-47.9304321, -15.8660905],
-                                zoom: 12.15
-                            });
 
-                            var marker = new mapboxgl.Marker()
-                                .setLngLat([-47.9304321, -15.8660905])
-                                .addTo(map);
-
-                            map.addControl(new mapboxgl.NavigationControl());
-                        </script>
                     </div>
                 </div>
             </div>

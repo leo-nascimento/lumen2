@@ -101,6 +101,12 @@ html, body, .view {
     transform: scaleX(-1);
 }
 
+#section-thin-transition-left {
+    background-image: url('../img/backgrounds/transition.png');
+    background-repeat: no-repeat;
+    background-size: 2000px 1300px;
+}
+
 #section-transition {
     background-image: url('../img/backgrounds/transition2.png');
     background-repeat: no-repeat;
