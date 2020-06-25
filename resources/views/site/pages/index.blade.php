@@ -2,407 +2,86 @@
 @section('content')
     <x-fluid-modal></x-fluid-modal>
     <x-video-modal></x-video-modal>
+
+    <!-- Inicio do botão whatsapp -->
     <a target="_blank" href="https://wa.me/5562999445440?text=Agende%20uma%20consulta" class="whatsapp-floating btn-floating btn-lg waves-effect waves-light">
         <i class="fab fa-2x fa-whatsapp whatsapp-icon" aria-hidden="true"></i>
     </a>
-    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <div class="view slide-bg" id="first-slide">
-                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-                        <div class="white-text wow fadeIn">
-                            <div class="container text-md-left text-center animated slideInLeft">
-                                <h1 class="mb-4"><strong><span class="slide-title">Reduza até <span class="primary-text">95%</span></span><br><span class="slide-text">a sua conta de luz</span> </strong></h1>
-                                <p class="lead"><strong>Tenha acesso a energia renovável e sustentável</strong></p>
-                                <p class="mb-4 lead d-none d-md-block">
-                                    Não perca tempo solicite seu orçamento e confira tudo que o sistema de energia solar pode
-                                    lhe gerar de econômia. Repense e em pouco tempo recupere o investimento.
-                                </p>
-                                <a target="_blank" class="mx-0 btn btn-outline-white rounded btn-md more-btn" data-toggle="tooltip" data-placement="bottom"
-                                   title="Em Breve">Saiba mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="view slide-bg" id="second-slide">
-                    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-                        <div class="white-text wow fadeIn">
-                            <div class="container text-md-left text-center animated slideInLeft">
-                                <h1 class="mb-4"><strong><span class="slide-title">Use energia <span class="primary-text">limpa,</span></span><br><span class="slide-text">sustentável e renovável</span> </strong></h1>
-                                <p class="lead"><strong>Economize enquanto ajuda o meio ambiente</strong></p>
-                                <p class="mb-4 lead d-none d-md-block">
-                                    Não perca tempo solicite seu orçamento e confira tudo que o sistema de energia solar pode
-                                    lhe gerar de econômia. Repense e em pouco tempo recupere o investimento.
-                                </p>
-                                <a target="_blank" class="mx-0 btn btn-outline-white rounded btn-md more-btn" data-toggle="tooltip" data-placement="bottom"
-                                   title="Em Breve">Saiba mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <section id="about">
-        <div class="container py-5" style="height: 300px;"></div>
-    </section>
-    <section class="d-flex justify-content-center">
-        <div class="container lumen-data">
-            <div class="row animated slideInUp">
-                <div class="col-md-3 col-6">
-                    <div class="card z-depth-2 pt-3 pb-0">
-                        <div class="row px-3 pb-3">
-                            <div class="col-4 d-flex align-items-center">
-                                <img src="{{asset('img/icons/co2.svg')}}" class="img-fluid">
-                            </div>
-                            <div class="col-8">
-                                <p class="lead mb-0 font-weight-bold" style="font-size: 20px;">100</p>
-                                <p class="mb-0 text-muted">Economia em CO²</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 d-none d-md-block">
-                    <div class="card z-depth-2 pt-3 pb-0">
-                        <div class="row px-3 pb-3">
-                            <div class="col-4 d-flex align-items-center">
-                                <img src="{{asset('img/icons/money.svg')}}" class="img-fluid">
-                            </div>
-                            <div class="col-8">
-                                <p class="lead mb-0 font-weight-bold" style="font-size: 20px;">R$ 20.000,00</p>
-                                <p class="mb-0 text-muted">Economia em reais</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 d-none d-md-block">
-                    <div class="card z-depth-2 pt-3 pb-0">
-                        <div class="row px-3 pb-3">
-                            <div class="col-4 d-flex align-items-center">
-                                <img src="{{asset('img/icons/energy.svg')}}" class="img-fluid">
-                            </div>
-                            <div class="col-8">
-                                <p class="lead mb-0 font-weight-bold" style="font-size: 20px;">135.722 kWp</p>
-                                <p class="mb-0 text-muted">Energia gerada</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="card z-depth-2 pt-3 pb-0">
-                        <div class="row px-3 pb-3">
-                            <div class="col-4 d-flex align-items-center">
-                                <img src="{{asset('img/icons/plates.svg')}}" class="img-fluid">
-                            </div>
-                            <div class="col-8">
-                                <p class="lead mb-0 font-weight-bold" style="font-size: 20px;">100 mil</p>
-                                <p class="mb-0 text-muted">Placas instaladas</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about-section" class="p-md-5 p-2">
-        <div class="container py-5">
-            <div class="row pt-5 d-flex justify-content-between">
-                <div class="col-md-8 col-12 d-flex align-items-center">
-                    <div class="wow zoomIn">
-                        <h2>A Lumen Solar</h2>
-                        <hr class="primary-bg w-25 float-left" style="height: 3px;">
-                        <h6 class="text-muted" style="clear: both">Dê um futuro de presente</h6>
-                        <div class="py-4">
-                            <p class="lead text-justify">
-                                Luz. A história do mundo pode ser contada pela história da luz. Milhões de anos atrás,
-                                o ser humano assumiu o topo da cadeia alimentar quando conseguiu dominar o fogo. A partir
-                                daí, o calor, a produção e a visão se adaptaram com a canalização de um elemento natural.
-                                Milênios depois, a energia elétrica nos proporcionou mais uma revolução. Tudo que era bom,
-                                chegou à beira da perfeição.
-                            </p>
-                            <p class="lead text-justify">
-                                Hoje, estamos à porta de uma terceira grandiosa revolução da energia. Unimos a
-                                natureza da primeira com a tecnologia da segunda para garantir uma terceira e perpétua fase.
-                                Nos tornamos capazes de canalizar o Sol, mais garantida, limpa e rentável fonte de energia,
-                                com o objetivo de um mundo mais sustentável ambiental, social e financeiramente.
-                                No futuro, natureza, tecnologia e economia. No presente, Lumen Solar
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="col-12 col-md-4">
-                    <div class="row">
-                        <div class="col-12 wow slideInUp">
-                            <img src="{{asset('img/photos/1.jpg')}}" class="img-fluid rounded z-depth-1 pic">
-                        </div>
-                        <div class="col-12 py-4 wow slideInUp">
-                            <img src="{{asset('img/photos/2.jpg')}}" class="img-fluid rounded z-depth-1 pic">
-                        </div>
-                        <div class="col-12 wow slideInUp">
-                            <img src="{{asset('img/photos/3.jpg')}}" class="img-fluid rounded z-depth-1 pic">
-                        </div>
-                    </div>
-                </div>-->
-            </div>
-        </div>
-    </section>
-    <div id="pattern-top" style="height: 300px;"></div>
-    <div id="pattern-bottom" style="height: 300px;"></div>
-    <section class="py-5 mt-5">
-        <div class="container-fluid px-5 py-5 mt-5">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div id="video" class="card z-depth-2" style="z-index: 5;">
-                        <div class="h-100 mask rgba-black-light d-flex align-items-center justify-content-center">
-                            <div class="my-auto text-center px-5">
-                                <h3 class="text-white pb-3 font-weight-bold">Saiba como funciona a energia solar</h3>
-                                <p class="text-white d-none d-md-block lead">Fizemos um video para facilitar o entendimento e assim você compreenda como funciona a energia solar</p>
-                                <button class="btn primary-bg text-white"><i class="fas fa-play mr-1"></i> Assistir video</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <h1 class="font-weight-bold mb-0">Vantagens</h1>
-                    <hr class="primary-bg w-25 float-left" style="height: 3px;">
-                    <h5 class="text-muted" style="clear:both;">Por que investir em energia solar?</h5>
-                    <p class="lead text-muted mt-4">
-                        Conheça as vantagens da energia solar fotovoltaica e entenda porque essa fonte de energia está
-                        em constante crescimento.
-                    </p>
-                    <div class="row">
-                        <div class="col-12 px-0">
-                            <ul class="nav md-pills nav-justified pills-rounded pills-purple-gradient">
-                                <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#panel100" role="tab">Fashion</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#panel101" role="tab">Lifestyle</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content">
-                                <div class="tab-pane fade in show active" id="panel100" role="tabpanel">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-                                        reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
-                                        porro voluptate odit minima.
-                                    </p>
-                                </div>
-                                <div class="tab-pane fade" id="panel101" role="tabpanel">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-                                        reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
-                                        porro voluptate odit minima.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--<section>
-        <div class="slide-bg" id="video">
-            <div class="mask rgba-black-strong">
-                <div class="container py-5">
-                    <div class="row py-5 wow bounceIn">
-                        <div class="col-12 text-center">
-                            <h1 class="text-white font-weight-bold">Conheça mais sobre a energia solar fotovoltaica</h1>
-                            <h3 class="text-white py-2">Entenda como funciona o sistema e sua instalação, basta assistir nosso vídeo</h3>
-                            <button id="open-modal" class="btn btn-rounded primary-bg text-white" data-toggle="modal" data-target="#video-modal">Assistir video</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!--<section class="p-2 bg-light">
-        <div class="container py-md-3 py-1">
-            <div class="row py-5">
-                <div class="col-12 col-md-6 d-flex align-items-center order-2 order-md-1 wow slideInLeft">
-                    <div class="pt-5 mt-2 mt-md-0 pt-md-0">
-                        <img src="{{asset('img/backgrounds/7.jpg')}}" class="img-fluid rounded">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 order-1 order-md-2">
-                    <div class="wow fadeInUp">
-                        <h2 class="font-weight-bold" style="line-height: 50px">Conheça os serviços da <span style="letter-spacing: 2px; font-size: 50px"><br>Lumen Solar</span></h2>
-                        <hr class="primary-bg w-25 float-left" style="height: 3px;">
-                        <p class="pt-2 text-muted" style="clear: both">
-                            Entenda toda as etapas que executamos quando você contrata nossos serviços. Prezamos pela qualidade
-                            e eficiência do sistema garantido a economia que você precisa.
-                        </p>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-6 col-12 wow slideInLeft">
-                            <div class="card-wrapper">
-                                <div id="card-1" class="card card-rotating text-center">
-                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body rotate-btn phases-front" data-card="card-1">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
-                                            </div>
-                                            <p class="text-center font-weight-bold">Análise de consumo</p>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                            <h4 class="font-weight-bold mb-0">Análise</h4>
-                                            <hr>
-                                            <p>
-                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                identificar qual a melhor solução para o seu cenário.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12 pt-3 pt-md-0 wow slideInRight">
-                            <div class="card-wrapper">
-                                <div id="card-2" class="card card-rotating text-center">
-                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body rotate-btn phases-front" data-card="card-2">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/planning.png')}}" class="rounded-circle" height="80">
-                                            </div>
-                                            <p class="text-center font-weight-bold">Planejamento do cenário</p>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-2">
-                                            <h4 class="font-weight-bold mb-0">Planejamento</h4>
-                                            <hr>
-                                            <p>
-                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                identificar qual a melhor solução para o seu cenário.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row pt-md-3 pt-0">
-                        <div class="col-md-6 col-12 pt-md-0 pt-3 wow slideInLeft">
-                            <div class="card-wrapper">
-                                <div id="card-2" class="card card-rotating text-center">
-                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body rotate-btn phases-front" data-card="card-2">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/power.png')}}" class="rounded-circle" height="80">
-                                            </div>
-                                            <p class="text-center font-weight-bold">Implantação do sistema</p>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-2">
-                                            <h4 class="font-weight-bold mb-0">Implantação</h4>
-                                            <hr>
-                                            <p>
-                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                identificar qual a melhor solução para o seu cenário.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12 pt-md-0 pt-3 wow slideInRight">
-                            <div class="card-wrapper">
-                                <div id="card-2" class="card card-rotating text-center">
-                                    <div class="face front z-depth-1 bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body rotate-btn phases-front" data-card="card-2">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/energy.png')}}" class="rounded-circle" height="80">
-                                            </div>
-                                            <p class="text-center font-weight-bold">Conexão da rede eletrica</p>
-                                        </div>
-                                    </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-2">
-                                            <h4 class="font-weight-bold mb-0">Conexão</h4>
-                                            <hr>
-                                            <p>
-                                                Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                identificar qual a melhor solução para o seu cenário.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <section id="project-bg" class="d-none d-md-block mt-5" style="height: 600px;">
+    <!-- Fim do botão whatsapp -->
+
+    <!-- Inicio da primeira seção, seção de slides. Para manutenção, acessar o componente -->
+    <x-first-section></x-first-section>
+    <!-- Fim da primeira seção -->
+
+    <!-- Inicio de efeito de transição entre seções -->
+    <div class="first-transition-normalY-reversedX h300"></div>
+    <!-- Fim de efeito de transição entre seções -->
+
+    <!-- Inicio da segunda seção, seção de cards de atualização. Para manutenção, acessar o componente -->
+    <x-second-section></x-second-section>
+    <!-- Fim da segunda seção -->
+
+    <!-- Inicio da terceira seção, seção sobre a lumen. Para manutenção, acessar o componente-->
+    <x-third-section></x-third-section>
+    <!-- Fim da terceira seção -->
+
+    <!-- Inicio da união de dois efeitos para a transição de seção -->
+    <div class="second-transition-reversedY-normalX h300"></div>
+    <div class="second-transition-normalY-normalX h300"></div>
+    <!-- Fim de efeito -->
+
+    <!-- Inicio da quarta seção, seção que apresenta o vídeo e as vantagens. Para manutenção, acessar o componente -->
+    <x-fourth-section></x-fourth-section>
+    <!-- Fim da quarta seção -->
+
+    <section id="project-bg" class="d-none d-md-block mt-5 h600">
         <div class="container-fluid h-100 rgba-black-light">
             <div class="row text-white h-100">
                 <div id="residence" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
-                        <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos <br><span>Residenciais</span></h4>
+                        <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Residenciais</span></h4>
                         <div id="residence-content">
                             <p class="pt-3">
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
                 <div id="comercial" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
-                        <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos <br><span>Comerciais</span></h4>
+                        <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Comerciais</span></h4>
                         <div id="comercial-content">
                             <p class="pt-3">
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
                 <div id="condominium" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
-                        <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos em<br><span>Condominios</span></h4>
+                        <h4 class="font-weight-bold lh45 f35">Projetos em<br><span>Condominios</span></h4>
                         <div id="condominium-content">
                             <p class="pt-3">
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
                 <div id="rural" class="col-3 h-100 d-flex align-items-end project-section">
                     <div class="py-3">
-                            <h4 class="font-weight-bold" style="line-height: 45px; font-size: 35px;">Projetos<br><span>Rurais</span></h4>
+                            <h4 class="font-weight-bold lh45 f35">Projetos<br><span>Rurais</span></h4>
                         <div id="rural-content">
                             <p class="pt-3">
                                 Reduza  gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -418,14 +97,14 @@
                 </div>
                 <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end">
                     <div class="d-flex align-items-center">
-                        <button class="btn white text-warning btn-rounded" data-toggle="modal" data-target="#budget">Quero economizar</button>
+                        <button class="btn white text-warning btn-rounded" data-toggle="tooltip" data-placement="bottom" title="Em breve">Quero economizar</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="section-transition" class="white" style="height: 300px;"></section>
-    <section class="py-5">
+    <section id="section-transition" class="white" style="height: 250px;"></section>
+    <section>
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-12">
@@ -471,10 +150,10 @@
             </div>
         </div>
     </section>
-    <section id="section-thin-transition" style="height: 300px"></section>
+    <section id="section-thin-transition" style="height: 250px"></section>
     <section>
-        <div class="container-fluid p-md-5 px-md-0 px-3 pt-5">
-                <div class="row py-md-5 py-0 d-flex justify-content-between">
+        <div class="container-fluid px-4">
+                <div class="row d-flex justify-content-between">
                     <div class="order-1 col-md-5 col-12">
                         <div class="pb-5">
                             <h2>Como funciona nossos serviços</h2>
@@ -489,7 +168,7 @@
                                                 <div class="p-3 d-flex justify-content-center">
                                                     <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
                                                 </div>
-                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                                <p class="text-center font-weight-bold">Análise</p>
                                             </div>
                                         </div>
                                         <div class="face back">
@@ -497,8 +176,8 @@
                                                 <h4 class="font-weight-bold mb-0">Análise</h4>
                                                 <hr>
                                                 <p>
-                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                    identificar qual a melhor solução para o seu cenário.
+                                                    Nessa primeira etapa nós analisamos o consumo de energia elétrica,
+                                                    o local de instalação e todos os elementos que vão interferir no projeto.
                                                 </p>
                                             </div>
                                         </div>
@@ -506,23 +185,23 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="card-wrapper">
+                                <div class="card-wrapper h-100">
                                     <div id="card-1" class="card card-rotating text-center">
                                         <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
                                             <div class="card-body  " data-card="card-1">
                                                 <div class="p-3 d-flex justify-content-center">
                                                     <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
                                                 </div>
-                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                                <p class="text-center font-weight-bold">Projeto</p>
                                             </div>
                                         </div>
                                         <div class="face back">
                                             <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                                <h4 class="font-weight-bold mb-0">Análise</h4>
+                                                <h4 class="font-weight-bold mb-0">Projeto</h4>
                                                 <hr>
                                                 <p>
-                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                    identificar qual a melhor solução para o seu cenário.
+                                                    Nesta etapa, nós propomos a melhor solução para o cenário identificado.
+                                                    Sendo aceito, o projeto é submetido à concessionária de energia.
                                                 </p>
                                             </div>
                                         </div>
@@ -539,16 +218,17 @@
                                                 <div class="p-3 d-flex justify-content-center">
                                                     <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
                                                 </div>
-                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                                <p class="text-center font-weight-bold">Instalação</p>
                                             </div>
                                         </div>
                                         <div class="face back">
                                             <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                                <h4 class="font-weight-bold mb-0">Análise</h4>
+                                                <h4 class="font-weight-bold mb-0">Instalação</h4>
                                                 <hr>
                                                 <p>
-                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                    identificar qual a melhor solução para o seu cenário.
+                                                    Com o parecer de acesso concedido pela concessionária de energia,
+                                                    damos início à instalação dos equipamentos. A instalação é extremamente
+                                                    rápida e provoca alterações mínimas no local.
                                                 </p>
                                             </div>
                                         </div>
@@ -563,16 +243,17 @@
                                                 <div class="p-3 d-flex justify-content-center">
                                                     <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
                                                 </div>
-                                                <p class="text-center font-weight-bold">Análise de consumo</p>
+                                                <p class="text-center font-weight-bold">Conexão</p>
                                             </div>
                                         </div>
                                         <div class="face back">
                                             <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                                <h4 class="font-weight-bold mb-0">Análise</h4>
+                                                <h4 class="font-weight-bold mb-0">Conexão</h4>
                                                 <hr>
                                                 <p>
-                                                    Nessa primeira etapa nós analisamos seus custos e consumos para que possamos
-                                                    identificar qual a melhor solução para o seu cenário.
+                                                    Instalação finalizada, o último passo é solicitar que a concessionária
+                                                    de energia ligue o sistema junto à rede elétrica. Após a conexão com
+                                                    a rede, seu sistema começa a gerar energia limpa e economia.
                                                 </p>
                                             </div>
                                         </div>
@@ -758,40 +439,8 @@
                 </div>
             </div>
     </section>
-    <section id="section-thin-transition" style="height: 300px"></section>
+    <section id="section-thin-transition-left" style="height: 250px"></section>
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <h1 style="line-height: 50px;">Venha tomar um café conosco!</h1>
-                    <hr class="primary-bg w-25 float-left" style="height: 3px; clear: both">
-                    <div class="mt-5" style="clear: both;">
-                        <button class="btn primary-bg text-white">Agende sua visita</button>
-                    </div>
-                </div>
-                <div class="col-8" style="height: 300px;">
-                    <div id='map' class="h-100"></div>
-                    <script>
-                        mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
-                        var map = new mapboxgl.Map({
-                            container: 'map',
-                            style: 'mapbox://styles/mapbox/dark-v10',
-                            center: [-47.9304321, -15.8660905],
-                            zoom: 12.15
-                        });
-
-                        var marker = new mapboxgl.Marker()
-                            .setLngLat([-47.9304321, -15.8660905])
-                            .addTo(map);
-
-                        map.addControl(new mapboxgl.NavigationControl());
-                    </script>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="section-thin-transition-left" style="height: 300px"></section>
-    <section class="py-md-5 py-3">
         <div class="container ">
                 <div class="row">
                     <div class="col-12">
@@ -802,12 +451,12 @@
                         </p>
                     </div>
                 </div>
-                <div class="row py-md-5 py-3">
-                    <div class="col-md-5 col-12">
+                <div class="row pb-5">
+                    <div class="col-md-4 col-12 d-flex align-items-center">
                         <div class="card">
                             <div class="card-body">
                                 <div class="form-header primary-bg accent-1">
-                                    <h3 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato conosco</h3>
+                                    <h4 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato</h4>
                                 </div>
                                 <p>Informe seus dados abaixo que entraremos em contato</p>
                                 <div class="md-form">
@@ -832,121 +481,80 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="swiper-container swiper-blog">
+                    <div class="col-lg-8">
+                        <div style="height: 260px;">
+                            <div id='map' class="h-100"></div>
+                        </div>
+                        <script>
+                            mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
+                            var map = new mapboxgl.Map({
+                                container: 'map',
+                                style: 'mapbox://styles/mapbox/streets-v11',
+                                center: [-47.9304321, -15.8660905],
+                                zoom: 12.15
+                            });
+
+                            var marker = new mapboxgl.Marker()
+                                .setLngLat([-47.9304321, -15.8660905])
+                                .addTo(map);
+
+                            map.addControl(new mapboxgl.NavigationControl());
+                        </script>
+                        <div class="swiper-container swiper-blog py-4">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="card text-left">
-                                        <div class="view overlay">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Card image cap">
-                                            <a><div class="mask rgba-white-slight"></div></a>
-                                        </div>
-                                        <a class="btn-floating btn-action ml-auto mr-4 primary-bg">
-                                            <i class="fas fa-chevron-right pl-1"></i></a>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <hr>
-                                            <p class="card-text">
-                                                Some quick example text to build on the card title and make up the bulk of the card's
-                                                content.
-                                            </p>
-                                        </div>
-                                        <div class="rounded-bottom black text-center pt-3">
-                                            <ul class="list-unstyled list-inline font-small">
-                                                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015 às 15:30</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card text-left">
-                                        <div class="view overlay">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Card image cap">
-                                            <a><div class="mask rgba-white-slight"></div></a>
-                                        </div>
-                                        <a class="btn-floating btn-action ml-auto mr-4 primary-bg">
-                                            <i class="fas fa-chevron-right pl-1"></i></a>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <hr>
-                                            <p class="card-text">
-                                                Some quick example text to build on the card title and make up the bulk of the card's
-                                                content.
-                                            </p>
-                                        </div>
-                                        <div class="rounded-bottom black text-center pt-3">
-                                            <ul class="list-unstyled list-inline font-small">
-                                                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015 às 15:30</li>
-                                            </ul>
+                                    <div class="card">
+                                        <div class="row mx-0">
+                                            <div class="col-5 px-0">
+                                                <div class="view overlay">
+                                                    <img class="img-fluid h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
+                                                    <a><div class="mask rgba-white-slight"></div></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-7 text-left px-0">
+                                                <div class="p-3">
+                                                    <h5>Título do post</h5>
+                                                    <hr class="primary-bg w-25 float-left my-0" style="height: 3px;">
+                                                    <div class="py-2" style="clear: both">
+                                                        <ul class="list-unstyled list-inline font-small mb-0 d-flex justify-content-start">
+                                                            <li class="list-inline-item pr-2 text-muted"><i class="far fa-clock pr-1"></i>05/10/2015 Às 15:20</li>
+                                                        </ul>
+                                                    </div>
+                                                    <p class="card-text text-muted py-3">
+                                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                                        content.
+                                                    </p>
+                                                    <button class="btn btn-sm text-white primary-bg mx-0">Ver mais</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="card text-left">
-                                        <div class="view overlay">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Card image cap">
-                                            <a><div class="mask rgba-white-slight"></div></a>
-                                        </div>
-                                        <a class="btn-floating btn-action ml-auto mr-4 primary-bg">
-                                            <i class="fas fa-chevron-right pl-1"></i></a>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <hr>
-                                            <p class="card-text">
-                                                Some quick example text to build on the card title and make up the bulk of the card's
-                                                content.
-                                            </p>
-                                        </div>
-                                        <div class="rounded-bottom black text-center pt-3">
-                                            <ul class="list-unstyled list-inline font-small">
-                                                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015 às 15:30</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card text-left">
-                                        <div class="view overlay">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Card image cap">
-                                            <a><div class="mask rgba-white-slight"></div></a>
-                                        </div>
-                                        <a class="btn-floating btn-action ml-auto mr-4 primary-bg">
-                                            <i class="fas fa-chevron-right pl-1"></i></a>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <hr>
-                                            <p class="card-text">
-                                                Some quick example text to build on the card title and make up the bulk of the card's
-                                                content.
-                                            </p>
-                                        </div>
-                                        <div class="rounded-bottom black text-center pt-3">
-                                            <ul class="list-unstyled list-inline font-small">
-                                                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015 às 15:30</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card text-left">
-                                        <div class="view overlay">
-                                            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/food.jpg" alt="Card image cap">
-                                            <a><div class="mask rgba-white-slight"></div></a>
-                                        </div>
-                                        <a class="btn-floating btn-action ml-auto mr-4 primary-bg">
-                                            <i class="fas fa-chevron-right pl-1"></i></a>
-                                        <div class="card-body">
-                                            <h4 class="card-title">Card title</h4>
-                                            <hr>
-                                            <p class="card-text">
-                                                Some quick example text to build on the card title and make up the bulk of the card's
-                                                content.
-                                            </p>
-                                        </div>
-                                        <div class="rounded-bottom black text-center pt-3">
-                                            <ul class="list-unstyled list-inline font-small">
-                                                <li class="list-inline-item pr-2 white-text"><i class="far fa-clock pr-1"></i>05/10/2015 às 15:30</li>
-                                            </ul>
+                                    <div class="card">
+                                        <div class="row mx-0">
+                                            <div class="col-5 px-0">
+                                                <div class="view overlay">
+                                                    <img class="img-fluid h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
+                                                    <a><div class="mask rgba-white-slight"></div></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-7 text-left px-0">
+                                                <div class="p-3">
+                                                    <h5>Título do post</h5>
+                                                    <hr class="primary-bg w-25 float-left my-0" style="height: 3px;">
+                                                    <div class="py-2" style="clear: both">
+                                                        <ul class="list-unstyled list-inline font-small mb-0 d-flex justify-content-start">
+                                                            <li class="list-inline-item pr-2 text-muted"><i class="far fa-clock pr-1"></i>05/10/2015 Às 15:20</li>
+                                                        </ul>
+                                                    </div>
+                                                    <p class="card-text text-muted py-3">
+                                                        Some quick example text to build on the card title and make up the bulk of the card's
+                                                        content.
+                                                    </p>
+                                                    <button class="btn btn-sm text-white primary-bg mx-0">Ver mais</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -955,7 +563,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -969,19 +576,13 @@
                             <h5 class="mb-0">Fique por dentro das novidades!</h5>
                         </div>
                         <div class="col-md-6 col-lg-7 text-center text-md-right">
-                            <a class="fb-ic">
-                                <i class="fab fa-facebook-f white-text mr-4"> </i>
+                            <a class="fb-ic" href="https://www.facebook.com/lumen.bsb/" target="_blank">
+                                <i class="fab fa-facebook-f white-text mr-4"></i>
                             </a>
-                            <a class="tw-ic">
-                                <i class="fab fa-twitter white-text mr-4"> </i>
-                            </a>
-                            <a class="gplus-ic">
-                                <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                            </a>
-                            <a class="li-ic">
+                            <a class="li-ic" href="https://www.linkedin.com/company/lumensolar/" target="_blank">
                                 <i class="fab fa-linkedin-in white-text mr-4"> </i>
                             </a>
-                            <a class="ins-ic">
+                            <a class="ins-ic" href="https://www.instagram.com/lumen.bsb/" target="_blank">
                                 <i class="fab fa-instagram white-text"> </i>
                             </a>
                         </div>
@@ -990,39 +591,35 @@
             </div>
             <div class="container text-center text-md-left mt-5">
                 <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <img class="img-fluid w-75" src="{{asset('img/logos/logo-navbar-white.png')}}">
-                        <p class="mt-4">
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit.
-                        </p>
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 d-flex align-items-center">
+                        <div>
+                            <img class="img-fluid" src="{{asset('img/logos/logo-navbar-white.png')}}">
+                            <p class="pl-3">Dê um futuro de presente</p>
+                        </div>
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase font-weight-bold">Contato</h6>
                         <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                        <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        <p><i class="fas fa-home mr-3"></i> Setor de Hangares, Hangar 21 - Lago Sul, Brasília - DF</p>
+                        <p><i class="fas fa-envelope mr-3"></i> contato@lumen.bsb.br</p>
+                        <p><i class="fa fa-whatsapp fa-lg mr-3"></i> (61) 98318-7150</p>
+                        <p><i class="fas fa-phone mr-3"></i> (61) 98318-7150</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Páginas</h6>
                         <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p><a href="#!">MDBootstrap</a></p>
-                        <p><a href="#!">MDWordPress</a></p>
-                        <p><a href="#!">BrandFlow</a></p>
-                        <p><a href="#!">Bootstrap Angular</a></p>
+                        <p><a href="#!">Login</a></p>
+                        <p><a href="#!">Projetos</a></p>
+                        <p><a href="#!">Blog</a></p>
+                        <p><a href="#!">Inicio</a></p>
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-none d-md-block">
                         <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
                         <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p>
-                            Subscribe to our newsletter!
-                            Stay always in touch!
-                        </p>
+                        <p>Receba as nossas novidades</p>
                         <form>
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Medium input">
+                                <input class="form-control" type="text" placeholder="Digite seu e-mail">
                             </div>
                             <button class="btn btn-md primary-bg text-white btn-block">Enviar</button>
                         </form>

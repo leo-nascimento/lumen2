@@ -24,7 +24,7 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
 </head>
 <body>
-    @if(!Request::is('login'))
+    @if(!Request::is('login', 'project/*'))
         <x-navbar></x-navbar>
     @endif
     @yield('content')

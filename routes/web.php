@@ -15,6 +15,8 @@ use function foo\func;
 |
 */
 Route::get('/', 'WebsiteController@index')->name('site');
+Route::get('/project/{type}', 'WebsiteController@showProjects')->name('project');
+
 
 Route::prefix('admin/')->group(function(){
     Route::resource('posts', 'Admin\PostController', ['except' => ['destroy']]);

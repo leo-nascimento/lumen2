@@ -20,7 +20,6 @@ $(document).ready(function() {
         });
     }
 
-
     $('.phases-front').on('mouseenter',function(){
         $(this).trigger('click');
     });
@@ -44,10 +43,10 @@ $(document).ready(function() {
     });
 
     var blog = new Swiper('.swiper-blog', {
-        slidesPerView: 2,
+        slidesPerView: 'auto',
         spaceBetween: 30,
+        width: 1200,
         grabCursor: true,
-        freeMode: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -63,6 +62,31 @@ $(document).ready(function() {
                 slidesPerView: 2,
             }
         }
+    });
+
+    var projects = new Swiper('.swiper-projects', {
+        slidesPerView: 'auto',
+        autoHeight: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        }
+    });
+
+    $('.benefits').click(function () {
+        var iconWhite = $('img', this).attr('src').replace('.svg', '-white.svg');
+        $('img', this).attr('src', iconWhite);
+        $(this).addClass('onFocus')
+        var elements = document.querySelectorAll('.benefits');
+        for (var i = 0; i < elements.length; i++) {
+            if (!$(elements[i]).hasClass('onFocus')){
+                var icon = $('img', elements[i]).attr('src').replace('-white.svg', '.svg');
+                $('img', elements[i]).attr('src', icon);
+            }
+        }
+        $(this).removeClass('onFocus');
     });
 
     $('.project-section').hover(function () {

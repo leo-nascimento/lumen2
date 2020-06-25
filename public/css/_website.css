@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+/*
+Ajustes no escopo da página
+ */
+
 html,
 body,
 .view {
@@ -5,6 +11,114 @@ body,
   font-family: "Roboto", sans-serif;
   background: #fff;
 }
+
+/*
+Novas classes padrões
+ */
+
+.my-70 {
+  margin-bottom: 70px !important;
+  margin-top: 70px !important;
+}
+
+.h600 {
+  height: 600px !important;
+}
+
+.h400 {
+  height: 400px !important;
+}
+
+.h300 {
+  height: 300px !important;
+}
+
+.h3 {
+  height: 3px !important;
+}
+
+.f20 {
+  font-size: 20px !important;
+}
+
+.f35 {
+  font-size: 35px !important;
+}
+
+.l45 {
+  line-height: 45px !important;
+}
+
+.clear-float {
+  clear: both !important;
+}
+
+.z-index-5 {
+  z-index: 5 !important;
+}
+
+.benefits.active {
+  background-color: #f9c200 !important;
+}
+
+/*
+Efeitos de transição
+ */
+
+.first-transition-normalY-reversedX {
+  background-image: url(/images/first-pattern.png?ef4586c3282b8d8b0805273f13fefc6a);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px 300px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  margin-top: -170px;
+  transform: scaleX(-1);
+}
+
+.second-transition-reversedY-normalX {
+  background-image: url(/images/second-pattern.png?e93509428aeaab98dcd2096961040f8c);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px 800px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  margin-top: -270px;
+  transform: scaleY(-1);
+}
+
+.second-transition-normalY-normalX {
+  background-image: url(/images/second-pattern.png?e93509428aeaab98dcd2096961040f8c);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 2000px 800px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  margin-top: 0px;
+}
+
+/*
+Backgrounds
+ */
+
+.background-logo {
+  background-image: url(/images/bg-logo.png?2d2bf19b5385409134476987d3533d1d);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 900px;
+  background-attachment: fixed;
+}
+
+.residence {
+  background: url(/images/residence.jpg?9ab49c151ae7e2e9aec3d5504db5b42c) no-repeat center center;
+}
+
+/*
+Customização do carousel de apresentação
+ */
 
 .carousel {
   height: 100%;
@@ -18,6 +132,10 @@ body,
 .carousel .carousel-inner .active {
   height: 100%;
 }
+
+/*
+Customização de barra de navegação
+ */
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.2);
@@ -58,49 +176,6 @@ body,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#about {
-  background-image: url(/images/pattern2.png?ef4586c3282b8d8b0805273f13fefc6a);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 2000px 300px;
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-  margin-top: -170px;
-  transform: scaleX(-1);
-}
-
-#pattern-top {
-  background-image: url(/images/pattern.png?e93509428aeaab98dcd2096961040f8c);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 2000px 800px;
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-  margin-top: -270px;
-  transform: scaleY(-1);
-}
-
-#pattern-bottom {
-  background-image: url(/images/pattern.png?e93509428aeaab98dcd2096961040f8c);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 2000px 800px;
-  position: absolute;
-  width: 100%;
-  z-index: 3;
-  margin-top: 0px;
-}
-
-#about-section {
-  background-image: url(/images/about.png?2d2bf19b5385409134476987d3533d1d);
-  background-repeat: no-repeat;
-  background-position: center right;
-  background-size: 900px;
-  background-attachment: fixed;
 }
 
 #section-thin-transition {
