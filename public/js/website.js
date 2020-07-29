@@ -90,6 +90,7 @@ $(document).ready(function() {
     });
 
     $('.project-section').hover(function () {
+        alert('ae');
         element = $(this).attr('id');
         $(this).css({"background-color": "rgba(249,194,0,0.6)"});
         $("#"+element+"-content").css({"display": "block"});
@@ -110,5 +111,15 @@ $(document).ready(function() {
     }).on('mouseleave',function () {
         $(this).css({"background-color": "transparent"});
         $("#"+element+"-content").css({"display": "none"});
-    })
+    });
 });
+
+function changeModalContent(id) {
+    if (id = 'form-button'){
+        var element = document.getElementById('budget-form');
+        element.classList.remove('d-none');
+        element = document.getElementById('modal-buttons');
+        element.classList.add('d-none');
+    }
+}
+

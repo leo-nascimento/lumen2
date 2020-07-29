@@ -3,6 +3,7 @@
 <head>
     <meta charset="uft-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Lumen Bsb</title>
 
     <!-- Styles -->
@@ -29,6 +30,8 @@
     @endif
     @yield('content')
     <script src="{{ asset('js/website.js') }}"></script>
+    <script src="{{ asset('js/functions.js') }}"></script>
+
 </body>
 </html>
 

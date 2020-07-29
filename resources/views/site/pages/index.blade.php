@@ -34,7 +34,7 @@
     <x-fourth-section></x-fourth-section>
     <!-- Fim da quarta seção -->
 
-    <section id="project-bg" class="d-none d-md-block mt-5 h600">
+    <section id="project-bg0q   4" class="d-none d-md-block mt-5 h600">
         <div class="container-fluid h-100 rgba-black-light">
             <div class="row text-white h-100">
                 <div id="residence" class="col-3 h-100 border-right d-flex align-items-end project-section">
@@ -459,25 +459,28 @@
                                     <h4 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato</h4>
                                 </div>
                                 <p>Informe seus dados abaixo que entraremos em contato</p>
-                                <div class="md-form">
-                                    <input type="text" id="form-name" class="form-control">
-                                    <label for="form-name">Seu nome</label>
-                                </div>
-                                <div class="md-form">
-                                    <input type="text" id="form-email" class="form-control">
-                                    <label for="form-email">Seu e-mail</label>
-                                </div>
-                                <div class="md-form">
-                                    <input type="text" id="form-Subject" class="form-control">
-                                    <label for="form-Subject">Assunto</label>
-                                </div>
-                                <div class="md-form">
-                                    <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-                                    <label for="form-text">Descrição</label>
-                                </div>
-                                <div class="text-center mt-4">
-                                    <button class="btn primary-bg btn-block text-white">ENVIAR CONTATO</button>
-                                </div>
+                                <form action="{{ route('contact.send') }}" method="POST">
+                                    @csrf
+                                    <div class="md-form">
+                                        <input type="text" id="form-name" name="name" class="form-control">
+                                        <label for="form-name">Seu nome</label>
+                                    </div>
+                                    <div class="md-form">
+                                        <input type="text" id="form-email" name="email" class="form-control">
+                                        <label for="form-email">Seu e-mail</label>
+                                    </div>
+                                    <div class="md-form">
+                                        <input type="text" id="form-Subject" name="subject" class="form-control">
+                                        <label for="form-Subject">Assunto</label>
+                                    </div>
+                                    <div class="md-form">
+                                        <textarea id="form-text" name="description" class="form-control md-textarea" rows="3"></textarea>
+                                        <label for="form-text">Descrição</label>
+                                    </div>
+                                    <div class="text-center mt-4">
+                                        <button class="btn primary-bg btn-block text-white" type="submit">ENVIAR CONTATO</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
