@@ -485,21 +485,6 @@
                         <div style="height: 260px;">
                             <div id='map' class="h-100"></div>
                         </div>
-                        <script>
-                            mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
-                            var map = new mapboxgl.Map({
-                                container: 'map',
-                                style: 'mapbox://styles/mapbox/streets-v11',
-                                center: [-47.9304321, -15.8660905],
-                                zoom: 12.15
-                            });
-
-                            var marker = new mapboxgl.Marker()
-                                .setLngLat([-47.9304321, -15.8660905])
-                                .addTo(map);
-
-                            map.addControl(new mapboxgl.NavigationControl());
-                        </script>
                         <div class="swiper-container swiper-blog py-4">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -507,7 +492,7 @@
                                         <div class="row mx-0">
                                             <div class="col-5 px-0">
                                                 <div class="view overlay">
-                                                    <img class="img-fluid h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
+                                                    <img class="img-fluid w-100 h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
                                                     <a><div class="mask rgba-white-slight"></div></a>
                                                 </div>
                                             </div>
@@ -535,7 +520,7 @@
                                         <div class="row mx-0">
                                             <div class="col-5 px-0">
                                                 <div class="view overlay">
-                                                    <img class="img-fluid h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
+                                                    <img class="img-fluid w-100 h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
                                                     <a><div class="mask rgba-white-slight"></div></a>
                                                 </div>
                                             </div>

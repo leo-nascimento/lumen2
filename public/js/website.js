@@ -110,5 +110,19 @@ $(document).ready(function() {
     }).on('mouseleave',function () {
         $(this).css({"background-color": "transparent"});
         $("#"+element+"-content").css({"display": "none"});
-    })
+    });
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-47.9304321, -15.8660905],
+        zoom: 12.15
+    });
+
+    var marker = new mapboxgl.Marker()
+        .setLngLat([-47.9304321, -15.8660905])
+        .addTo(map);
+
+    map.addControl(new mapboxgl.NavigationControl());
 });
