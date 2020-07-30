@@ -36,7 +36,8 @@
                             <img src="{{asset('img/logos/logo-navbar.png')}}" height="30">
                         </div>
                         <li class="nav-item">
-                            <a class="nav-link"><i class="fas fa-power-off"></i> <span class="clearfix d-none d-sm-inline-block"> Sair</span></a>
+                            <a class="nav-link" href="{{route('logout')}}">
+                                <i class="fas fa-power-off"></i> <span class="clearfix d-none d-sm-inline-block"> Sair</span></a>
                         </li>
                     </ul>
                 </div>

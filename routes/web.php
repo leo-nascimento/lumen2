@@ -14,9 +14,13 @@ use function foo\func;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('logout', 'Auth\LoginController@logout');
+
 Route::get('/', 'WebsiteController@index')->name('site');
 Route::get('/project/{type}', 'WebsiteController@showProjects')->name('project');
-
+Route::post('/send-contact', 'WebsiteController@sendContact')->name('contact.send');
+Route::post('/send-budget' , 'WebsiteController@storeBudget')->name('budget.store');
+Route::post('/calculate-economy' , 'WebsiteController@calculateEconomy')->name('calculate-economy');
 
 Route::prefix('admin/')->group(function(){
     Route::resource('posts', 'Admin\PostController', ['except' => ['destroy']]);

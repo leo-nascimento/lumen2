@@ -33,8 +33,7 @@
                     <a href="tel:+5561983187150" class="nav-link"><i class="fas fa-phone text-warning"></i> (61) 9 8318-7150</a>
                 </li>
                 <li class="nav-item d-flex align-items-center pl-3 py-md-2 py-0 mx-auto">
-                    <a class="text-white btn btn-sm primary-bg" data-toggle="tooltip" data-placement="bottom"
-                       title="Em breve"><i class="fa fa-calculator text-white"></i> Orçamento</a>
+                    <a class="text-white btn btn-sm primary-bg" data-toggle="modal" data-target="#budget"><i class="fa fa-calculator text-white"></i> Orçamento</a>
                 </li>
             </ul>
         </div>

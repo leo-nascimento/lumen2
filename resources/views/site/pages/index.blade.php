@@ -4,7 +4,8 @@
     <x-video-modal></x-video-modal>
 
     <!-- Inicio do botão whatsapp -->
-    <a target="_blank" href="https://wa.me/5562999445440?text=Agende%20uma%20consulta" class="whatsapp-floating btn-floating btn-lg waves-effect waves-light">
+    <a target="_blank" href="https://wa.me/5562999445440?text=Agende%20uma%20consulta"
+       class="whatsapp-floating btn-floating btn-lg waves-effect waves-light">
         <i class="fab fa-2x fa-whatsapp whatsapp-icon" aria-hidden="true"></i>
     </a>
     <!-- Fim do botão whatsapp -->
@@ -42,10 +43,11 @@
                         <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Residenciais</span></h4>
                         <div id="residence-content">
                             <p class="pt-3">
-                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
+                               class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -54,10 +56,11 @@
                         <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Comerciais</span></h4>
                         <div id="comercial-content">
                             <p class="pt-3">
-                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
+                               class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -66,22 +69,24 @@
                         <h4 class="font-weight-bold lh45 f35">Projetos em<br><span>Condominios</span></h4>
                         <div id="condominium-content">
                             <p class="pt-3">
-                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
+                               class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
                 <div id="rural" class="col-3 h-100 d-flex align-items-end project-section">
                     <div class="py-3">
-                            <h4 class="font-weight-bold lh45 f35">Projetos<br><span>Rurais</span></h4>
+                        <h4 class="font-weight-bold lh45 f35">Projetos<br><span>Rurais</span></h4>
                         <div id="rural-content">
                             <p class="pt-3">
-                                Reduza  gastos com energia elétrica em sua residência através de nossas soluções
+                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
+                               class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -93,11 +98,14 @@
             <div class="row text-center text-md-left">
                 <div class="col-md-8 col-12">
                     <h1 class="font-weight-bold text-white">Comece a economizar</h1>
-                    <h4 class="text-white py-md-0 py-3">Não perca tempo, investa em qualidade de vida e reduza custos</h4>
+                    <h4 class="text-white py-md-0 py-3">Não perca tempo, investa em qualidade de vida e reduza
+                        custos</h4>
                 </div>
                 <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end">
                     <div class="d-flex align-items-center">
-                        <button class="btn white text-warning btn-rounded" data-toggle="tooltip" data-placement="bottom" title="Em breve">Quero economizar</button>
+                        <button class="btn white text-warning btn-rounded" data-toggle="tooltip" data-placement="bottom"
+                                title="Em breve">Quero economizar
+                        </button>
                     </div>
                 </div>
             </div>
@@ -111,17 +119,21 @@
                     <div class="text-center">
                         <h1>O que dizem nossos clientes</h1>
                         <hr class="primary-bg w-25" style="height: 3px;">
-                        <h4 style="clear: both">Confira os depoimentos de quem já fez a diferença usando energia solar</h4>
+                        <h4 style="clear: both">Confira os depoimentos de quem já fez a diferença usando energia
+                            solar</h4>
                     </div>
                     <div class="wrapper-carousel-fix">
-                        <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
+                             data-ride="carousel" data-interval="false">
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active mt-5 py-5">
                                     <div class="testimonial text-center">
                                         <p><i class="fas fa-quote-left"></i>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-                                            id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
-                                            adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
+                                            id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit
+                                            amet, consectetur
+                                            adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum
+                                            inventore laboriosam labore
                                             sit, aspernatur praesentium iste impedit quidem dolor veniam.
                                         </p>
                                         <h4 class="font-weight-bold">Anna Deynah</h4>
@@ -134,12 +146,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
+                            <a class="carousel-control-prev left carousel-control" href="#carousel-example-1"
+                               role="button"
                                data-slide="prev">
                                 <span class="icon-prev" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
+                            <a class="carousel-control-next right carousel-control" href="#carousel-example-1"
+                               role="button"
                                data-slide="next">
                                 <span class="icon-next" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
@@ -153,404 +167,434 @@
     <section id="section-thin-transition" style="height: 250px"></section>
     <section>
         <div class="container-fluid px-4">
-                <div class="row d-flex justify-content-between">
-                    <div class="order-1 col-md-5 col-12">
-                        <div class="pb-5">
-                            <h2>Como funciona nossos serviços</h2>
-                            <hr class="primary-bg w-25 float-left" style="height: 3px;">
-                        </div>
-                        <div class="row d-flex justify-content-around" style="clear: both;">
-                            <div class="col-6">
-                                <div class="card-wrapper">
-                                    <div id="card-1" class="card card-rotating text-center">
-                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                            <div class="card-body  " data-card="card-1">
-                                                <div class="p-3 d-flex justify-content-center">
-                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
-                                                </div>
-                                                <p class="text-center font-weight-bold">Análise</p>
+            <div class="row d-flex justify-content-between">
+                <div class="order-1 col-md-5 col-12">
+                    <div class="pb-5">
+                        <h2>Como funciona nossos serviços</h2>
+                        <hr class="primary-bg w-25 float-left" style="height: 3px;">
+                    </div>
+                    <div class="row d-flex justify-content-around" style="clear: both;">
+                        <div class="col-6">
+                            <div class="card-wrapper">
+                                <div id="card-1" class="card card-rotating text-center">
+                                    <div id="analysis"
+                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body  " data-card="card-1">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
+                                                     height="80">
                                             </div>
-                                        </div>
-                                        <div class="face back">
-                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                                <h4 class="font-weight-bold mb-0">Análise</h4>
-                                                <hr>
-                                                <p>
-                                                    Nessa primeira etapa nós analisamos o consumo de energia elétrica,
-                                                    o local de instalação e todos os elementos que vão interferir no projeto.
-                                                </p>
-                                            </div>
+                                            <p class="text-center font-weight-bold">Análise</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="card-wrapper h-100">
-                                    <div id="card-1" class="card card-rotating text-center">
-                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                            <div class="card-body  " data-card="card-1">
-                                                <div class="p-3 d-flex justify-content-center">
-                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
-                                                </div>
-                                                <p class="text-center font-weight-bold">Projeto</p>
-                                            </div>
-                                        </div>
-                                        <div class="face back">
-                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                                <h4 class="font-weight-bold mb-0">Projeto</h4>
-                                                <hr>
-                                                <p>
-                                                    Nesta etapa, nós propomos a melhor solução para o cenário identificado.
-                                                    Sendo aceito, o projeto é submetido à concessionária de energia.
-                                                </p>
-                                            </div>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                            <h4 class="font-weight-bold mb-0">Análise</h4>
+                                            <hr>
+                                            <p>
+                                                Nessa primeira etapa nós analisamos o consumo de energia elétrica,
+                                                o local de instalação e todos os elementos que vão interferir no
+                                                projeto.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row d-flex justify-content-around pt-4" style="clear: both;">
-                            <div class="col-6">
-                                <div class="card-wrapper">
-                                    <div id="card-1" class="card card-rotating text-center">
-                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                            <div class="card-body  " data-card="card-1">
-                                                <div class="p-3 d-flex justify-content-center">
-                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
-                                                </div>
-                                                <p class="text-center font-weight-bold">Instalação</p>
+                        <div class="col-6">
+                            <div class="card-wrapper h-100">
+                                <div id="card-1" class="card card-rotating text-center">
+                                    <div id="analysis"
+                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body  " data-card="card-1">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
+                                                     height="80">
                                             </div>
-                                        </div>
-                                        <div class="face back">
-                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                                <h4 class="font-weight-bold mb-0">Instalação</h4>
-                                                <hr>
-                                                <p>
-                                                    Com o parecer de acesso concedido pela concessionária de energia,
-                                                    damos início à instalação dos equipamentos. A instalação é extremamente
-                                                    rápida e provoca alterações mínimas no local.
-                                                </p>
-                                            </div>
+                                            <p class="text-center font-weight-bold">Projeto</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="card-wrapper">
-                                    <div id="card-1" class="card card-rotating text-center">
-                                        <div id="analysis" class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                            <div class="card-body  " data-card="card-1">
-                                                <div class="p-3 d-flex justify-content-center">
-                                                    <img src="{{asset('img/icons/research.png')}}" class="rounded-circle" height="80">
-                                                </div>
-                                                <p class="text-center font-weight-bold">Conexão</p>
-                                            </div>
-                                        </div>
-                                        <div class="face back">
-                                            <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                                <h4 class="font-weight-bold mb-0">Conexão</h4>
-                                                <hr>
-                                                <p>
-                                                    Instalação finalizada, o último passo é solicitar que a concessionária
-                                                    de energia ligue o sistema junto à rede elétrica. Após a conexão com
-                                                    a rede, seu sistema começa a gerar energia limpa e economia.
-                                                </p>
-                                            </div>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                            <h4 class="font-weight-bold mb-0">Projeto</h4>
+                                            <hr>
+                                            <p>
+                                                Nesta etapa, nós propomos a melhor solução para o cenário identificado.
+                                                Sendo aceito, o projeto é submetido à concessionária de energia.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="order-2 col-md-7 col-12 mt-5 mt-md-0 pb-5 pb-md-0">
-                        <div class="pb-5">
-                            <h2>Principais dúvidas sobre energia solar</h2>
-                            <hr class="primary-bg w-25 float-left" style="height: 3px;">
+                    <div class="row d-flex justify-content-around pt-4" style="clear: both;">
+                        <div class="col-6">
+                            <div class="card-wrapper">
+                                <div id="card-1" class="card card-rotating text-center">
+                                    <div id="analysis"
+                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body  " data-card="card-1">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
+                                                     height="80">
+                                            </div>
+                                            <p class="text-center font-weight-bold">Instalação</p>
+                                        </div>
+                                    </div>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                            <h4 class="font-weight-bold mb-0">Instalação</h4>
+                                            <hr>
+                                            <p>
+                                                Com o parecer de acesso concedido pela concessionária de energia,
+                                                damos início à instalação dos equipamentos. A instalação é extremamente
+                                                rápida e provoca alterações mínimas no local.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist"
-                             aria-multiselectable="true">
-                            <div class="card">
-                                <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading1">
-                                    <a data-toggle="collapse" data-parent="#accordionEx7" href="#collapse1" aria-expanded="true"
-                                       aria-controls="collapse1">
-                                        <h5 class="mb-0 text-white font-thin">
-                                            Qual a diferença entre energia fotovoltaica e aquecimento solar?
-                                        </h5>
-                                    </a>
-                                </div>
-                                <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1"
-                                     data-parent="#accordionEx7">
-                                    <div class="card-body mb-1 bg-white text-dark z-depth-1">
-                                        <p class="mb-0">
-                                            O uso dos raios solares como fonte de energia pode ocorrer de forma térmica ou
-                                            elétrica. Ao utilizar a forma térmica como fonte de energia, através de técnicas de arquitetura
-                                            e construção, é possível uma maior iluminação natural aos ambientes. Essa fonte de energia
-                                            permite também o uso de coletores solares, cujos têm a função de aquecer a água.
-                                            O uso de fonte de energia na forma elétrica acontece devido ao efeito fotoelétrico. O
-                                            efeito fotoelétrico ocorre a partir do aquecimento proporcionado pelo Sol, onde existe uma
-                                            diferença de potencial entre as extremidades de dois materiais semicondutores unidos, o que
-                                            gera corrente elétrica. Através do uso dos painéis fotovoltaicos, o processo fotoelétrico
-                                            converte os fótons presentes na luz solar na forma de energia elétrica formados por células
-                                            solares.
-                                        </p>
+                        <div class="col-6">
+                            <div class="card-wrapper">
+                                <div id="card-1" class="card card-rotating text-center">
+                                    <div id="analysis"
+                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
+                                        <div class="card-body  " data-card="card-1">
+                                            <div class="p-3 d-flex justify-content-center">
+                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
+                                                     height="80">
+                                            </div>
+                                            <p class="text-center font-weight-bold">Conexão</p>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading2">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse2"
-                                       aria-expanded="false" aria-controls="collapse2">
-                                        <h5 class="mb-0 white-text font-thin">
-                                            Quais são as vantagens financeiras da energia solar fotovoltaica?
-                                        </h5>
-                                    </a>
-                                </div>
-                                <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2"
-                                     data-parent="#accordionEx7">
-                                    <div class="card-body mb-1 bg-white text-dark z-depth-1">
-                                        <p class="mb-0">
-                                            Excluindo o custo inicial, um sistema de geração de energia solar fotovoltaica não tem
-                                            outros custos, devido ao fato de que os painéis não necessitam de manutenção visto que o
-                                            próprio vento e chuva desempenham esse papel. Com o avanço tecnológico, o retorno de
-                                            investimento de um sistema fotovoltaico está caindo cada vez menor.
-                                            Além do mais, a energia fotovoltaica é autossuficiente, portanto, é mais segura em
-                                            termos de abastecimento para consumidores corporativos e para quem é prejudicado pela
-                                            falta de energia. A energia fotovoltaica é uma opção barata para e eletrificação de grandes
-                                            propriedades rurais formadas por sistemas elétricos dispersos. Uma outra aplicação é a
-                                            eletrificação de comunidades remotas.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading3">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse3"
-                                       aria-expanded="false" aria-controls="collapse3">
-                                        <h5 class="mb-0 white-text font-thin">
-                                            Posso instalar um sistema fotovoltaico em minha casa/empresa?
-                                        </h5>
-                                    </a>
-                                </div>
-                                <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3"
-                                     data-parent="#accordionEx7">
-                                    <div class="card-body mb-1 bg-white text-dark z-depth-1">
-                                        <p class="mb-0">
-                                            Sim. Desde 2012, por meio da resolução normativa RN 482/2012 da ANEEL,
-                                            consumidores de energia podem, através da geração de energia renovável – energia solar,
-                                            eólica, biogás e similares - obter abatimento em suas contas de luz através do
-                                            compartilhamento da rede da concessionária de energia elétrica local. De todas as formas
-                                            possíveis de geração de energia abordadas pela norma citada a energia solar é a que se mostra
-                                            mais viável para os usuários, tanto para residências quanto para empresas.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading4">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse4"
-                                       aria-expanded="false" aria-controls="collapse4">
-                                        <h5 class="mb-0 white-text font-thin">
-                                            Com um sistema solar consigo &quot;zerar&quot; minha conta de luz?
-                                        </h5>
-                                    </a>
-                                </div>
-                                <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4"
-                                     data-parent="#accordionEx7">
-                                    <div class="card-body mb-1 bg-white text-dark z-depth-1">
-                                        <p class="mb-0">
-                                            O sistema fotovoltaico conectado à rede permite a entrega de energia gerada à
-                                            concessionária e o abatimento nas contas de luz em forma de crédito energético. Todas as
-                                            concessionárias cobram o custo de disponibilidade, que é uma tarifa mínima para fornecer
-                                            energia ao consumidor. Essa tarifa, que impossibilita que as contas de luz sejam “zeradas”, é
-                                            normatizada pela ANEEL e não tem como isentá-la. Com base nisso, todos
-                                            nossos projetos subtraem o custo de disponibilidade para que o cliente, como terá que pagá-
-                                            lo, de fato consuma a quantidade determinada para ele.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading5">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse5"
-                                       aria-expanded="false" aria-controls="collapse5">
-                                        <h5 class="mb-0 white-text font-thin">
-                                            Consigo ser completamente independente da rede elétrica tendo um sistema solar?
-                                        </h5>
-                                    </a>
-                                </div>
-                                <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5"
-                                     data-parent="#accordionEx7">
-                                    <div class="card-body mb-1 bg-white text-dark z-depth-1">
-                                        <p class="mb-0">
-                                            Sim. Nesse caso é necessário a utilização de um sistema autônomo ou &quot;off-grid&quot;, onde
-                                            o armazenamento de energia é feito por baterias. Esse sistema é recomendado para lugares
-                                            onde não há rede elétrica, geralmente em zonas rurais.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading6">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse6"
-                                       aria-expanded="false" aria-controls="collapse6">
-                                        <h5 class="mb-0 white-text font-thin">
-                                            É possível utilizar todos os aparelhos comuns com energia solar fotovoltaica?
-                                        </h5>
-                                    </a>
-                                </div>
-                                <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6"
-                                     data-parent="#accordionEx7">
-                                    <div class="card-body mb-1 bg-white text-dark z-depth-1">
-                                        <p class="mb-0">
-                                            Sim, a energia solar fotovoltaica tem os mesmos usos que a energia elétrica
-                                            convencional. Porém, é necessário um estudo de projeto para realizar a instalação da
-                                            quantidade de painéis adequada de modo que atenda a demanda de energia local.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading7">
-                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse7"
-                                       aria-expanded="false" aria-controls="collapse7">
-                                        <h5 class="mb-0 white-text font-thin">
-                                            Com a energia fotovoltaica, é possivel apagão em dias nublados ou a
-                                            noite?
-                                        </h5>
-                                    </a>
-                                </div>
-                                <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7"
-                                     data-parent="#accordionEx7">
-                                    <div class="card-body mb-1 bg-white text-dark z-depth-1">
-                                        <p class="mb-0">
-                                            A eficiência de um sistema solar fotovoltaico depende, obviamente, do Sol. Todavia,
-                                            mesmo em dias nublados, a geração de energia acontece pois há radiação solar mais que
-                                            necessária. Para solucionar problemas em localidades com condições climáticas piores, o
-                                            sistema é potencializado ao utilizar painéis solares de maior porte.
-                                            Todas as regiões no Brasil apresentam ótimas condições climáticas para geração de
-                                            energia solar fotovoltaica. Vale lembrar que a localidade de pior radiação solar no Brasil é
-                                            superior à melhor localidade de radiação na Alemanha (potencial mundial em energia solar).
-                                        </p>
+                                    <div class="face back">
+                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
+                                            <h4 class="font-weight-bold mb-0">Conexão</h4>
+                                            <hr>
+                                            <p>
+                                                Instalação finalizada, o último passo é solicitar que a concessionária
+                                                de energia ligue o sistema junto à rede elétrica. Após a conexão com
+                                                a rede, seu sistema começa a gerar energia limpa e economia.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="order-2 col-md-7 col-12 mt-5 mt-md-0 pb-5 pb-md-0">
+                    <div class="pb-5">
+                        <h2>Principais dúvidas sobre energia solar</h2>
+                        <hr class="primary-bg w-25 float-left" style="height: 3px;">
+                    </div>
+                    <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist"
+                         aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading1">
+                                <a data-toggle="collapse" data-parent="#accordionEx7" href="#collapse1"
+                                   aria-expanded="true"
+                                   aria-controls="collapse1">
+                                    <h5 class="mb-0 text-white font-thin">
+                                        Qual a diferença entre energia fotovoltaica e aquecimento solar?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1"
+                                 data-parent="#accordionEx7">
+                                <div class="card-body mb-1 bg-white text-dark z-depth-1">
+                                    <p class="mb-0">
+                                        O uso dos raios solares como fonte de energia pode ocorrer de forma térmica ou
+                                        elétrica. Ao utilizar a forma térmica como fonte de energia, através de técnicas
+                                        de arquitetura
+                                        e construção, é possível uma maior iluminação natural aos ambientes. Essa fonte
+                                        de energia
+                                        permite também o uso de coletores solares, cujos têm a função de aquecer a água.
+                                        O uso de fonte de energia na forma elétrica acontece devido ao efeito
+                                        fotoelétrico. O
+                                        efeito fotoelétrico ocorre a partir do aquecimento proporcionado pelo Sol, onde
+                                        existe uma
+                                        diferença de potencial entre as extremidades de dois materiais semicondutores
+                                        unidos, o que
+                                        gera corrente elétrica. Através do uso dos painéis fotovoltaicos, o processo
+                                        fotoelétrico
+                                        converte os fótons presentes na luz solar na forma de energia elétrica formados
+                                        por células
+                                        solares.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading2">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                   href="#collapse2"
+                                   aria-expanded="false" aria-controls="collapse2">
+                                    <h5 class="mb-0 white-text font-thin">
+                                        Quais são as vantagens financeiras da energia solar fotovoltaica?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2"
+                                 data-parent="#accordionEx7">
+                                <div class="card-body mb-1 bg-white text-dark z-depth-1">
+                                    <p class="mb-0">
+                                        Excluindo o custo inicial, um sistema de geração de energia solar fotovoltaica
+                                        não tem
+                                        outros custos, devido ao fato de que os painéis não necessitam de manutenção
+                                        visto que o
+                                        próprio vento e chuva desempenham esse papel. Com o avanço tecnológico, o
+                                        retorno de
+                                        investimento de um sistema fotovoltaico está caindo cada vez menor.
+                                        Além do mais, a energia fotovoltaica é autossuficiente, portanto, é mais segura
+                                        em
+                                        termos de abastecimento para consumidores corporativos e para quem é prejudicado
+                                        pela
+                                        falta de energia. A energia fotovoltaica é uma opção barata para e eletrificação
+                                        de grandes
+                                        propriedades rurais formadas por sistemas elétricos dispersos. Uma outra
+                                        aplicação é a
+                                        eletrificação de comunidades remotas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading3">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                   href="#collapse3"
+                                   aria-expanded="false" aria-controls="collapse3">
+                                    <h5 class="mb-0 white-text font-thin">
+                                        Posso instalar um sistema fotovoltaico em minha casa/empresa?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3"
+                                 data-parent="#accordionEx7">
+                                <div class="card-body mb-1 bg-white text-dark z-depth-1">
+                                    <p class="mb-0">
+                                        Sim. Desde 2012, por meio da resolução normativa RN 482/2012 da ANEEL,
+                                        consumidores de energia podem, através da geração de energia renovável – energia
+                                        solar,
+                                        eólica, biogás e similares - obter abatimento em suas contas de luz através do
+                                        compartilhamento da rede da concessionária de energia elétrica local. De todas
+                                        as formas
+                                        possíveis de geração de energia abordadas pela norma citada a energia solar é a
+                                        que se mostra
+                                        mais viável para os usuários, tanto para residências quanto para empresas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading4">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                   href="#collapse4"
+                                   aria-expanded="false" aria-controls="collapse4">
+                                    <h5 class="mb-0 white-text font-thin">
+                                        Com um sistema solar consigo &quot;zerar&quot; minha conta de luz?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4"
+                                 data-parent="#accordionEx7">
+                                <div class="card-body mb-1 bg-white text-dark z-depth-1">
+                                    <p class="mb-0">
+                                        O sistema fotovoltaico conectado à rede permite a entrega de energia gerada à
+                                        concessionária e o abatimento nas contas de luz em forma de crédito energético.
+                                        Todas as
+                                        concessionárias cobram o custo de disponibilidade, que é uma tarifa mínima para
+                                        fornecer
+                                        energia ao consumidor. Essa tarifa, que impossibilita que as contas de luz sejam
+                                        “zeradas”, é
+                                        normatizada pela ANEEL e não tem como isentá-la. Com base nisso, todos
+                                        nossos projetos subtraem o custo de disponibilidade para que o cliente, como
+                                        terá que pagá-
+                                        lo, de fato consuma a quantidade determinada para ele.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading5">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                   href="#collapse5"
+                                   aria-expanded="false" aria-controls="collapse5">
+                                    <h5 class="mb-0 white-text font-thin">
+                                        Consigo ser completamente independente da rede elétrica tendo um sistema solar?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5"
+                                 data-parent="#accordionEx7">
+                                <div class="card-body mb-1 bg-white text-dark z-depth-1">
+                                    <p class="mb-0">
+                                        Sim. Nesse caso é necessário a utilização de um sistema autônomo ou &quot;off-grid&quot;,
+                                        onde
+                                        o armazenamento de energia é feito por baterias. Esse sistema é recomendado para
+                                        lugares
+                                        onde não há rede elétrica, geralmente em zonas rurais.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading6">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                   href="#collapse6"
+                                   aria-expanded="false" aria-controls="collapse6">
+                                    <h5 class="mb-0 white-text font-thin">
+                                        É possível utilizar todos os aparelhos comuns com energia solar fotovoltaica?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6"
+                                 data-parent="#accordionEx7">
+                                <div class="card-body mb-1 bg-white text-dark z-depth-1">
+                                    <p class="mb-0">
+                                        Sim, a energia solar fotovoltaica tem os mesmos usos que a energia elétrica
+                                        convencional. Porém, é necessário um estudo de projeto para realizar a
+                                        instalação da
+                                        quantidade de painéis adequada de modo que atenda a demanda de energia local.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header primary-bg z-depth-1 mb-1" role="tab" id="heading7">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                   href="#collapse7"
+                                   aria-expanded="false" aria-controls="collapse7">
+                                    <h5 class="mb-0 white-text font-thin">
+                                        Com a energia fotovoltaica, é possivel apagão em dias nublados ou a
+                                        noite?
+                                    </h5>
+                                </a>
+                            </div>
+                            <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7"
+                                 data-parent="#accordionEx7">
+                                <div class="card-body mb-1 bg-white text-dark z-depth-1">
+                                    <p class="mb-0">
+                                        A eficiência de um sistema solar fotovoltaico depende, obviamente, do Sol.
+                                        Todavia,
+                                        mesmo em dias nublados, a geração de energia acontece pois há radiação solar
+                                        mais que
+                                        necessária. Para solucionar problemas em localidades com condições climáticas
+                                        piores, o
+                                        sistema é potencializado ao utilizar painéis solares de maior porte.
+                                        Todas as regiões no Brasil apresentam ótimas condições climáticas para geração
+                                        de
+                                        energia solar fotovoltaica. Vale lembrar que a localidade de pior radiação solar
+                                        no Brasil é
+                                        superior à melhor localidade de radiação na Alemanha (potencial mundial em
+                                        energia solar).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
     </section>
     <section id="section-thin-transition-left" style="height: 250px"></section>
     <section>
         <div class="container ">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="section-heading h1 pt-4">Ainda está com dúvidas?</h2>
-                        <p class="section-description pt-2 pb-4">
-                            Não fique com dúvidas, entre em contato conosco estamos a disposição para explicar nosso sistema
-                            para você. A Lumen é uma solução!
-                        </p>
-                    </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-heading h1 pt-4">Ainda está com dúvidas?</h2>
+                    <p class="section-description pt-2 pb-4">
+                        Não fique com dúvidas, entre em contato conosco estamos a disposição para explicar nosso sistema
+                        para você. A Lumen é uma solução!
+                    </p>
                 </div>
-                <div class="row pb-5">
-                    <div class="col-md-4 col-12 d-flex align-items-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="form-header primary-bg accent-1">
-                                    <h4 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato</h4>
-                                </div>
-                                <p>Informe seus dados abaixo que entraremos em contato</p>
+            </div>
+            <div class="row pb-5">
+                <div class="col-md-4 col-12 d-flex align-items-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="form-header primary-bg accent-1">
+                                <h4 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato</h4>
+                            </div>
+                            <p>Informe seus dados abaixo que entraremos em contato</p>
+                            <form action="{{ route('contact.send') }}" method="POST" class="ajax-form">
+                                @csrf
                                 <div class="md-form">
-                                    <input type="text" id="form-name" class="form-control">
+                                    <input type="text" id="form-name" name="name" class="form-control">
                                     <label for="form-name">Seu nome</label>
                                 </div>
                                 <div class="md-form">
-                                    <input type="text" id="form-email" class="form-control">
+                                    <input type="email" id="form-email" name="email" class="form-control">
                                     <label for="form-email">Seu e-mail</label>
                                 </div>
                                 <div class="md-form">
-                                    <input type="text" id="form-Subject" class="form-control">
+                                    <input type="text" id="form-Subject" name="subject" class="form-control">
                                     <label for="form-Subject">Assunto</label>
                                 </div>
                                 <div class="md-form">
-                                    <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                                    <textarea id="form-text" name="description" class="form-control md-textarea"
+                                              rows="3"></textarea>
                                     <label for="form-text">Descrição</label>
                                 </div>
                                 <div class="text-center mt-4">
-                                    <button class="btn primary-bg btn-block text-white">ENVIAR CONTATO</button>
+                                    <button class="btn primary-bg btn-block text-white btn-submit">ENVIAR CONTATO
+                                    </button>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="col-lg-8">
-                        <div style="height: 260px;">
-                            <div id='map' class="h-100"></div>
-                        </div>
-                        <div class="swiper-container swiper-blog py-4">
-                            <div class="swiper-wrapper">
+                </div>
+                <div class="col-lg-8">
+                    <div style="height: 260px;">
+                        <div id='map' class="h-100"></div>
+                    </div>
+                    <div class="swiper-container swiper-blog py-4">
+                        <div class="swiper-wrapper">
+                            @foreach($posts as $post)
                                 <div class="swiper-slide">
                                     <div class="card">
                                         <div class="row mx-0">
                                             <div class="col-5 px-0">
                                                 <div class="view overlay">
-                                                    <img class="img-fluid w-100 h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
-                                                    <a><div class="mask rgba-white-slight"></div></a>
+                                                    <img class="img-fluid w-100 h-100"
+                                                         src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
+                                                    <a>
+                                                        <div class="mask rgba-white-slight"></div>
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="col-7 text-left px-0">
                                                 <div class="p-3">
-                                                    <h5>Título do post</h5>
+                                                    <h5>{{$post->title}}</h5>
                                                     <hr class="primary-bg w-25 float-left my-0" style="height: 3px;">
                                                     <div class="py-2" style="clear: both">
                                                         <ul class="list-unstyled list-inline font-small mb-0 d-flex justify-content-start">
-                                                            <li class="list-inline-item pr-2 text-muted"><i class="far fa-clock pr-1"></i>05/10/2015 Às 15:20</li>
+                                                            <li class="list-inline-item pr-2 text-muted"><i
+                                                                    class="far fa-clock pr-1"></i>{{$post->date_post}}
+                                                            </li>
                                                         </ul>
                                                     </div>
-                                                    <p class="card-text text-muted py-3">
-                                                        Some quick example text to build on the card title and make up the bulk of the card's
-                                                        content.
+                                                    <p class="card-text text-muted py-3 truncate-text">
+                                                        {{ \Illuminate\Support\Str::limit($post->summary, $limit = 35, $end = '...') }}
                                                     </p>
-                                                    <button class="btn btn-sm text-white primary-bg mx-0">Ver mais</button>
+                                                    <button class="btn btn-sm text-white primary-bg mx-0">Ver mais
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <div class="row mx-0">
-                                            <div class="col-5 px-0">
-                                                <div class="view overlay">
-                                                    <img class="img-fluid w-100 h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
-                                                    <a><div class="mask rgba-white-slight"></div></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-7 text-left px-0">
-                                                <div class="p-3">
-                                                    <h5>Título do post</h5>
-                                                    <hr class="primary-bg w-25 float-left my-0" style="height: 3px;">
-                                                    <div class="py-2" style="clear: both">
-                                                        <ul class="list-unstyled list-inline font-small mb-0 d-flex justify-content-start">
-                                                            <li class="list-inline-item pr-2 text-muted"><i class="far fa-clock pr-1"></i>05/10/2015 Às 15:20</li>
-                                                        </ul>
-                                                    </div>
-                                                    <p class="card-text text-muted py-3">
-                                                        Some quick example text to build on the card title and make up the bulk of the card's
-                                                        content.
-                                                    </p>
-                                                    <button class="btn btn-sm text-white primary-bg mx-0">Ver mais</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide bg-transparent my-auto">
-                                    <button class="btn primary-bg btn text-white">Ver mais</button>
-                                </div>
+                            @endforeach
+                            <div class="swiper-slide bg-transparent my-auto mx-auto">
+                                <button class="btn primary-bg btn text-white">Ver mais</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <section id="footer">
         <footer class="page-footer font-small" style="background-color: rgba(0,0,0,0.9)">
