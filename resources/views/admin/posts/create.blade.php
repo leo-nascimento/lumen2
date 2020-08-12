@@ -2,7 +2,7 @@
 @section('content')
     <div class="container-fluid pt-md-4 px-3 pb-0 h-100">
         <x-title-view title="Cadastro de post" titleIcon="blog" buttonColor="bg-dark" buttonIcon="arrow-left" buttonLabel="Voltar" route="posts.index"></x-title-view>
-        <form action="{{ route('posts.store') }}" method="POST">
+        <form action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
              <div class="row pt-3">
                  <div class="col-12 col-md-6">

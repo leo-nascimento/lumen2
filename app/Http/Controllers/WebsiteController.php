@@ -46,7 +46,7 @@ class WebsiteController extends Controller
 
             return response()->json([
                 'success' => true,
-                'message' => 'Em breve entraremos em contato com você.',
+                'message' => 'A mensagem foi enviada.',
             ]);
         } catch (\Exception $ex) {
             Log::error($ex);
@@ -70,7 +70,7 @@ class WebsiteController extends Controller
 
             return response()->json([
                 'success' => true,
-                'message' => 'Em breve entraremos em contato com você.',
+                'message' => 'Um e-mail foi enviado a você.',
             ]);
         } catch (\Exception $ex) {
             Log::error($ex);
@@ -103,6 +103,7 @@ class WebsiteController extends Controller
             if (empty($accountCalculation)) {
                 return response()->json([
                     'success' => false,
+                    'info' => true,
                     'message' => 'Nenhuma previsão encontrada para a média de consumo informada.',
                 ]);
             }

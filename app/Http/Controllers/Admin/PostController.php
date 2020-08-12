@@ -6,8 +6,10 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\StorePost;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 use App\Post;
+use Intervention\Image\Facades\Image;
 
 class PostController extends Controller
 {
@@ -59,6 +61,10 @@ class PostController extends Controller
         $post->description = $request->input('description');
         $post->save();
 
+        // Save file
+        $file = $request->file('file');
+        $this->savePostImage($file, $post->id);
+
         toastr()->success('O post foi salvo com sucesso');
 
         return redirect()->route('posts.index');
@@ -67,7 +73,7 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return Response
      */
     public function show($id)
@@ -78,7 +84,7 @@ class PostController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return Response
      */
     public function edit($id)
@@ -92,18 +98,22 @@ class PostController extends Controller
      * Update the specified resource in storage.
      *
      * @param Request $request
-     * @param  int  $id
+     * @param int $id
      * @return Response
      */
     public function update(Request $request, $id)
     {
         $post = Post::find($id);
 
-        if (isset($post)){
+        if (isset($post)) {
             $post->title = $request->input('title');
             $post->summary = $request->input('summary');
             $post->description = $request->input('description');
             $post->save();
+
+            // Save file
+            $file = $request->file('file');
+            $this->savePostImage($file, $post->id);
         }
 
         return redirect()->route('posts.index');
@@ -112,7 +122,7 @@ class PostController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return Response
      */
     public function destroy($id)
@@ -123,5 +133,18 @@ class PostController extends Controller
             $post->delete();
 
         return redirect()->route('posts.index');
+    }
+
+    /**
+     * @param $file
+     * @param $postId
+     */
+    private function savePostImage($file, $postId)
+    {
+        $image = Image::make($file)->orientate()
+            ->resize(768, 768, function ($constraint) {
+                $constraint->aspectRatio();
+            })->encode('jpg', 80);
+        Storage::disk('local')->put("public/posts/{$postId}.jpg", $image->getEncoded());
     }
 }

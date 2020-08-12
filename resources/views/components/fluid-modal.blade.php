@@ -32,14 +32,18 @@
                             </div>
                         </div>
                         <input class="form-control mt-3" type="email" name="email" placeholder="E-mail">
-                        <input class="form-control mt-3" type="tel" name="cellphone" placeholder="Celular">
+                        <input class="form-control mt-3 phone" type="tel" name="cellphone" placeholder="Celular">
                         <div class="input-group mt-3">
                             <div class="custom-file">
                                 <input type="file" class="custom-file-input" name="document" id="document" lang="pt">
-                                <label class="custom-file-label text-left" for="document">Anexe sua conta de luz</label>
+                                <label class="custom-file-label text-left overflow-hidden" for="document">
+                                    Anexe sua conta de luz</label>
                             </div>
                         </div>
-                        <button class="btn btn-block primary-bg text-white mt-3 btn-submit">Enviar</button>
+                        <button class="btn btn-block primary-bg text-white mt-3 btn-submit"
+                                data-loader="Enviando orçamento...">Enviar</button>
+                        <button class="mt-3 btn btn-block" type="reset"
+                                onclick="changeModalContent('budget-form', false)">Voltar ao ínicio</button>
                     </form>
                 </div>
                 <div id="economy-form" class="d-none">
@@ -55,7 +59,10 @@
                             </div>
                         </div>
                         <p class="d-none mt-3" id="economy-result"></p>
-                        <button class="btn btn-block primary-bg text-white mt-3 btn-submit">Calcular</button>
+                        <button class="btn btn-block primary-bg text-white mt-3 btn-submit"
+                            data-loader="Calculando...">Calcular</button>
+                        <button class="mt-3 btn btn-block" type="reset"
+                                onclick="changeModalContent('economy-form', false)">Voltar ao ínicio</button>
                     </form>
                 </div>
             </div>

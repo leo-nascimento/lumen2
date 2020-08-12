@@ -129,14 +129,28 @@ $(document).ready(function () {
         thousands: '.',
         decimal: ',',
         affixesStay: true,
-        numeralMaxLength: true
     });
+
+    const PhoneMaskBehavior = function (val) {
+        return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+    }, options = {
+        onKeyPress: function (val, e, field, options) {
+            field.mask(PhoneMaskBehavior.apply({}, arguments), options);
+        }
+    };
+    $('input.phone').mask(PhoneMaskBehavior, options);
 });
 
-function changeModalContent(id) {
+function changeModalContent(id, hide = true) {
     let element = document.querySelector('#' + id);
-    element.classList.remove('d-none');
-    element = document.querySelector('#modal-buttons');
-    element.classList.add('d-none');
+    if (hide) {
+        element.classList.remove('d-none');
+        element = document.querySelector('#modal-buttons');
+        element.classList.add('d-none');
+    } else {
+        element.classList.add('d-none');
+        element = document.querySelector('#modal-buttons');
+        element.classList.remove('d-none');
+    }
 }
 

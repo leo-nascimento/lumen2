@@ -520,7 +520,6 @@
                             </div>
                             <p>Informe seus dados abaixo que entraremos em contato</p>
                             <form action="{{ route('contact.send') }}" method="POST" class="ajax-form">
-                                @csrf
                                 <div class="md-form">
                                     <input type="text" id="form-name" name="name" class="form-control">
                                     <label for="form-name">Seu nome</label>
@@ -539,7 +538,8 @@
                                     <label for="form-text">Descrição</label>
                                 </div>
                                 <div class="text-center mt-4">
-                                    <button class="btn primary-bg btn-block text-white btn-submit">ENVIAR CONTATO
+                                    <button class="btn primary-bg btn-block text-white btn-submit"
+                                            data-loader="Enviando...">ENVIAR CONTATO
                                     </button>
                                 </div>
                             </form>
@@ -550,47 +550,63 @@
                     <div style="height: 260px;">
                         <div id='map' class="h-100"></div>
                     </div>
-                    <div class="swiper-container swiper-blog py-4">
-                        <div class="swiper-wrapper">
-                            @foreach($posts as $post)
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <div class="row mx-0">
-                                            <div class="col-5 px-0">
-                                                <div class="view overlay">
-                                                    <img class="img-fluid w-100 h-100"
-                                                         src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
-                                                    <a>
-                                                        <div class="mask rgba-white-slight"></div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-7 text-left px-0">
-                                                <div class="p-3">
-                                                    <h5>{{$post->title}}</h5>
-                                                    <hr class="primary-bg w-25 float-left my-0" style="height: 3px;">
-                                                    <div class="py-2" style="clear: both">
-                                                        <ul class="list-unstyled list-inline font-small mb-0 d-flex justify-content-start">
-                                                            <li class="list-inline-item pr-2 text-muted"><i
-                                                                    class="far fa-clock pr-1"></i>{{$post->date_post}}
-                                                            </li>
-                                                        </ul>
+                    <div class="swiper-container swiper-blog py-4 h-50">
+                        @if($posts->isNotEmpty())
+                            <div class="swiper-wrapper">
+                                @foreach($posts as $post)
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <div class="row mx-0">
+                                                <div class="col-5 px-0">
+                                                    <div class="view overlay">
+                                                        <img class="img-fluid w-100 h-100"
+                                                             src="{{asset("storage/posts/{$post->id}.jpg")}}">
+                                                        <a>
+                                                            <div class="mask rgba-white-slight"></div>
+                                                        </a>
                                                     </div>
-                                                    <p class="card-text text-muted py-3 truncate-text">
-                                                        {{ \Illuminate\Support\Str::limit($post->summary, $limit = 35, $end = '...') }}
-                                                    </p>
-                                                    <button class="btn btn-sm text-white primary-bg mx-0">Ver mais
-                                                    </button>
+                                                </div>
+                                                <div class="col-7 text-left px-0">
+                                                    <div class="p-3">
+                                                        <h5>{{$post->title}}</h5>
+                                                        <hr class="primary-bg w-25 float-left my-0"
+                                                            style="height: 3px;">
+                                                        <div class="py-2" style="clear: both">
+                                                            <ul class="list-unstyled list-inline font-small mb-0 d-flex justify-content-start">
+                                                                <li class="list-inline-item pr-2 text-muted"><i
+                                                                        class="far fa-clock pr-1"></i>{{$post->date_post}}
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="card-text text-muted py-3 truncate-text">
+                                                            {{ \Illuminate\Support\Str::limit($post->summary, $limit = 35, $end = '...') }}
+                                                        </p>
+                                                        <button class="btn btn-sm text-white primary-bg mx-0">Ver mais
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                @endforeach
+                                <div class="swiper-slide bg-transparent my-auto mx-auto">
+                                    <div class="flex-column w-100 h-100 d-flex text-center align-content-center justify-content-center">
+                                        <button class="btn primary-bg btn text-white w-50 mx-auto">Ver mais</button>
+                                    </div>
                                 </div>
-                            @endforeach
-                            <div class="swiper-slide bg-transparent my-auto mx-auto">
-                                <button class="btn primary-bg btn text-white">Ver mais</button>
+                                <div class="swiper-slide bg-transparent my-auto mx-auto"></div>
                             </div>
-                        </div>
+                        @else
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide bg-transparent my-auto w-100">
+                                    <div
+                                        class="flex-column position-relative w-100 h-100 d-flex align-content-center justify-content-center">
+                                        <img src="/img/icons/blog.png" alt="blog" width="80" class="mx-auto"/>
+                                        <p class="text-muted mt-3">Nenhuma postagem encontrada</p>
+                                    </div>
+                                </div>
+                            </div>
+                        @endif
                     </div>
                 </div>
             </div>
@@ -637,7 +653,7 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase font-weight-bold">Páginas</h6>
                         <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                        <p><a href="#!">Login</a></p>
+                        <p><a href="/login">Login</a></p>
                         <p><a href="#!">Projetos</a></p>
                         <p><a href="#!">Blog</a></p>
                         <p><a href="#!">Inicio</a></p>
