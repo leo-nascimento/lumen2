@@ -46,6 +46,7 @@ class WebsiteController extends Controller
 
             return response()->json([
                 'success' => true,
+                'type' => 'success',
                 'message' => 'A mensagem foi enviada.',
             ]);
         } catch (\Exception $ex) {
@@ -53,6 +54,7 @@ class WebsiteController extends Controller
 
             return response()->json([
                 'success' => false,
+                'type' => 'error',
                 'message' => 'Ops! Tivemos um problema. Tente novamente.',
             ]);
         }
@@ -70,6 +72,7 @@ class WebsiteController extends Controller
 
             return response()->json([
                 'success' => true,
+                'type' => 'success',
                 'message' => 'Um e-mail foi enviado a você.',
             ]);
         } catch (\Exception $ex) {
@@ -77,6 +80,7 @@ class WebsiteController extends Controller
 
             return response()->json([
                 'success' => false,
+                'type' => 'error',
                 'message' => 'Ops! Tivemos um problema. Tente novamente.',
             ]);
         }
@@ -103,7 +107,7 @@ class WebsiteController extends Controller
             if (empty($accountCalculation)) {
                 return response()->json([
                     'success' => false,
-                    'info' => true,
+                    'type' => 'info',
                     'message' => 'Nenhuma previsão encontrada para a média de consumo informada.',
                 ]);
             }
@@ -119,6 +123,7 @@ class WebsiteController extends Controller
 
             return response()->json([
                 'success' => false,
+                'type' => 'error',
                 'message' => 'Ops! Tivemos um problema. Tente novamente.',
             ]);
         }

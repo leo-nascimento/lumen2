@@ -1,6 +1,6 @@
 $(document).ready(function () {
     toastr.options = {
-        'positionClass':'md-toast-bottom-right',
+        'positionClass': 'md-toast-bottom-right',
         'progressBar': true,
         'timeOut': 4000
     };
@@ -44,20 +44,18 @@ $(document).ready(function () {
                 return true;
             }
 
-            if (res.message) {
-                if (res.info) {
-                    toastr.info(res.message);
-                } else {
-                    toastr.success(res.message);
-                }
+            if (res.type && res.message) {
+                toastr[res.type](res.message);
             }
 
-            form[0].reset();
+            if (res.success) {
+                form[0].reset();
+            }
         }).fail(function (res) {
             btn.html(text);
             console.log(res);
             if (res.message) {
-                toastr.error(res.message);
+                toastr[res.type](res.message);
             }
         });
     });

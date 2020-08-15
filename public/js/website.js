@@ -139,6 +139,19 @@ $(document).ready(function () {
         }
     };
     $('input.phone').mask(PhoneMaskBehavior, options);
+
+    $('#budget').on('hidden.bs.modal', function () {
+        const budget = document.querySelector('#budget-form')
+        budget.firstElementChild.reset();
+        budget.classList.add('d-none');
+
+        const economyBox = document.querySelector('#economy-form')
+        economyBox.firstElementChild.reset();
+        economyBox.classList.add('d-none');
+
+        document.querySelector('#modal-buttons')
+            .classList.remove('d-none');
+    })
 });
 
 function changeModalContent(id, hide = true) {
@@ -153,4 +166,3 @@ function changeModalContent(id, hide = true) {
         element.classList.remove('d-none');
     }
 }
-
