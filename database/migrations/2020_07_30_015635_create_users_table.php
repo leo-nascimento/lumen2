@@ -22,13 +22,6 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
-
-        // Insert user Admin
-        \App\User::create([
-            'name' => 'admin',
-            'email' => 'admin@lumen.com',
-            'password' => 123456
-        ]);
     }
 
     /**
