@@ -60,9 +60,9 @@
                     </form>
                 </div>
                 <div id="economy-form" class="d-none w-100">
-                    <form class="text-center px-3 ajax-form" action="{{route('calculate-economy')}}"
+                    <form class="px-3 ajax-form" action="{{route('calculate-economy')}}"
                           method="POST" id="economy-search">
-                        <h5 class="text-muted">Informe as informações abaixo obter seu orçamento</h5>
+                        <h5 class="text-muted text-center">Informe as informações abaixo obter seu orçamento</h5>
                         <div class="form-row mt-3">
                             <div class="col-12">
                                 <input class="form-control mt-3" type="number" name="consumption"

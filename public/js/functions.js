@@ -88,6 +88,7 @@ function validateFieldsRequired(form) {
             if (el.required && el.value.length < 1) {
                 el.classList.add('is-invalid');
                 el.addEventListener('change', () => el.classList.remove('is-invalid'));
+                el.addEventListener('keyup', () => el.classList.remove('is-invalid'));
                 validForm = false;
             }
         }
