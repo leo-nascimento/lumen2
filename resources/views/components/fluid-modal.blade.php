@@ -17,53 +17,77 @@
                     <button id="form-button" class="btn btn-block primary-bg text-white"
                             onclick="changeModalContent('budget-form')">Quero um orçamento
                     </button>
-                    <button class="mt-3 btn btn-block" onclick="changeModalContent('economy-form')">Quanto posso economizar?</button>
+                    <button class="mt-3 btn btn-block" onclick="changeModalContent('economy-form')">Quanto posso
+                        economizar?
+                    </button>
                 </div>
                 <div id="budget-form" class="d-none">
-                    <form class="text-center px-3 ajax-form" action="{{route('budget.store')}}"
+                    <form class="px-3 ajax-form" action="{{route('budget.store')}}"
                           enctype="multipart/form-data" method="post">
-                        <h4>Preencha as informações abaixo</h4>
+                        <h4 class="text-center">Preencha as informações abaixo</h4>
                         <div class="form-row mt-3">
                             <div class="col">
-                                <input class="form-control" type="text" name="name" placeholder="Nome">
+                                <input class="form-control" type="text" name="name" placeholder="Nome" required>
+                                <div class="invalid-feedback">Por favor, nos informe seu nome</div>
                             </div>
                             <div class="col">
-                                <input class="form-control" type="text" name="surname" placeholder="Sobrenome">
+                                <input class="form-control" type="text" name="surname" required placeholder="Sobrenome">
+                                <div class="invalid-feedback">Por favor, nos informe seu sobrenome</div>
                             </div>
                         </div>
-                        <input class="form-control mt-3" type="email" name="email" placeholder="E-mail">
-                        <input class="form-control mt-3 phone" type="tel" name="cellphone" placeholder="Celular">
+                        <div class="input-group">
+                            <input class="form-control mt-3" type="email" name="email" placeholder="E-mail" required>
+                            <div class="invalid-feedback">Por favor, nos informe seu E-mail</div>
+                        </div>
+                        <div class="input-group">
+                            <input class="form-control mt-3 phone" type="tel" name="cellphone" placeholder="Celular" required>
+                            <div class="invalid-feedback">Por favor, nos informe seu telefone</div>
+                        </div>
                         <div class="input-group mt-3">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" name="document" id="document" lang="pt">
+                                <input type="file" class="custom-file-input" name="document" id="document" required lang="pt">
                                 <label class="custom-file-label text-left overflow-hidden" for="document">
                                     Anexe sua conta de luz</label>
                             </div>
+                            <div class="invalid-feedback">Por favor, anexe sua conta de luz</div>
                         </div>
                         <button class="btn btn-block primary-bg text-white mt-3 btn-submit"
-                                data-loader="Enviando orçamento...">Enviar</button>
+                                data-loader="Enviando orçamento...">Enviar
+                        </button>
                         <button class="mt-3 btn btn-block" type="reset"
-                                onclick="changeModalContent('budget-form', false)">Voltar ao ínicio</button>
+                                onclick="changeModalContent('budget-form', false)">Voltar ao ínicio
+                        </button>
                     </form>
                 </div>
-                <div id="economy-form" class="d-none">
+                <div id="economy-form" class="d-none w-100">
                     <form class="text-center px-3 ajax-form" action="{{route('calculate-economy')}}"
-                          method="POST">
+                          method="POST" id="economy-search">
                         <h5 class="text-muted">Informe as informações abaixo obter seu orçamento</h5>
                         <div class="form-row mt-3">
                             <div class="col-12">
-                                <input class="form-control mt-3" type="number" name="consumption" placeholder="Consumo Médio (kWh)">
+                                <input class="form-control mt-3" type="number" name="consumption"
+                                       placeholder="Consumo Médio (kWh)" required>
+                                <div class="invalid-feedback">Por favor, informe o consumo médio do local</div>
                             </div>
                             <div class="col-12">
-                                <input class="form-control mt-3 money" type="text" name="bill_price" placeholder="Preço Médio Conta Residencial">
+                                <input class="form-control mt-3 money" type="text" name="bill_price"
+                                       placeholder="Preço Médio Conta Residencial" required>
+                                <div class="invalid-feedback">Por favor, informe o preço médio de sua conta</div>
                             </div>
                         </div>
-                        <p class="d-none mt-3" id="economy-result"></p>
                         <button class="btn btn-block primary-bg text-white mt-3 btn-submit"
-                            data-loader="Calculando...">Calcular</button>
+                                data-loader="Calculando...">Calcular
+                        </button>
                         <button class="mt-3 btn btn-block" type="reset"
-                                onclick="changeModalContent('economy-form', false)">Voltar ao ínicio</button>
+                                onclick="changeModalContent('economy-form', false)">Voltar ao ínicio
+                        </button>
                     </form>
+                    <div id="economy-result" class="d-none align-content-center justify-content-center text-center">
+                        <img src="/img/icons/money-result.svg" alt="money" width="74"/>
+                        <p class="text-muted text-center my-3">Seu investimento será de:</p>
+                        <h4 class="text-muted mb-4"></h4>
+                        <button class="btn btn-block primary-bg text-white" id="btn-economy-back">Refazer</button>
+                    </div>
                 </div>
             </div>
         </div>

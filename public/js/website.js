@@ -146,8 +146,12 @@ $(document).ready(function () {
         budget.classList.add('d-none');
 
         const economyBox = document.querySelector('#economy-form')
-        economyBox.firstElementChild.reset();
+        const form = economyBox.firstElementChild;
         economyBox.classList.add('d-none');
+        form.reset();
+        form.classList.remove('d-none');
+        document.querySelector('#economy-result')
+            .classList.add('d-none');
 
         document.querySelector('#modal-buttons')
             .classList.remove('d-none');

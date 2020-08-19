@@ -14,6 +14,10 @@ $(document).ready(function () {
             return false;
         }
 
+        if(!validateFieldsRequired(form)) {
+            return false;
+        }
+
         // start loader
         const btn = $(e.target);
         const text = btn.text();
@@ -62,10 +66,32 @@ $(document).ready(function () {
 });
 
 function economyResult(res) {
+    const form = $('#economy-search');
     const div = $('#economy-result');
-    div.addClass('d-none');
-    setTimeout(function () {
-        div.text('Seu investimento será de ' + res.total);
-        div.removeClass('d-none');
-    }, 200);
+    form.addClass('d-none');
+    div.removeClass('d-none');
+    div.find('h4').text(res.total);
+
+    $('#btn-economy-back').on('click', function (e) {
+        div.addClass('d-none');
+        form[0].reset();
+        form.removeClass('d-none');
+    });
+}
+
+function validateFieldsRequired(form) {
+    let validForm = true;
+
+    Array.from(form[0]).forEach((el) => {
+        if (el.required !== undefined) {
+            console.log(el.value);
+            if (el.required && el.value.length < 1) {
+                el.classList.add('is-invalid');
+                el.addEventListener('change', () => el.classList.remove('is-invalid'));
+                validForm = false;
+            }
+        }
+    });
+
+    return validForm;
 }
