@@ -566,29 +566,14 @@
                             <div class="swiper-wrapper">
                                 @foreach($posts as $post)
                                     <div class="swiper-slide h-100">
-                                        <div class="card h-100 w-100">
-                                            <div class="view overlay waves-effect" style="height: 200px">
-                                                <img class="card-img-top h-100" src="{{asset("storage/posts/{$post->id}.jpg")}}" alt="Imagem do post">
-                                            </div>
-                                            <a class="btn-floating btn-action ml-auto mr-4 primary-bg"><i class="fas fa-chevron-right pl-1"></i></a>
-                                            <div class="card-body border-top text-left">
-                                                <h4 class="card-title mt-3">{{$post->title}}</h4>
-                                                <p class="lead text-muted">
-                                                    {{ \Illuminate\Support\Str::limit($post->summary, $limit = 60, $end = '...') }}
-
-                                                </p>
-                                            </div>
-                                            <div class="rounded-bottom bg-dark text-center pt-3">
-                                                <ul class="list-unstyled list-inline font-small">
-                                                    <li class="list-inline-item pr-2 white-text"><i class="fas fa-clock pr-1"></i>{{$post->date_post}}</li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                        @include('site.pages.posts.post-card', $post)
                                     </div>
                                 @endforeach
                                 <div class="swiper-slide bg-transparent my-auto mx-auto">
-                                    <div class="flex-column w-100 h-100 d-flex text-center align-content-center justify-content-center">
-                                        <button class="btn primary-bg btn text-white w-50 mx-auto">Ver todos</button>
+                                    <div
+                                        class="flex-column w-100 h-100 d-flex text-center align-content-center justify-content-center">
+                                        <a href="{{route('post.index')}}"
+                                           class="btn primary-bg btn text-white w-50 mx-auto">Ver todos</a>
                                     </div>
                                 </div>
                                 <div class="swiper-slide bg-transparent my-auto mx-auto"></div>
@@ -596,7 +581,8 @@
                         @else
                             <div class="swiper-wrapper mt-5">
                                 <div class="swiper-slide bg-transparent my-auto w-100">
-                                    <div class="flex-column position-relative w-100 h-100 d-flex align-content-center justify-content-center py-5">
+                                    <div
+                                        class="flex-column position-relative w-100 h-100 d-flex align-content-center justify-content-center py-5">
                                         <img src="/img/icons/blog.png" alt="blog" width="80" class="mx-auto"/>
                                         <p class="text-muted mt-3">Nenhuma postagem encontrada</p>
                                     </div>
@@ -604,7 +590,6 @@
                             </div>
                         @endif
                     </div>
-
                 </div>
             </div>
         </div>
@@ -652,7 +637,7 @@
                         <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                         <p><a href="/login">Login</a></p>
                         <p><a href="#!">Projetos</a></p>
-                        <p><a href="#!">Blog</a></p>
+                        <p><a href="{{route('post.index')}}">Blog</a></p>
                         <p><a href="#!">Inicio</a></p>
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-none d-md-block">

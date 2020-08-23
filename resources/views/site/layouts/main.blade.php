@@ -35,7 +35,7 @@
     <!-- Custom Scripts -->
     <script src="{{ asset('js/website.js') }}"></script>
     <script src="{{ asset('js/functions.js') }}"></script>
-
+    @stack('scripts')
     {!! toastr()->render() !!}
 </body>
 </html>
