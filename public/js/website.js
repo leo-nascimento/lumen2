@@ -45,7 +45,6 @@ $(document).ready(function () {
     var blog = new Swiper('.swiper-blog', {
         slidesPerView: 'auto',
         spaceBetween: 30,
-        width: 1200,
         grabCursor: true,
         breakpoints: {
             320: {
@@ -55,7 +54,7 @@ $(document).ready(function () {
                 slidesPerView: 1,
             },
             640: {
-                slidesPerView: 2,
+                slidesPerView: 3,
             }
         }
     });
