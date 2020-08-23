@@ -21,6 +21,11 @@ Novas classes padrões
   margin-top: 70px !important;
 }
 
+.my-60 {
+  margin-bottom: 70px !important;
+  margin-top: 70px !important;
+}
+
 .h600 {
   height: 600px !important;
 }
@@ -381,3 +386,4 @@ Customização de barra de navegação
     font-size: 40px !important;
   }
 }
+
