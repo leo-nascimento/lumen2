@@ -33,8 +33,9 @@ class BudgetMail extends Mailable
     {
         $body = $this->scope;
         $file = $this->data['document'];
+        $header = 'iewfewm';
 
-        return $this->markdown('emails.budget', compact('body'))
+        return $this->markdown('emails.budget', compact(['body', 'header']))
             ->subject('Solicitação de Orçamento')
             ->attach($file->getRealPath(), [
                 'as' => $file->getClientOriginalName(),
