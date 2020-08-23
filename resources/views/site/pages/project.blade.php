@@ -1,55 +1,16 @@
 @extends('site.layouts.main')
 @section('content')
+    <x-fluid-modal></x-fluid-modal>
     <section class="{{$type}}">
-        <div class="mask rgba-black-light">
-            <div class="container h-100">
-                <div class="row">
-                    <nav class="navbar fixed-top navbar-dark navbar-expand-lg scrolling-navbar p-0" style="flex-flow: column">
-                        <div class="container p-3">
-                            <a class="navbar-brand d-md-none"  target="_blank">
-                                <img src="{{asset('img/logos/logo-navbar.png')}}" height="35">
-                            </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fa fa-bars text-dark"></i>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item mx-auto px-2">
-                                        <a class="nav-link bg-transparent text-center d-table" href="{{route('site')}}"><i class="fa fa-arrow-alt-circle-left text-warning"></i> Voltar</a>
-                                    </li>
-                                </ul>
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item d-flex align-items-center px-3 py-md-2 py-0 mx-auto">
-                                        <a href="mailto:contato@lumen.bsb.br" class="nav-link"><i class="fas fa-envelope text-warning"></i> contato@lumen.bsb.br</a>
-                                    </li>
-                                    <li class="nav-item d-flex align-items-center px-3 py-md-2 py-0 mx-auto">
-                                        <a href="tel:+5561983187150" class="nav-link"><i class="fas fa-phone text-warning"></i> (61) 9 8318-7150</a>
-                                    </li>
-                                    <li class="nav-item d-flex align-items-center pl-3 py-md-2 py-0 mx-auto">
-                                        <a class="text-white btn btn-sm primary-bg" data-toggle="modal" data-target="#budget"><i class="fa fa-calculator text-white"></i> Orçamento</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="row d-flex align-items-end h400">
-                    <div class="col-12 p-4">
-                        <img height="60" src="{{asset('img/icons/real-estate.svg')}}">
-                        <h1 class="font-weight-bold text-white f45 pt-3">Projetos <br>Residenciais</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <x-header-back icon="real-estate.svg" title="Projetos Residenciais"></x-header-back>
     </section>
     <section>
-        <div class="container my-70">
+        <div class="container my-60">
             <div class="row">
                 <div class="col-12">
-                    <h1>Entenda nossos projetos residenciais</h1>
+                    <h2 class="font-weight-bold mb-0">Entenda nossos projetos residenciais</h2>
                     <hr class="float-left primary-bg w-25 h3">
-                    <p class="clear-float lead pt-5 text-justify">
+                    <p class="clear-float pt-5 text-justify">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
                         type and scrambled it to make a type specimen book. It has survived not only five centuries, but
@@ -62,45 +23,12 @@
         </div>
     </section>
     <section>
-        <div class="container">
-            <div class="swiper-container swiper-projects">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide w-25">
-                        <div class="card">
-                            <div class="row mx-0">
-                                <div class="col-12 px-0">
-                                    <div class="view overlay">
-                                        <img class="img-fluid h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
-                                        <a><div class="mask rgba-white-slight"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide w-25">
-                        <div class="card">
-                            <div class="row mx-0">
-                                <div class="col-12 px-0">
-                                    <div class="view overlay">
-                                        <img class="img-fluid h-100" src="https://mdbootstrap.com/img/Photos/Others/food.jpg">
-                                        <a><div class="mask rgba-white-slight"></div></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pt-5">
         <div class="container pt-3">
             <div class="row">
                 <div class="col-12 wow slideInRight">
-                    <h1 class="font-weight-bold mb-0">Vantagens</h1>
+                    <h2 class="font-weight-bold mb-0">Vantagens</h2>
                     <hr class="primary-bg w-25 float-left h3">
-                    <h5 class="text-muted clear-float">Por que investir em energia solar?</h5>
-                    <p class="lead text-muted mt-4">
+                    <p class="lead clear-float text-muted mt-4">
                         Conheça as vantagens da energia solar fotovoltaica e entenda porque essa fonte de energia está
                         em constante crescimento.
                     </p>
@@ -109,27 +37,27 @@
                             <ul class="nav md-pills nav-justified pills-rounded">
                                 <li class="nav-item">
                                     <a class="z-depth-1 benefits nav-link white active p-4" data-toggle="tab" href="#bill" role="tab">
-                                        <img class="img-fluid" src="{{asset('img/icons/bill-white.svg')}}">
+                                        <img class="img-fluid" width="60" src="{{asset('img/icons/bill-white.svg')}}">
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#money" role="tab">
-                                        <img class="img-fluid" src="{{asset('img/icons/money-transfer.svg')}}">
+                                        <img class="img-fluid" width="60" src="{{asset('img/icons/money-transfer.svg')}}">
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#energy" role="tab">
-                                        <img class="img-fluid" src="{{asset('img/icons/consumption.svg')}}">
+                                        <img class="img-fluid" width="60" src="{{asset('img/icons/consumption.svg')}}">
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#solar-panel" role="tab">
-                                        <img class="img-fluid" src="{{asset('img/icons/solar-panel.svg')}}">
+                                        <img class="img-fluid" width="60" src="{{asset('img/icons/solar-panel.svg')}}">
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#loan" role="tab">
-                                        <img class="img-fluid" src="{{asset('img/icons/loan.svg')}}">
+                                        <img class="img-fluid" width="60" src="{{asset('img/icons/loan.svg')}}">
                                     </a>
                                 </li>
                             </ul>
@@ -194,4 +122,16 @@
             </div>
         </div>
     </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="font-weight-bold mb-0">Projetos realizados</h2>
+                    <hr class="primary-bg w-25 float-left h3">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <x-footer></x-footer>
 @endsection

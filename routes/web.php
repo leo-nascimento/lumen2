@@ -23,7 +23,7 @@ Route::post('/send-budget' , 'WebsiteController@storeBudget')->name('budget.stor
 Route::post('/calculate-economy' , 'WebsiteController@calculateEconomy')->name('calculate-economy');
 
 Route::prefix('posts/')->group(function(){
-    Route::get('', 'PostController@index')->name('post.index');
+    Route::get('/', 'PostController@index')->name('post.index');
 });
 
 Route::prefix('admin/')->group(function(){

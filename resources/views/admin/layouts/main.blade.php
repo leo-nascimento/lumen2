@@ -20,7 +20,8 @@
     <header>
         <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav p-0">
             <div class="navbar-toggler-right p-3 d-flex align-items-center d-none d-sm-block d-md-none">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navigationBar" aria-expanded="false" aria-label="Navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                        aria-controls="navigationBar" aria-expanded="false" aria-label="Navigation">
                     <i class="fa-1x fas fa-bars"></i>
                 </button>
                 <div class="d-md-none">
@@ -44,7 +45,7 @@
                 <!-- Caso haja mais modulos posteriormente substitui nav md-tabs por navbar-nav -->
                 <ul class="mx-0 nav md-tabs bg-white z-depth-0 w-100 border-top px-3 py-2">
                     <li class="nav-item">
-                        <a class="nav-link waves-effect">
+                        <a class="nav-link waves-effect" href="{{route('site')}}">
                             <i class="fas fa-home"></i><span class="pl-2">Inicio</span>
                         </a>
                     </li>
