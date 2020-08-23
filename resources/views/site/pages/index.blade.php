@@ -547,60 +547,56 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div style="height: 260px;">
+                    <div class="h-100">
                         <div id='map' class="h-100"></div>
                     </div>
-                    <div class="swiper-container swiper-blog py-4 h-50">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-thin-transition-left" style="height: 250px"></section>
+    <section class="pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center">A Lumen Solar é conteúdo</h1>
+                    <hr class="primary-bg w-25" style="height: 3px;">
+                    <div class="swiper-container swiper-blog py-4">
                         @if($posts->isNotEmpty())
                             <div class="swiper-wrapper">
                                 @foreach($posts as $post)
-                                    <div class="swiper-slide">
-                                        <div class="card">
-                                            <div class="row mx-0">
-                                                <div class="col-5 px-0">
-                                                    <div class="view overlay">
-                                                        <img class="img-fluid w-100 h-100"
-                                                             src="{{asset("storage/posts/{$post->id}.jpg")}}">
-                                                        <a>
-                                                            <div class="mask rgba-white-slight"></div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-7 text-left px-0">
-                                                    <div class="p-3">
-                                                        <h5>{{$post->title}}</h5>
-                                                        <hr class="primary-bg w-25 float-left my-0"
-                                                            style="height: 3px;">
-                                                        <div class="py-2" style="clear: both">
-                                                            <ul class="list-unstyled list-inline font-small mb-0 d-flex justify-content-start">
-                                                                <li class="list-inline-item pr-2 text-muted"><i
-                                                                        class="far fa-clock pr-1"></i>{{$post->date_post}}
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="card-text text-muted py-3 truncate-text">
-                                                            {{ \Illuminate\Support\Str::limit($post->summary, $limit = 35, $end = '...') }}
-                                                        </p>
-                                                        <button class="btn btn-sm text-white primary-bg mx-0">Ver mais
-                                                        </button>
-                                                    </div>
-                                                </div>
+                                    <div class="swiper-slide h-100">
+                                        <div class="card h-100 w-100">
+                                            <div class="view overlay waves-effect" style="height: 200px">
+                                                <img class="card-img-top h-100" src="{{asset("storage/posts/{$post->id}.jpg")}}" alt="Imagem do post">
+                                            </div>
+                                            <a class="btn-floating btn-action ml-auto mr-4 primary-bg"><i class="fas fa-chevron-right pl-1"></i></a>
+                                            <div class="card-body border-top text-left">
+                                                <h4 class="card-title mt-3">{{$post->title}}</h4>
+                                                <p class="lead text-muted">
+                                                    {{ \Illuminate\Support\Str::limit($post->summary, $limit = 60, $end = '...') }}
+
+                                                </p>
+                                            </div>
+                                            <div class="rounded-bottom bg-dark text-center pt-3">
+                                                <ul class="list-unstyled list-inline font-small">
+                                                    <li class="list-inline-item pr-2 white-text"><i class="fas fa-clock pr-1"></i>{{$post->date_post}}</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 @endforeach
                                 <div class="swiper-slide bg-transparent my-auto mx-auto">
                                     <div class="flex-column w-100 h-100 d-flex text-center align-content-center justify-content-center">
-                                        <button class="btn primary-bg btn text-white w-50 mx-auto">Ver mais</button>
+                                        <button class="btn primary-bg btn text-white w-50 mx-auto">Ver todos</button>
                                     </div>
                                 </div>
                                 <div class="swiper-slide bg-transparent my-auto mx-auto"></div>
                             </div>
                         @else
-                            <div class="swiper-wrapper">
+                            <div class="swiper-wrapper mt-5">
                                 <div class="swiper-slide bg-transparent my-auto w-100">
-                                    <div
-                                        class="flex-column position-relative w-100 h-100 d-flex align-content-center justify-content-center">
+                                    <div class="flex-column position-relative w-100 h-100 d-flex align-content-center justify-content-center py-5">
                                         <img src="/img/icons/blog.png" alt="blog" width="80" class="mx-auto"/>
                                         <p class="text-muted mt-3">Nenhuma postagem encontrada</p>
                                     </div>
@@ -608,6 +604,7 @@
                             </div>
                         @endif
                     </div>
+
                 </div>
             </div>
         </div>
@@ -672,7 +669,7 @@
                 </div>
             </div>
             <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> rafaelcparanhos.com</a>
+                <a href="www.rafaelcparanhos.com.br"> rafaelcparanhos.com</a>
             </div>
         </footer>
     </section>

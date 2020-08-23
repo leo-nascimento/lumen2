@@ -42,7 +42,8 @@ class WebsiteController extends Controller
     {
         try {
             $data = $request->all();
-            Mail::to($request->email)->send(new ContactMail($request, $data));
+            $email = 'contato@lumen.bsb.br';
+            Mail::to($email)->send(new ContactMail($request, $data));
 
             return response()->json([
                 'success' => true,
@@ -68,7 +69,8 @@ class WebsiteController extends Controller
     {
         try {
             $data = $request->all();
-            Mail::to($request->email)->send(new BudgetMail($request, $data));
+            $email = 'contato@lumen.bsb.br';
+            Mail::to($email)->send(new BudgetMail($request, $data));
 
             return response()->json([
                 'success' => true,
