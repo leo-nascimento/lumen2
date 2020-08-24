@@ -36,11 +36,13 @@
                 </div>
             </nav>
         </div>
-        <div class="row d-flex align-items-end h400">
-            <div class="col-12 p-4">
-                <img height="60" src="{{asset("img/icons/{$icon}")}}">
-                <h1 class="font-weight-bold text-white f45 pt-3">{{$title}}</h1>
+        @if(!isset($hideHeader))
+            <div class="row d-flex align-items-end h400">
+                <div class="col-12 p-4">
+                    <img height="60" src="{{asset("img/icons/{$icon}")}}">
+                    <h1 class="font-weight-bold text-white f45 pt-3">{{$title}}</h1>
+                </div>
             </div>
-        </div>
+        @endif
     </div>
 </div>

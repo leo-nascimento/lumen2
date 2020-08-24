@@ -18,4 +18,12 @@ class PostController extends Controller
 
         return view('site.pages.posts.index', compact('posts'));
     }
+
+    public function show(Request $request, $id)
+    {
+        $post = Post::find($id);
+        $lastPosts = Post::query()->where('id', '<>', $id)->limit(5)->get();
+
+        return view('site.pages.posts.show', compact(['post', 'lastPosts']));
+    }
 }

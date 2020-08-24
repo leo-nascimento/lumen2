@@ -24,6 +24,7 @@ Route::post('/calculate-economy' , 'WebsiteController@calculateEconomy')->name('
 
 Route::prefix('posts/')->group(function(){
     Route::get('/', 'PostController@index')->name('post.index');
+    Route::get('/show/{id}', 'PostController@show')->name('post.show');
 });
 
 Route::prefix('admin/')->group(function(){
