@@ -1,5 +1,5 @@
 <section class="py-5 mt-5">
-    <div class="container-fluid px-5 py-5 mt-5">
+    <div class="container py-5 mt-5">
         <div class="row">
             <div class="col-12 col-md-6 wow slideInLeft">
                 <div id="video" class="card z-depth-2 z-index-5">
@@ -22,33 +22,37 @@
                 </p>
                 <div class="row">
                     <div class="col-12 px-0">
-                        <ul class="nav md-pills nav-justified pills-rounded">
-                            <li class="nav-item">
-                                <a class="z-depth-1 benefits nav-link white active p-4" data-toggle="tab" href="#bill" role="tab">
-                                    <img class="img-fluid" src="{{asset('img/icons/bill-white.svg')}}">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#money" role="tab">
-                                    <img class="img-fluid" src="{{asset('img/icons/money-transfer.svg')}}">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#energy" role="tab">
-                                    <img class="img-fluid" src="{{asset('img/icons/consumption.svg')}}">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#solar-panel" role="tab">
-                                    <img class="img-fluid" src="{{asset('img/icons/solar-panel.svg')}}">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#loan" role="tab">
-                                    <img class="img-fluid" src="{{asset('img/icons/loan.svg')}}">
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="row">
+                            <div class="col-11">
+                                <ul class="nav md-pills nav-justified pills-rounded">
+                                    <li class="nav-item">
+                                        <a class="z-depth-1 benefits nav-link white active p-4" data-toggle="tab" href="#bill" role="tab">
+                                            <img class="img-fluid" src="{{asset('img/icons/bill-white.svg')}}">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#money" role="tab">
+                                            <img class="img-fluid" src="{{asset('img/icons/money-transfer.svg')}}">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#energy" role="tab">
+                                            <img class="img-fluid"src="{{asset('img/icons/consumption.svg')}}">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#solar-panel" role="tab">
+                                            <img class="img-fluid" src="{{asset('img/icons/solar-panel.svg')}}">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#loan" role="tab">
+                                            <img class="img-fluid" src="{{asset('img/icons/loan.svg')}}">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="tab-content">
                             <div class="tab-pane fade in show active" id="bill" role="tabpanel">
                                 <h5 class="font-weight-bold pb-3">Redução de até 95% em sua conta de luz.</h5>
