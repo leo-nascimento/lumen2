@@ -45,7 +45,7 @@
         </div>
     </section>
     <section>
-        <div class="container my-60">
+        <div class="container mt-5 py-5">
             <div class="row">
                 <div class="col-12">
                     <h2 class="font-weight-bold mb-0">Entenda nossos projetos residenciais</h2>
@@ -168,7 +168,43 @@
                 <div class="col-12">
                     <h2 class="font-weight-bold mb-0">Projetos realizados</h2>
                     <hr class="primary-bg w-25 float-left h3">
+                    <div class="row clear-float">
+                        <div class="col-6">
+                            <div class="swiper-container gallery-top">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next swiper-button-white"></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            </div>
+                            <div class="swiper-container gallery-thumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                    <div class="swiper-slide" style="background-image:url(../img/backgrounds/residence.jpg)"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-8">
 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
