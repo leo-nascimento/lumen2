@@ -4,10 +4,7 @@
     <x-video-modal></x-video-modal>
 
     <!-- Inicio do botão whatsapp -->
-    <a target="_blank" href="https://wa.me/5562999445440?text=Agende%20uma%20consulta"
-       class="whatsapp-floating btn-floating btn-lg waves-effect waves-light">
-        <i class="fab fa-2x fa-whatsapp whatsapp-icon" aria-hidden="true"></i>
-    </a>
+    <x-whatsapp></x-whatsapp>
     <!-- Fim do botão whatsapp -->
 
     <!-- Inicio da primeira seção, seção de slides. Para manutenção, acessar o componente -->

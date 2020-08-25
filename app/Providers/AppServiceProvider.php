@@ -36,5 +36,7 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('components.third-section', 'third-section');
         Blade::component('components.fourth-section', 'fourth-section');
         Blade::component('components.footer', 'footer');
+        Blade::component('components.whatsapp-button', 'whatsapp');
+        Blade::component('components.project-modal', 'project-modal');
     }
 }

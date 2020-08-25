@@ -59,34 +59,14 @@ $(document).ready(function () {
         }
     });
 
-    var galleryThumbs = new Swiper('.gallery-thumbs', {
-        spaceBetween: 10,
-        slidesPerView: 4,
-        freeMode: true,
-        watchSlidesVisibility: true,
-        watchSlidesProgress: true,
-    });
-
-    var galleryTop = new Swiper('.gallery-top', {
-        spaceBetween: 10,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        thumbs: {
-            swiper: galleryThumbs
-        }
-    });
-
     var projects = new Swiper('.swiper-projects', {
-        slidesPerView: 'auto',
-        autoHeight: true,
+        slidesPerView: 3,
         spaceBetween: 30,
-        grabCursor: true,
+        freeMode: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
-        }
+        },
     });
 
     $('.benefits').click(function () {
