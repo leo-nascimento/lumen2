@@ -41,8 +41,8 @@
                     <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p><a href="/login">Login</a></p>
                     <p><a href="#!">Projetos</a></p>
-                    <p><a href="#!">Blog</a></p>
-                    <p><a href="#!">Inicio</a></p>
+                    <p><a href="{{route('post.index')}}">Blog</a></p>
+                    <p><a href="{{route('site')}}">Inicio</a></p>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-none d-md-block">
                     <h6 class="text-uppercase font-weight-bold">Newsletter</h6>

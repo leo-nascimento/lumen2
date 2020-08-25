@@ -22,6 +22,11 @@ Route::post('/send-contact', 'WebsiteController@sendContact')->name('contact.sen
 Route::post('/send-budget' , 'WebsiteController@storeBudget')->name('budget.store');
 Route::post('/calculate-economy' , 'WebsiteController@calculateEconomy')->name('calculate-economy');
 
+Route::prefix('posts/')->group(function(){
+    Route::get('/', 'PostController@index')->name('post.index');
+    Route::get('/show/{id}', 'PostController@show')->name('post.show');
+});
+
 Route::prefix('admin/')->group(function(){
     Route::resource('posts', 'Admin\PostController', ['except' => ['destroy']]);
     Route::get('/posts/{post}/delete', 'Admin\PostController@destroy')->name('posts.destroy');

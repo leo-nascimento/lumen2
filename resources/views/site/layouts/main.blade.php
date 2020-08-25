@@ -15,7 +15,7 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
-    @if(!Request::is('login', 'project/*'))
+    @if(!Request::is('login', 'project/*', 'posts', 'posts/*'))
         <x-navbar></x-navbar>
     @endif
     @yield('content')
@@ -35,7 +35,7 @@
     <!-- Custom Scripts -->
     <script src="{{ asset('js/website.js') }}"></script>
     <script src="{{ asset('js/functions.js') }}"></script>
-
+    @stack('scripts')
     {!! toastr()->render() !!}
 </body>
 </html>
