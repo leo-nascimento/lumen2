@@ -86,7 +86,12 @@
                         <img src="/img/icons/money-result.svg" alt="money" width="74"/>
                         <p class="text-muted text-center my-3">Seu investimento será de:</p>
                         <h4 class="text-muted mb-4"></h4>
-                        <button class="btn btn-block primary-bg text-white" id="btn-economy-back">Refazer</button>
+                        <div>
+                            <button class="btn btn-block primary-bg text-white" id="budget-call-button">Solicitar orçamento detalhado</button>
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-block" id="btn-economy-back">Refazer</button>
+                        </div>
                     </div>
                 </div>
             </div>

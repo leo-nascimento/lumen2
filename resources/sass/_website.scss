@@ -179,13 +179,6 @@ Customização de barra de navegação
     background-size: cover;
 }
 
-
-
-
-
-
-
-
 #section-thin-transition {
     background-image: url('../img/backgrounds/transition.png');
     background-repeat: no-repeat;
@@ -232,7 +225,7 @@ Customização de barra de navegação
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 550px;
+    height: 480px;
 }
 
 #footer{
@@ -281,9 +274,7 @@ Customização de barra de navegação
 }
 
 
-#residence-content, #comercial-content, #condominium-content, #rural-content{
-    display: none;
-}
+
 
 .carousel-control-prev, .carousel-control-next {
     width: 7% !important;

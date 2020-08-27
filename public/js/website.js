@@ -86,7 +86,7 @@ $(document).ready(function () {
     $('.project-section').hover(function () {
         element = $(this).attr('id');
         $(this).css({"background-color": "rgba(249,194,0,0.6)"});
-        $("#" + element + "-content").css({"display": "block"});
+        $("#" + element + "-content").removeClass('d-none');
         switch (element) {
             case 'comercial':
                 $('#project-bg').css({"background": "url('../img/backgrounds/comercial.jpg') no-repeat center center"});
@@ -103,7 +103,7 @@ $(document).ready(function () {
         }
     }).on('mouseleave', function () {
         $(this).css({"background-color": "transparent"});
-        $("#" + element + "-content").css({"display": "none"});
+        $("#" + element + "-content").addClass('d-none');
     });
 
     mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
@@ -156,7 +156,7 @@ $(document).ready(function () {
     })
 });
 
-function changeModalContent(id, hide = true) {
+function changeModalContent(id, hide = true ) {
     let element = document.querySelector('#' + id);
     if (hide) {
         element.classList.remove('d-none');
@@ -168,3 +168,12 @@ function changeModalContent(id, hide = true) {
         element.classList.remove('d-none');
     }
 }
+
+$('#budget-call-button').on('click', function (e) {
+    form = $('#economy-search');
+    form[0].reset();
+    form.removeClass('d-none');
+    $('#economy-form').addClass('d-none');
+    $('#economy-result').addClass('d-none');
+    changeModalContent('budget-form');
+});

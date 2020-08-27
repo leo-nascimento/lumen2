@@ -237,7 +237,7 @@ Customização de barra de navegação
   background-size: auto;
   background-size: cover;
   -o-background-size: cover;
-  height: 550px;
+  height: 480px;
 }
 
 #footer {
@@ -273,13 +273,6 @@ Customização de barra de navegação
   background-size: auto;
   background-size: cover;
   -o-background-size: cover;
-}
-
-#residence-content,
-#comercial-content,
-#condominium-content,
-#rural-content {
-  display: none;
 }
 
 .carousel-control-prev,

@@ -79,6 +79,20 @@ function economyResult(res) {
     });
 }
 
+function budget(res) {
+    const form = $('#economy-search');
+    const div = $('#economy-result');
+    form.addClass('d-none');
+    div.removeClass('d-none');
+    div.find('h4').text(res.total);
+
+    $('#btn-economy-back').on('click', function (e) {
+        div.addClass('d-none');
+        form[0].reset();
+        form.removeClass('d-none');
+    });
+}
+
 function validateFieldsRequired(form) {
     let validForm = true;
 

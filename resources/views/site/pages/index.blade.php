@@ -32,13 +32,13 @@
     <x-fourth-section></x-fourth-section>
     <!-- Fim da quarta seção -->
 
-    <section id="project-bg" class="d-none d-md-block mt-5 h600">
+    <section id="project-bg" class="d-none d-md-block mt-5 h400">
         <div class="container-fluid h-100 rgba-black-light">
             <div class="row text-white h-100">
                 <div id="residence" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
                         <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Residenciais</span></h4>
-                        <div id="residence-content">
+                        <div id="residence-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
@@ -50,7 +50,7 @@
                 <div id="comercial" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
                         <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Comerciais</span></h4>
-                        <div id="comercial-content">
+                        <div id="comercial-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
@@ -63,7 +63,7 @@
                 <div id="condominium" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
                         <h4 class="font-weight-bold lh45 f35">Projetos em<br><span>Condominios</span></h4>
-                        <div id="condominium-content">
+                        <div id="condominium-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
@@ -76,7 +76,7 @@
                 <div id="rural" class="col-3 h-100 d-flex align-items-end project-section">
                     <div class="py-3">
                         <h4 class="font-weight-bold lh45 f35">Projetos<br><span>Rurais</span></h4>
-                        <div id="rural-content">
+                        <div id="rural-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
@@ -180,7 +180,7 @@
                                                 <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
                                                      height="80">
                                             </div>
-                                            <p class="text-center font-weight-bold">Análise</p>
+                                            <p class="text-center font-weight-bold">1. Análise</p>
                                         </div>
                                     </div>
                                     <div class="face back">
@@ -207,7 +207,7 @@
                                                 <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
                                                      height="80">
                                             </div>
-                                            <p class="text-center font-weight-bold">Projeto</p>
+                                            <p class="text-center font-weight-bold">2. Projeto</p>
                                         </div>
                                     </div>
                                     <div class="face back">
@@ -235,7 +235,7 @@
                                                 <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
                                                      height="80">
                                             </div>
-                                            <p class="text-center font-weight-bold">Instalação</p>
+                                            <p class="text-center font-weight-bold">3. Instalação</p>
                                         </div>
                                     </div>
                                     <div class="face back">
@@ -262,7 +262,7 @@
                                                 <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
                                                      height="80">
                                             </div>
-                                            <p class="text-center font-weight-bold">Conexão</p>
+                                            <p class="text-center font-weight-bold">4. Conexão</p>
                                         </div>
                                     </div>
                                     <div class="face back">
@@ -283,7 +283,7 @@
                 </div>
                 <div class="order-2 col-md-7 col-12 mt-5 mt-md-0 pb-5 pb-md-0">
                     <div class="pb-5">
-                        <h2>Principais dúvidas sobre energia solar</h2>
+                        <h2 class="l45">Como adquirir seu sistema de Geração de Energia Solar Fotovoltaica.</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     </div>
                     <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist"
