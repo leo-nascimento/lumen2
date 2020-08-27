@@ -162,7 +162,7 @@
     </section>
     <section id="section-thin-transition" style="height: 250px"></section>
     <section>
-        <div class="container-fluid px-4">
+        <div class="container">
             <div class="row d-flex justify-content-between">
                 <div class="order-1 col-md-5 col-12">
                     <div class="pb-5">
@@ -497,7 +497,7 @@
     </section>
     <section id="section-thin-transition-left" style="height: 250px"></section>
     <section>
-        <div class="container ">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h2 class="section-heading h1 pt-4">Ainda está com dúvidas?</h2>

@@ -11809,6 +11809,10 @@ ul.stepper li.completed a .label {
   background-color: #f9c200 !important;
 }
 
+.secondary-bg {
+  background-color: #f6b311 !important;
+}
+
 .primary-text {
   color: #f9c200 !important;
 }

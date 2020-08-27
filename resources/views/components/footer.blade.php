@@ -1,5 +1,5 @@
 <section id="footer">
-    <footer class="page-footer font-small" style="background-color: rgba(0,0,0,0.9)">
+    <footer class="page-footer font-small" style="background-color: rgba(255,255,255,0.8)">
         <div class="primary-bg">
             <div class="container">
                 <div class="row py-4 d-flex align-items-center">
@@ -22,32 +22,41 @@
         </div>
         <div class="container text-center text-md-left mt-5">
             <div class="row mt-3">
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 d-flex align-items-center">
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <div style="margin-top: -20px;">
+                        <img class="img-fluid" src="{{asset('img/logos/logo-footer.png')}}">
+                        <p class="text-dark">Dê um futuro de presente</p>
+                    </div>
                     <div>
-                        <img class="img-fluid" src="{{asset('img/logos/logo-navbar-white.png')}}">
-                        <p class="pl-3">Dê um futuro de presente</p>
+                        <p class="text-dark mb-0">Conheça também</p>
+                        <hr class="primary-bg accent-2 mb-2 mt-0 d-inline-block mx-auto h3" style="width: 60px;">
+                    </div>
+                    <div>
+                        <a href="www.lumenobras.com.br" target="_blank">
+                            <img class="img-fluid" src="{{asset('img/logos/logo-lumenobras.png')}}">
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <h6 class="text-uppercase font-weight-bold">Contato</h6>
+                    <h6 class="text-uppercase font-weight-bold text-dark">Contato</h6>
                     <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p><i class="fas fa-home mr-3"></i> Setor de Hangares, Hangar 21 - Lago Sul, Brasília - DF</p>
-                    <p><i class="fas fa-envelope mr-3"></i> contato@lumen.bsb.br</p>
-                    <p><i class="fa fa-whatsapp fa-lg mr-3"></i> (61) 98318-7150</p>
-                    <p><i class="fas fa-phone mr-3"></i> (61) 98318-7150</p>
+                    <p class="text-dark"><i class="fas fa-home mr-3 text-dark"></i> Setor de Hangares, Hangar 21 - Lago Sul, Brasília - DF</p>
+                    <p class="text-dark"><i class="fas fa-envelope mr-3 text-dark"></i> contato@lumen.bsb.br</p>
+                    <p class="text-dark"><i class="fa fa-whatsapp fa-lg mr-3 text-dark"></i> (61) 98318-7150</p>
+                    <p class="text-dark"><i class="fas fa-phone mr-3 text-dark"></i> (61) 98318-7150</p>
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase font-weight-bold">Páginas</h6>
+                    <h6 class="text-uppercase font-weight-bold text-dark">Páginas</h6>
                     <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p><a href="/login">Login</a></p>
-                    <p><a href="#!">Projetos</a></p>
-                    <p><a href="{{route('post.index')}}">Blog</a></p>
-                    <p><a href="{{route('site')}}">Inicio</a></p>
+                    <p><a class="text-dark" href="/login">Login</a></p>
+                    <p><a class="text-dark" href="#!">Projetos</a></p>
+                    <p><a class="text-dark" href="{{route('post.index')}}">Blog</a></p>
+                    <p><a class="text-dark" href="{{route('site')}}">Inicio</a></p>
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 d-none d-md-block">
-                    <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+                    <h6 class="text-uppercase font-weight-bold text-dark">Newsletter</h6>
                     <hr class="primary-bg accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Receba as nossas novidades</p>
+                    <p class="text-dark">Receba as nossas novidades</p>
                     <form>
                         <div class="form-group">
                             <input class="form-control" type="text" placeholder="Digite seu e-mail">
@@ -56,9 +65,9 @@
                     </form>
                 </div>
             </div>
-        </div>
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="www.rafaelcparanhos.com.br"> rafaelcparanhos.com</a>
+            <div class="footer-copyright py-3 bg-transparent text-dark">© 2020 Copyright:
+                <a class="text-warning" href="www.rafaelcparanhos.com.br"> rafaelcparanhos.com</a>
+            </div>
         </div>
     </footer>
 </section>

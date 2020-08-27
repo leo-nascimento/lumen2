@@ -206,6 +206,12 @@ Customização de barra de navegação
   background-size: 2000px 1300px;
 }
 
+#section-thin-transition-full-left {
+  background-image: url(/images/transition-full.png?e39bc0ab80d1513f15be22a733a3b612);
+  background-repeat: no-repeat;
+  background-size: 2000px 1300px;
+}
+
 #section-transition {
   background-image: url(/images/transition2.png?73328434c440317e12afeebe71cb66ea);
   background-repeat: no-repeat;

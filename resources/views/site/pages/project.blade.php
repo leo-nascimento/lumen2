@@ -155,8 +155,8 @@
             </div>
         </div>
     </section>
-    <section id="section-thin-transition-left" style="height: 200px"></section>
-    <section class="py-5 primary-bg">
+    <section id="section-thin-transition-full-left" style="height: 200px"></section>
+    <section class="py-5 secondary-bg">
         <div class="container">
             <div class="row">
                 <div class="col-8">
