@@ -1,12 +1,12 @@
-<div class="card h-100 w-100">
+<div class="card h-100 w-100 border">
     <div class="view overlay waves-effect" style="height: 200px">
         <img class="card-img-top h-100" src="{{asset("storage/posts/{$post->id}.jpg")}}" alt="Imagem do post">
     </div>
     <a class="btn-floating btn-action ml-auto mr-4 primary-bg" href="{{route('post.show', $post->id)}}">
         <i class="fas fa-chevron-right pl-1"></i></a>
-    <div class="card-body border-top text-left">
-        <h4 class="card-title mt-3">{{$post->title}}</h4>
-        <p class="lead text-muted">
+    <div class="card-body border-top text-left py-2 px-3">
+        <h5 class="card-title mt-3">{{$post->title}}</h5>
+        <p class="text-muted">
             {{ \Illuminate\Support\Str::limit($post->summary, $limit = 60, $end = '...') }}
         </p>
     </div>

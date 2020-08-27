@@ -62,7 +62,7 @@
                 <div id="economy-form" class="d-none w-100">
                     <form class="px-3 ajax-form" action="{{route('calculate-economy')}}"
                           method="POST" id="economy-search">
-                        <h5 class="text-muted text-center">Informe as informações abaixo obter seu orçamento</h5>
+                        <h6 class="text-muted text-center">Informe o seu consumo mensal ou o valor médio da sua conta</h6>
                         <div class="form-row mt-3">
                             <div class="col-12">
                                 <input class="form-control mt-3" type="number" name="consumption"
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <button class="btn btn-block primary-bg text-white mt-3 btn-submit"
-                                data-loader="Calculando...">Calcular
+                                data-loader="Economizando...">Quanto posso economizar?
                         </button>
                         <button class="mt-3 btn btn-block" type="reset"
                                 onclick="changeModalContent('economy-form', false)">Voltar ao ínicio

@@ -507,9 +507,10 @@
                     </p>
                 </div>
             </div>
-            <div class="row pb-5">
-                <div class="col-md-4 col-12 d-flex align-items-center">
-                    <div class="card">
+            <div class="row  pb-5">
+                <div class="col-md-4 col-12">
+                    <div class="mt-3">
+                        <div class="card">
                         <div class="card-body">
                             <div class="form-header primary-bg accent-1">
                                 <h4 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato</h4>
@@ -541,50 +542,48 @@
                             </form>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="h-100">
-                        <div id='map' class="h-100"></div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="section-thin-transition-left" style="height: 250px"></section>
-    <section class="pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center">A Lumen Solar é conteúdo</h1>
-                    <hr class="primary-bg w-25" style="height: 3px;">
-                    <div class="swiper-container swiper-blog py-4">
-                        @if($posts->isNotEmpty())
-                            <div class="swiper-wrapper">
-                                @foreach($posts as $post)
-                                    <div class="swiper-slide h-100">
-                                        @include('site.pages.posts.post-card', $post)
-                                    </div>
-                                @endforeach
-                                <div class="swiper-slide bg-transparent my-auto mx-auto">
-                                    <div
-                                        class="flex-column w-100 h-100 d-flex text-center align-content-center justify-content-center">
-                                        <a href="{{route('post.index')}}"
-                                           class="btn primary-bg btn text-white w-50 mx-auto">Ver todos</a>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide bg-transparent my-auto mx-auto"></div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="h-50">
+                                <div id='map' class="h300"></div>
                             </div>
-                        @else
-                            <div class="swiper-wrapper mt-5">
-                                <div class="swiper-slide bg-transparent my-auto w-100">
-                                    <div
-                                        class="flex-column position-relative w-100 h-100 d-flex align-content-center justify-content-center py-5">
-                                        <img src="/img/icons/blog.png" alt="blog" width="80" class="mx-auto"/>
-                                        <p class="text-muted mt-3">Nenhuma postagem encontrada</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="swiper-container swiper-blog py-4">
+                                @if($posts->isNotEmpty())
+                                    <div class="swiper-wrapper">
+                                        @foreach($posts as $post)
+                                            <div class="swiper-slide h-100">
+                                                @include('site.pages.posts.post-card', $post)
+                                            </div>
+                                        @endforeach
+                                        <div class="swiper-slide bg-transparent my-auto mx-auto">
+                                            <div
+                                                class="flex-column w-100 h-100 d-flex text-center align-content-center justify-content-center">
+                                                <a href="{{route('post.index')}}"
+                                                   class="btn primary-bg btn text-white w-50 mx-auto">Ver todos</a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide bg-transparent my-auto mx-auto"></div>
                                     </div>
-                                </div>
+                                @else
+                                    <div class="swiper-wrapper mt-5">
+                                        <div class="swiper-slide bg-transparent my-auto w-100">
+                                            <div
+                                                class="flex-column position-relative w-100 h-100 d-flex align-content-center justify-content-center py-5">
+                                                <img src="/img/icons/blog.png" alt="blog" width="80" class="mx-auto"/>
+                                                <p class="text-muted mt-3">Nenhuma postagem encontrada</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endif
                             </div>
-                        @endif
+                        </div>
                     </div>
                 </div>
             </div>
