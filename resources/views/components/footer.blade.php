@@ -7,6 +7,9 @@
                         <h5 class="mb-0">Fique por dentro das novidades!</h5>
                     </div>
                     <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <a class="fb-ic" href="https://www.youtube.com/channel/UCWUS0ECcbXJxEqQfmyKJYFQ/" target="_blank">
+                            <i class="fab fa-youtube white-text mr-4"></i>
+                        </a>
                         <a class="fb-ic" href="https://www.facebook.com/lumen.bsb/" target="_blank">
                             <i class="fab fa-facebook-f white-text mr-4"></i>
                         </a>
@@ -25,11 +28,10 @@
                 <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
                     <div style="margin-top: -20px;">
                         <img class="img-fluid" src="{{asset('img/logos/logo-footer.png')}}">
-                        <p class="text-dark">Dê um futuro de presente</p>
                     </div>
-                    <div>
-                        <p class="text-dark mb-0">Conheça também</p>
-                        <hr class="primary-bg accent-2 mb-2 mt-0 d-inline-block mx-auto h3" style="width: 60px;">
+                    <div class="mt-3">
+                        <h6 class="text-uppercase font-weight-bold text-dark">Conheça também</h6>
+                        <hr class="primary-bg accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     </div>
                     <div>
                         <a href="www.lumenobras.com.br" target="_blank">

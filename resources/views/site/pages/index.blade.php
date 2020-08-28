@@ -122,7 +122,7 @@
                         <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
                              data-ride="carousel" data-interval="false">
                             <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item active mt-5 py-5">
+                                <div class="carousel-item active mt-5">
                                     <div class="testimonial text-center">
                                         <p><i class="fas fa-quote-left"></i>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
@@ -164,124 +164,151 @@
     <section>
         <div class="container">
             <div class="row d-flex justify-content-between">
-                <div class="order-1 col-md-5 col-12">
+                <div class="order-1 col-12">
                     <div class="pb-5">
                         <h2>Como funciona nossos serviços</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     </div>
-                    <div class="row d-flex justify-content-around" style="clear: both;">
-                        <div class="col-6">
-                            <div class="card-wrapper">
-                                <div id="card-1" class="card card-rotating text-center">
-                                    <div id="analysis"
-                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body  " data-card="card-1">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
-                                                     height="80">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card gradient-card">
+                                <div class="card-image">
+                                    <a href="#!">
+                                        <div class="text-white d-flex h-100 mask white">
+                                            <div class="first-content align-self-center p-3">
+                                                <h4 class="card-title text-dark mb-0">1. Análise</h4>
+                                                <hr class="primary-bg accent-2 mt-0 d-inline-block mx-auto h3" style="width: 60px;">
+                                                <p class="text-muted mb-0">Clique aqui e saiba mais </p>
                                             </div>
-                                            <p class="text-center font-weight-bold">1. Análise</p>
+                                            <div class="second-content align-self-center mx-auto text-center">
+                                                <img height="50" src="{{asset('img/icons/pesquisa.svg')}}">
+                                            </div>
                                         </div>
+                                    </a>
+                                </div>
+                                <div class="third-content ml-auto mr-4 mb-2">
+                                    <p class="mb-0">Etapa de</p>
+                                    <h5 class="font-weight-bold float-right">Análise</h5>
+                                </div>
+                                <div class="card-body white">
+                                    <div class="progress md-progress">
+                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                            <h4 class="font-weight-bold mb-0">Análise</h4>
-                                            <hr>
-                                            <p>
-                                                Nessa primeira etapa nós analisamos o consumo de energia elétrica,
-                                                o local de instalação e todos os elementos que vão interferir no
-                                                projeto.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <p class="text-muted">Iniciação (25%)</p>
+                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
+                                    <p class="text-muted" align="justify">
+                                        Nessa primeira etapa nós analisamos o consumo de energia elétrica, o local de
+                                        instalação e todos os elementos que vão interferir no projeto.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card-wrapper h-100">
-                                <div id="card-1" class="card card-rotating text-center">
-                                    <div id="analysis"
-                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body  " data-card="card-1">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
-                                                     height="80">
+                        <div class="col-3">
+                            <div class="card gradient-card">
+                                <div class="card-image">
+                                    <a href="#!">
+                                        <div class="text-white d-flex h-100 mask white">
+                                            <div class="first-content align-self-center p-3">
+                                                <h4 class="card-title text-dark mb-0">2. Projeto</h4>
+                                                <hr class="primary-bg accent-2 mt-0 d-inline-block mx-auto h3" style="width: 60px;">
+                                                <p class="text-muted mb-0">Clique aqui e saiba mais </p>
                                             </div>
-                                            <p class="text-center font-weight-bold">2. Projeto</p>
+                                            <div class="second-content align-self-center mx-auto text-center">
+                                                <img height="50" src="{{asset('img/icons/arquiteto.svg')}}">
+                                            </div>
                                         </div>
+                                    </a>
+                                </div>
+                                <div class="third-content ml-auto mr-4 mb-2">
+                                    <p class="mb-0">Etapa de</p>
+                                    <h5 class="font-weight-bold float-right">Projeto</h5>
+                                </div>
+                                <div class="card-body white">
+                                    <div class="progress md-progress">
+                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                            <h4 class="font-weight-bold mb-0">Projeto</h4>
-                                            <hr>
-                                            <p>
-                                                Nesta etapa, nós propomos a melhor solução para o cenário identificado.
-                                                Sendo aceito, o projeto é submetido à concessionária de energia.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <p class="text-muted">Planejamento (50%)</p>
+                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
+                                    <p class="text-muted" align="justify">
+                                        Nesta etapa, nós propomos a melhor solução para o cenário identificado. Sendo aceito,
+                                        o projeto é submetido à concessionária de energia.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-around pt-4" style="clear: both;">
-                        <div class="col-6">
-                            <div class="card-wrapper">
-                                <div id="card-1" class="card card-rotating text-center">
-                                    <div id="analysis"
-                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body  " data-card="card-1">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
-                                                     height="80">
+                        <div class="col-3">
+                            <div class="card gradient-card">
+                                <div class="card-image">
+                                    <a href="#!">
+                                        <div class="text-white d-flex h-100 mask white">
+                                            <div class="first-content align-self-center p-3">
+                                                <h4 class="card-title text-dark mb-0">3. Instalação</h4>
+                                                <hr class="primary-bg accent-2 mt-0 d-inline-block mx-auto h3" style="width: 60px;">
+                                                <p class="text-muted mb-0">Clique aqui e saiba mais </p>
                                             </div>
-                                            <p class="text-center font-weight-bold">3. Instalação</p>
+                                            <div class="second-content align-self-center mx-auto text-center">
+                                                <img height="50" src="{{asset('img/icons/instalacao.svg')}}">
+                                            </div>
                                         </div>
+                                    </a>
+                                </div>
+                                <div class="third-content ml-auto mr-4 mb-2">
+                                    <p class="mb-0">Etapa de</p>
+                                    <h5 class="font-weight-bold float-right">Instalação</h5>
+                                </div>
+                                <div class="card-body white">
+                                    <div class="progress md-progress">
+                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                            <h4 class="font-weight-bold mb-0">Instalação</h4>
-                                            <hr>
-                                            <p>
-                                                Com o parecer de acesso concedido pela concessionária de energia,
-                                                damos início à instalação dos equipamentos. A instalação é extremamente
-                                                rápida e provoca alterações mínimas no local.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <p class="text-muted">Execução (75%)</p>
+                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
+                                    <p class="text-muted" align="justify">
+                                        Com o parecer de acesso concedido pela concessionária de energia, damos início à
+                                        instalação dos equipamentos. A instalação é extremamente rápida e provoca alterações
+                                        mínimas no local.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card-wrapper">
-                                <div id="card-1" class="card card-rotating text-center">
-                                    <div id="analysis"
-                                         class="phases-front face front z-depth-1 rotate-btn bg-white h-100 d-flex align-items-center">
-                                        <div class="card-body  " data-card="card-1">
-                                            <div class="p-3 d-flex justify-content-center">
-                                                <img src="{{asset('img/icons/research.png')}}" class="rounded-circle"
-                                                     height="80">
+                        <div class="col-3">
+                            <div class="card gradient-card">
+                                <div class="card-image">
+                                    <a href="#!">
+                                        <div class="text-white d-flex h-100 mask white">
+                                            <div class="first-content align-self-center p-3">
+                                                <h5 class="card-title text-dark mb-0">4. Conexão</h5>
+                                                <hr class="primary-bg accent-2 mt-0 d-inline-block mx-auto h3" style="width: 60px;">
+                                                <p class="text-muted mb-0">Clique aqui e saiba mais </p>
                                             </div>
-                                            <p class="text-center font-weight-bold">4. Conexão</p>
+                                            <div class="second-content align-self-center mx-auto text-center">
+                                                <img height="50" src="{{asset('img/icons/conexao.svg')}}">
+                                            </div>
                                         </div>
+                                    </a>
+                                </div>
+                                <div class="third-content ml-auto mr-4 mb-2">
+                                    <p class="mb-0">Etapa de</p>
+                                    <h4 class="font-weight-bold float-right">Conexão</h4>
+                                </div>
+                                <div class="card-body white">
+                                    <div class="progress md-progress">
+                                        <div class="progress-bar primary-bg" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <div class="face back">
-                                        <div class="card-body rotate-btn phases-back" data-card="card-1">
-                                            <h4 class="font-weight-bold mb-0">Conexão</h4>
-                                            <hr>
-                                            <p>
-                                                Instalação finalizada, o último passo é solicitar que a concessionária
-                                                de energia ligue o sistema junto à rede elétrica. Após a conexão com
-                                                a rede, seu sistema começa a gerar energia limpa e economia.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    <p class="text-muted">Encerramento (100%)</p>
+                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
+                                    <p class="text-muted" align="justify">
+                                        Instalação finalizada, o último passo é solicitar que a concessionária de energia
+                                        ligue o sistema junto à rede elétrica. Após a conexão com a rede, seu sistema começa
+                                        a gerar energia limpa e economia.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="order-2 col-md-7 col-12 mt-5 mt-md-0 pb-5 pb-md-0">
+            </div>
+            <div class="row">
+                <div class="order-2 col-12 mt-5 pb-5 pb-md-5">
                     <div class="pb-5">
                         <h2 class="l45">Como adquirir seu sistema de Geração de Energia Solar Fotovoltaica.</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
