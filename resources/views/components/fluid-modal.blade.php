@@ -7,7 +7,7 @@
             <div class="modal-body d-flex align-items-center">
                 <div class="" id="modal-buttons">
                     <div class="d-flex justify-content-center pb-4">
-                        <img height="100" src="{{asset('img/icons/loan-house.svg')}}">
+                        <img height="100" src="{{asset('img/icons/cost.svg')}}">
                     </div>
                     <p class="text-center pb-3">
                         A Lumen Solar está aqui para que você economize e ainda ajude o meio ambiente utilizando energia

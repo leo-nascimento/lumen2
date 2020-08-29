@@ -1,6 +1,11 @@
 $(document).ready(function () {
     new WOW().init();
 
+    $('.count-co2').counter();
+    $('.count-money').counter();
+    $('.count-energy').counter();
+    $('.count-plates').counter();
+
     var domain = window.location.hostname;
 
     if (domain == '127.0.0.1')
@@ -44,7 +49,7 @@ $(document).ready(function () {
 
     var blog = new Swiper('.swiper-blog', {
         slidesPerView: 'auto',
-        spaceBetween: 60,
+        spaceBetween: 30,
         grabCursor: true,
         breakpoints: {
             320: {

@@ -37,7 +37,8 @@
             <div class="row text-white h-100">
                 <div id="residence" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
-                        <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Residenciais</span></h4>
+                        <img height="50" src="{{asset("img/icons/real-estate.svg")}}">
+                        <h4 class="font-weight-bold lh45 f35 pt-4">Projetos <br><span>Residenciais</span></h4>
                         <div id="residence-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
@@ -49,7 +50,8 @@
                 </div>
                 <div id="comercial" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
-                        <h4 class="font-weight-bold lh45 f35">Projetos <br><span>Comerciais</span></h4>
+                        <img height="50" src="{{asset("img/icons/company.svg")}}">
+                        <h4 class="font-weight-bold lh45 f35 pt-4">Projetos <br><span>Comerciais</span></h4>
                         <div id="comercial-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
@@ -62,7 +64,8 @@
                 </div>
                 <div id="condominium" class="col-3 h-100 border-right d-flex align-items-end project-section">
                     <div class="py-3">
-                        <h4 class="font-weight-bold lh45 f35">Projetos em<br><span>Condominios</span></h4>
+                        <img height="50" src="{{asset("img/icons/tree.svg")}}">
+                        <h4 class="font-weight-bold lh45 f35 pt-4">Projetos em<br><span>Condominios</span></h4>
                         <div id="condominium-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
@@ -75,7 +78,8 @@
                 </div>
                 <div id="rural" class="col-3 h-100 d-flex align-items-end project-section">
                     <div class="py-3">
-                        <h4 class="font-weight-bold lh45 f35">Projetos<br><span>Rurais</span></h4>
+                        <img height="50" src="{{asset("img/icons/farm.svg")}}">
+                        <h4 class="font-weight-bold lh45 f35 pt-4">Projetos<br><span>Rurais</span></h4>
                         <div id="rural-content" class="d-none">
                             <p class="pt-3">
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
@@ -527,14 +531,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="section-heading h1 pt-4">Ainda está com dúvidas?</h2>
-                    <p class="section-description pt-2 pb-4">
+                    <h2 class="section-heading h1 pt-4">Vamos conversar melhor!</h2>
+                    <hr class="primary-bg w-25 float-left" style="height: 3px;">
+                    <p class="section-description clear-float pt-2 pb-4">
                         Não fique com dúvidas, entre em contato conosco estamos a disposição para explicar nosso sistema
                         para você. A Lumen é uma solução!
                     </p>
                 </div>
             </div>
-            <div class="row  pb-5">
+            <div class="row d-flex align-items-center pb-5">
                 <div class="col-md-4 col-12">
                     <div class="mt-3">
                         <div class="card">
@@ -542,7 +547,7 @@
                             <div class="form-header primary-bg accent-1">
                                 <h4 class="mb-0"><i class="fas fa-envelope"></i> Entre em contato</h4>
                             </div>
-                            <p>Informe seus dados abaixo que entraremos em contato</p>
+                            <p class="mb-0">Informe seus dados abaixo que entraremos em contato</p>
                             <form action="{{ route('contact.send') }}" method="POST" class="ajax-form">
                                 <div class="md-form">
                                     <input type="text" id="form-name" name="name" class="form-control">
@@ -551,6 +556,10 @@
                                 <div class="md-form">
                                     <input type="email" id="form-email" name="email" class="form-control">
                                     <label for="form-email">Seu e-mail</label>
+                                </div>
+                                <div class="md-form">
+                                    <input type="text" id="" name="phone" class="form-control">
+                                    <label for="">Seu celular</label>
                                 </div>
                                 <div class="md-form">
                                     <input type="text" id="form-Subject" name="subject" class="form-control">
@@ -571,17 +580,18 @@
                     </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 px-5" style="margin-top: -20px;">
                     <div class="row">
                         <div class="col-12">
+                            <h3 class="pb-2">Venha tomar um café conosco</h3>
                             <div class="h-50">
-                                <div id='map' class="h300"></div>
+                                <div id='map' class="h200"></div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <div class="swiper-container swiper-blog py-4">
+                            <div class="swiper-container swiper-blog mt-3">
                                 @if($posts->isNotEmpty())
                                     <div class="swiper-wrapper">
                                         @foreach($posts as $post)

@@ -33,8 +33,8 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js'></script>
 
     <!-- Custom Scripts -->
-    <script src="{{ asset('js/website.js') }}"></script>
     <script src="{{ asset('js/functions.js') }}"></script>
+    <script src="{{ asset('js/website.js') }}"></script>
     @stack('scripts')
     {!! toastr()->render() !!}
 </body>
