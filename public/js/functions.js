@@ -95,11 +95,15 @@ function economyResult(res) {
     const div = $('#economy-result');
     form.addClass('d-none');
     div.removeClass('d-none');
-    div.find('h4').text(res.total);
+
+    $('#system-size').text(`${res.power} kW`);
+    $('#energy-economy').text(`${toMoney(res.economy_value)} por ano`);
+    $('#value-investment').text(toMoney(res.final_value));
 
     $('#btn-economy-back').on('click', function (e) {
         div.addClass('d-none');
         form[0].reset();
+        avarageChange();
         form.removeClass('d-none');
     });
 }
@@ -123,8 +127,15 @@ function validateFieldsRequired(form) {
 
     Array.from(form[0]).forEach((el) => {
         if (el.required !== undefined) {
-            console.log(el.value);
-            if (el.required && el.value.length < 1) {
+            let isVisible = true;
+            try {
+                // console.log('el',  el.parent())
+                // console.log('visible',  el.parent().is(':visible'))
+                isVisible = $(el).parent().is(':visible');
+            } catch (e) {
+            }
+
+            if (el.required && el.value.length < 1 && isVisible) {
                 el.classList.add('is-invalid');
                 el.addEventListener('change', () => el.classList.remove('is-invalid'));
                 el.addEventListener('keyup', () => el.classList.remove('is-invalid'));
@@ -134,4 +145,13 @@ function validateFieldsRequired(form) {
     });
 
     return validForm;
+}
+
+function toMoney(value) {
+    try {
+        // return 'R$ '+ parseFloat(value.toLocaleString('pt-BR')).toFixed(2);
+        return parseFloat(value).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    } catch (e) {
+        return value;
+    }
 }

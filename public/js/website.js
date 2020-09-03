@@ -152,6 +152,7 @@ $(document).ready(function () {
         const form = economyBox.firstElementChild;
         economyBox.classList.add('d-none');
         form.reset();
+        avarageChange();
         form.classList.remove('d-none');
         document.querySelector('#economy-result')
             .classList.add('d-none');
@@ -172,13 +173,37 @@ function changeModalContent(id, hide = true ) {
         element = document.querySelector('#modal-buttons');
         element.classList.remove('d-none');
     }
+    avarageChange();
 }
 
 $('#budget-call-button').on('click', function (e) {
     form = $('#economy-search');
     form[0].reset();
+    avarageChange();
     form.removeClass('d-none');
     $('#economy-form').addClass('d-none');
     $('#economy-result').addClass('d-none');
     changeModalContent('budget-form');
 });
+
+$('#avarage-option').on('change', function(e) {
+    avarageChange();
+})
+
+function avarageChange() {
+    try {
+        const option = $('#avarage-option').val();
+        console.log(option);
+        const consumptionDiv = $('#consumption');
+        const billPriceDiv = $('#bill_price');
+
+        if (option === 'avarage_bill_price') {
+            billPriceDiv.show();
+            consumptionDiv.hide();
+        } else {
+            consumptionDiv.show();
+            billPriceDiv.hide();
+        }
+    } catch (e) {
+    }
+}

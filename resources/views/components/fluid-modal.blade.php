@@ -40,12 +40,14 @@
                             <div class="invalid-feedback">Por favor, nos informe seu E-mail</div>
                         </div>
                         <div class="input-group">
-                            <input class="form-control mt-3 phone" type="tel" name="cellphone" placeholder="Celular" required>
+                            <input class="form-control mt-3 phone" type="tel" name="cellphone" placeholder="Celular"
+                                   required>
                             <div class="invalid-feedback">Por favor, nos informe seu telefone</div>
                         </div>
                         <div class="input-group mt-3">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" name="document" id="document" required lang="pt">
+                                <input type="file" class="custom-file-input" name="document" id="document" required
+                                       lang="pt">
                                 <label class="custom-file-label text-left overflow-hidden" for="document">
                                     Anexe sua conta de luz</label>
                             </div>
@@ -62,14 +64,21 @@
                 <div id="economy-form" class="d-none w-100">
                     <form class="px-3 ajax-form" action="{{route('calculate-economy')}}"
                           method="POST" id="economy-search">
-                        <h6 class="text-muted text-center">Informe o seu consumo mensal ou o valor médio da sua conta</h6>
+                        <h6 class="text-muted text-center">Qual informação você deseja informar?
+                            <br>Consumo mensal ou o valor médio da sua conta?</h6>
                         <div class="form-row mt-3">
                             <div class="col-12">
+                                <select class="browser-default custom-select" id="avarage-option" name="avarage_option">
+                                    <option value="avarage_bill_price" selected>Valor da conta</option>
+                                    <option value="avarage_consumption">Consumo médio mensal</option>
+                                </select>
+                            </div>
+                            <div class="col-12" id="consumption" style="display: none">
                                 <input class="form-control mt-3" type="number" name="consumption"
                                        placeholder="Consumo Médio (kWh)" required>
                                 <div class="invalid-feedback">Por favor, informe o consumo médio do local</div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12" id="bill_price">
                                 <input class="form-control mt-3 money" type="text" name="bill_price"
                                        placeholder="Preço Médio Conta Residencial" required>
                                 <div class="invalid-feedback">Por favor, informe o preço médio de sua conta</div>
@@ -84,11 +93,15 @@
                     </form>
                     <div id="economy-result" class="d-none align-content-center justify-content-center text-center">
                         <img src="/img/icons/money-result.svg" alt="money" width="74"/>
-                        <p class="text-muted text-center my-3">Seu investimento será de:</p>
-                        <h4 class="text-muted mb-4"></h4>
-                        <div>
-                            <button class="btn btn-block primary-bg text-white" id="budget-call-button">Solicitar orçamento detalhado</button>
-                        </div>
+                        <p class="text-muted text-center my-3">Tamanho do Sistema</p>
+                        <h4 class="text-muted" id="system-size">xx kW</h4>
+                        <p class="text-muted text-center my-3">Economia de Energia</p>
+                        <h4 class="text-muted" id="energy-economy">R$ xx,xx por ano</h4>
+                        <p class="text-muted text-center my-3">Valor do Investimento</p>
+                        <h4 class="text-muted" id="value-investment">R$ xx,xx</h4>
+                        <button class="btn btn-block primary-bg text-white mt-2" id="budget-call-button">Solicitar
+                            orçamento detalhado
+                        </button>
                         <div class="mt-3">
                             <button class="btn btn-block" id="btn-economy-back">Refazer</button>
                         </div>

@@ -95,16 +95,19 @@ class WebsiteController extends Controller
     public function calculateEconomy(Request $request)
     {
         try {
-            // money to decimal
-            $source = array('R$ ', '.', ',');
-            $replace = array('', '', '.');
-            $billPrice = floatval(str_replace($source, $replace, $request->bill_price));
+            $byBillPrice = $request->avarage_option === 'avarage_bill_price';
 
-            // search in database
+            if ($byBillPrice) {
+                $source = array('R$ ', '.', ',');
+                $replace = array('', '', '.');
+                $billPrice = floatval(str_replace($source, $replace, $request->bill_price));
+            }
+
             $accountCalculation = AccountCalculation::query()
                 ->where('average_consumption', '>=', intval($request->consumption))
-                ->where('average_bill_price', '>=', $billPrice)
-                ->first();
+                ->when($byBillPrice, function($query) use($request) {
+                    $query->where('average_consumption', '>=', intval($request->consumption));
+                })->first();
 
             if (empty($accountCalculation)) {
                 return response()->json([
@@ -114,10 +117,17 @@ class WebsiteController extends Controller
                 ]);
             }
 
-            $total = number_format($accountCalculation->final_value, 2, ',', '.');
+            $valueAccount = $byBillPrice ? $billPrice : $accountCalculation->average_bill_price;
+            $valueEconomy = (($valueAccount - 80) * 12);
+            if ($valueEconomy < 0) {
+                $valueEconomy = 0;
+            }
+
             return response()->json([
                 'success' => true,
-                'total' => "R$ {$total}",
+                'economy_value' => $valueEconomy,
+                'power' => $accountCalculation->power,
+                'final_value' => $accountCalculation->final_value,
                 'call_function' => 'economyResult',
             ]);
         } catch (\Exception $ex) {
