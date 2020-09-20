@@ -585,7 +585,8 @@
                         <div class="col-12">
                             <h3 class="pb-2">Venha tomar um café conosco</h3>
                             <div class="h-50">
-                                <div id='map' class="h200"></div>
+                                <div id="map-google" class="z-depth-1-half" style="height: 200px;"></div>
+                                <!--<div id='map' class="h200"></div>-->
                             </div>
                         </div>
                     </div>

@@ -92,13 +92,14 @@
                         </button>
                     </form>
                     <div id="economy-result" class="d-none align-content-center justify-content-center text-center">
-                        <img src="/img/icons/money-result.svg" alt="money" width="74"/>
-                        <p class="text-muted text-center my-3">Tamanho do Sistema</p>
-                        <h4 class="text-muted" id="system-size">xx kW</h4>
-                        <p class="text-muted text-center my-3">Economia de Energia</p>
-                        <h4 class="text-muted" id="energy-economy">R$ xx,xx por ano</h4>
-                        <p class="text-muted text-center my-3">Valor do Investimento</p>
-                        <h4 class="text-muted" id="value-investment">R$ xx,xx</h4>
+                        <div class="pb-4">
+                            <p class="text-muted text-center my-3">Tamanho do Sistema</p>
+                            <h4 class="text-muted" id="system-size">xx kW</h4>
+                            <p class="text-muted text-center my-3">Economia de Energia</p>
+                            <h4 class="text-muted" id="energy-economy">R$ xx,xx por ano</h4>
+                            <p class="text-muted text-center my-3">Valor do Investimento</p>
+                            <h4 class="text-muted" id="value-investment">R$ xx,xx</h4>
+                        </div>
                         <button class="btn btn-block primary-bg text-white mt-2" id="budget-call-button">Solicitar
                             orçamento detalhado
                         </button>

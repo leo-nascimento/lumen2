@@ -111,19 +111,22 @@ $(document).ready(function () {
         $("#" + element + "-content").addClass('d-none');
     });
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoicmFmYWVsY2FycGFyYSIsImEiOiJja2JiMXd3NXgwMDVsMnVrMjd4dXZ4MHZlIn0.2yO-yEhYuLUcTMJVfKR_Jg';
-    var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-47.9304321, -15.8660905],
-        zoom: 12.15
+    var myLatlng = new google.maps.LatLng(-15.8667852,-47.9320163);
+    var mapOptions = {
+        zoom: 16,
+        center: myLatlng
+    }
+    var map = new google.maps.Map(document.getElementById("map-google"), mapOptions);
+
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        title:"Lumen Solar Energia"
     });
 
-    var marker = new mapboxgl.Marker()
-        .setLngLat([-47.9304321, -15.8660905])
-        .addTo(map);
+// To add the marker to the map, call setMap();
+    marker.setMap(map);
 
-    map.addControl(new mapboxgl.NavigationControl());
+
 
     $("input.money").maskMoney({
         prefix: 'R$ ',
