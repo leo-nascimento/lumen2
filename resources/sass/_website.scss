@@ -221,6 +221,11 @@ Customização de barra de navegação
     background-image: url('../img/backgrounds/second-slide.jpg');
 }
 
+.card.gradient-card:focus-within {
+    margin-top: 0px !important;
+    transition: all 0.5s ease-in-out;
+}
+
 #video{
     background: url('../img/backgrounds/video.jpg') no-repeat center center;
     background-size: auto;

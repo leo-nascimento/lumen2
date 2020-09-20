@@ -44,7 +44,7 @@
                                 Reduza gastos com energia elétrica em sua residência através de nossas soluções
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
-                            <a href="{{route('project', ['type' => 'residence'])}}" class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                            <a href="{{route('project', ['type' => 'residence'])}}" class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
                             <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
-                               class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                               class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
                             <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
-                               class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                               class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                                 especialmente desenvolvidas para o seu consumo.
                             </p>
                             <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
-                               class="mx-0 btn btn-md black text-white">VER PROJETOS</a>
+                               class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -103,8 +103,7 @@
                 </div>
                 <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end">
                     <div class="d-flex align-items-center">
-                        <button class="btn white text-warning btn-rounded" data-toggle="tooltip" data-placement="bottom"
-                                title="Em breve">Quero economizar
+                        <button class="btn white text-warning" data-toggle="modal" data-target="#budget">Quero economizar
                         </button>
                     </div>
                 </div>
@@ -170,7 +169,7 @@
             <div class="row d-flex justify-content-between">
                 <div class="order-1 col-12">
                     <div class="pb-5">
-                        <h2>Como funciona nossos serviços</h2>
+                        <h2>Como adquirir seu sistema de Geração de Energia Solar Fotovoltaica</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     </div>
                     <div class="row">
@@ -198,8 +197,6 @@
                                     <div class="progress md-progress">
                                         <div class="progress-bar primary-bg" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <p class="text-muted">Iniciação (25%)</p>
-                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
                                     <p class="text-muted" align="justify">
                                         Nessa primeira etapa nós analisamos o consumo de energia elétrica, o local de
                                         instalação e todos os elementos que vão interferir no projeto.
@@ -231,8 +228,6 @@
                                     <div class="progress md-progress">
                                         <div class="progress-bar primary-bg" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <p class="text-muted">Planejamento (50%)</p>
-                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
                                     <p class="text-muted" align="justify">
                                         Nesta etapa, nós propomos a melhor solução para o cenário identificado. Sendo aceito,
                                         o projeto é submetido à concessionária de energia.
@@ -264,8 +259,6 @@
                                     <div class="progress md-progress">
                                         <div class="progress-bar primary-bg" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <p class="text-muted">Execução (75%)</p>
-                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
                                     <p class="text-muted" align="justify">
                                         Com o parecer de acesso concedido pela concessionária de energia, damos início à
                                         instalação dos equipamentos. A instalação é extremamente rápida e provoca alterações
@@ -280,7 +273,7 @@
                                     <a href="#!">
                                         <div class="text-white d-flex h-100 mask white">
                                             <div class="first-content align-self-center p-3">
-                                                <h5 class="card-title text-dark mb-0">4. Conexão</h5>
+                                                <h4 class="card-title text-dark mb-0">4. Conexão</h4>
                                                 <hr class="primary-bg accent-2 mt-0 d-inline-block mx-auto h3" style="width: 60px;">
                                                 <p class="text-muted mb-0">Clique aqui e saiba mais </p>
                                             </div>
@@ -298,8 +291,6 @@
                                     <div class="progress md-progress">
                                         <div class="progress-bar primary-bg" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
-                                    <p class="text-muted">Encerramento (100%)</p>
-                                    <h6 class="text-uppercase font-weight-bold my-2">Detalhes</h6>
                                     <p class="text-muted" align="justify">
                                         Instalação finalizada, o último passo é solicitar que a concessionária de energia
                                         ligue o sistema junto à rede elétrica. Após a conexão com a rede, seu sistema começa
@@ -314,7 +305,7 @@
             <div class="row">
                 <div class="order-2 col-12 mt-5 pb-5 pb-md-5">
                     <div class="pb-5">
-                        <h2 class="l45">Como adquirir seu sistema de Geração de Energia Solar Fotovoltaica.</h2>
+                        <h2 class="l45">Principais dúvidas sobre energia solar</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     </div>
                     <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist"

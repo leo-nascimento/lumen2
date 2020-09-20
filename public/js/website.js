@@ -126,8 +126,6 @@ $(document).ready(function () {
 // To add the marker to the map, call setMap();
     marker.setMap(map);
 
-
-
     $("input.money").maskMoney({
         prefix: 'R$ ',
         allowNegative: false,

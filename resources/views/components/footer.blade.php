@@ -34,7 +34,7 @@
                         <hr class="primary-bg accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     </div>
                     <div>
-                        <a href="www.lumenobras.com.br" target="_blank">
+                        <a href="{{ url('http://www.lumenobras.com.br') }}" target="_blank">
                             <img class="img-fluid" src="{{asset('img/logos/logo-lumenobras.png')}}">
                         </a>
                     </div>
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="footer-copyright py-3 bg-transparent text-dark">© 2020 Copyright:
-                <a class="text-warning" href="www.rafaelcparanhos.com.br"> rafaelcparanhos.com</a>
+                <a class="text-warning" href="http://www.rafaelcparanhos.com.br"> rafaelcparanhos.com</a>
             </div>
         </div>
     </footer>

@@ -236,6 +236,11 @@ Customização de barra de navegação
   background-image: url(/images/second-slide.jpg?da90dae4005a38e0f2481652d107b1af);
 }
 
+.card.gradient-card:focus-within {
+  margin-top: 0px !important;
+  transition: all 0.5s ease-in-out;
+}
+
 #video {
   background: url(/images/video.jpg?3718b1aa7919b6587ffc4546ec9740d6) no-repeat center center;
   background-size: auto;

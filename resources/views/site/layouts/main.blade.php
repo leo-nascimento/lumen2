@@ -30,7 +30,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
     <script src="https://kit.fontawesome.com/2fab56a2f0.js" crossorigin="anonymous"></script>
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7484297.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAGpX9kUmODEkuO-4TOnIAefIWTPA9luk&callback=initMap&libraries=&v=weekly" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAGpX9kUmODEkuO-4TOnIAefIWTPA9luk&libraries=&v=weekly" defer></script>
 
     <!-- Custom Scripts -->
     <script src="{{ asset('js/functions.js') }}"></script>
