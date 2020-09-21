@@ -128,15 +128,13 @@
                                 <div class="carousel-item active mt-5">
                                     <div class="testimonial text-center">
                                         <p><i class="fas fa-quote-left"></i>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-                                            id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit
-                                            amet, consectetur
-                                            adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum
-                                            inventore laboriosam labore
-                                            sit, aspernatur praesentium iste impedit quidem dolor veniam.
+                                            Gostaria de agradecer e manifestar nossa satisfação com os serviços prestados.
+                                            Tínhamos uma conta de energia elétrica muito alta e após o 4º. mês depois da instalação,
+                                            já usufruímos da tarifa mínima da companhia energética, o que nos possibilitou
+                                            outros investimentos na empresa, devido à redução drástica dessa despesa.
                                         </p>
-                                        <h4 class="font-weight-bold">Anna Deynah</h4>
-                                        <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+                                        <h4 class="font-weight-bold">Lucimar Marcos</h4>
+                                        <h6 class="font-weight-bold my-3">Cliente Residencial e Comercial</h6>
                                         <i class="fas fa-star text-warning"> </i>
                                         <i class="fas fa-star text-warning"> </i>
                                         <i class="fas fa-star text-warning"> </i>

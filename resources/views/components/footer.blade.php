@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row py-4 d-flex align-items-center">
                     <div class="col-md-6 col-lg-4 text-center text-md-left mb-4 mb-md-0">
-                        <h5 class="mb-0">Fique por dentro das novidades!</h5>
+                        <h5 class="mb-0">Nos siga nas nossas redes sociais</h5>
                     </div>
                     <div class="col-md-6 col-lg-7 text-center text-md-right">
                         <a class="fb-ic" href="https://www.youtube.com/channel/UCWUS0ECcbXJxEqQfmyKJYFQ/" target="_blank">
