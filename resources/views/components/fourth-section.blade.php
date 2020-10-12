@@ -5,8 +5,8 @@
                 <div id="video" class="card z-depth-2 z-index-5">
                     <div class="h-100 mask rgba-black-light d-flex align-items-center justify-content-center">
                         <div class="my-auto text-center px-5">
-                            <h3 class="text-white pb-3 font-weight-bold">Saiba como funciona a energia solar</h3>
-                            <p class="text-white d-none d-md-block lead">Fizemos um video para facilitar o entendimento e assim você compreenda como funciona a energia solar</p>
+                            <h3 class="text-white pb-3 font-weight-bold">Energia Solar</h3>
+                            <p class="text-white d-none d-md-block lead">Saiba como funciona</p>
                             <button id="open-modal" data-toggle="modal" data-target="#video-modal" class="btn primary-bg text-white"><i class="fas fa-play mr-1"></i> Assistir video</button>
                         </div>
                     </div>
@@ -15,11 +15,7 @@
             <div class="col-6 wow slideInRight">
                 <h1 class="font-weight-bold mb-0">Vantagens</h1>
                 <hr class="primary-bg w-25 float-left h3">
-                <h5 class="text-muted clear-float">Por que investir em energia solar?</h5>
-                <p class="lead text-muted mt-4">
-                    Conheça as vantagens da energia solar fotovoltaica e entenda porque essa fonte de energia está
-                    em constante crescimento.
-                </p>
+                <p class="lead clear-float text-muted mt-4">Conheça as principais vantagens ao investir em energia solar!</p>
                 <div class="row">
                     <div class="col-12 px-0">
                         <div class="row">

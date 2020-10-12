@@ -2,17 +2,12 @@
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <div class="view slide-bg" id="first-slide">
-                <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-                    <div class="white-text wow fadeIn">
-                        <div class="container text-md-left text-center animated slideInLeft">
-                            <h1 class="mb-4"><strong><span class="slide-title">Reduza até <span class="primary-text">95%</span></span><br><span class="slide-text">a sua conta de luz</span> </strong></h1>
-                            <p class="lead"><strong>Tenha acesso a energia renovável e sustentável</strong></p>
-                            <p class="mb-4 lead d-none d-md-block">
-                                Não perca tempo solicite seu orçamento e confira tudo que o sistema de energia solar pode
-                                lhe gerar de econômia. Repense e em pouco tempo recupere o investimento.
-                            </p>
-                            <a target="_blank" class="mx-0 btn btn-outline-white rounded btn-md more-btn" data-toggle="tooltip" data-placement="bottom"
-                               title="Em Breve">Saiba mais</a>
+                <div class="mask rgba-black-light d-flex justify-content-start align-items-center">
+                    <div class="white-text wow fadeIn container">
+                        <div class="text-md-left text-center animated slideInLeft">
+                            <h1 class="mb-4"><strong><span class="slide-title">Reduza sua conta de luz</span> </strong></h1>
+                            <h3 class="mb-4 d-none d-md-block">Economize até 95% do valor gasto com energia mensalmente.</h3>
+                            <button class="btn primary-bg text-white" data-toggle="modal" data-target="#budget">Solicitar orçamento</button>
                         </div>
                     </div>
                 </div>
@@ -20,17 +15,12 @@
         </div>
         <div class="carousel-item">
             <div class="view slide-bg" id="second-slide">
-                <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-                    <div class="white-text wow fadeIn">
-                        <div class="container text-md-left text-center animated slideInLeft">
-                            <h1 class="mb-4"><strong><span class="slide-title">Use energia <span class="primary-text">limpa,</span></span><br><span class="slide-text">sustentável e renovável</span> </strong></h1>
-                            <p class="lead"><strong>Economize enquanto ajuda o meio ambiente</strong></p>
-                            <p class="mb-4 lead d-none d-md-block">
-                                Não perca tempo solicite seu orçamento e confira tudo que o sistema de energia solar pode
-                                lhe gerar de econômia. Repense e em pouco tempo recupere o investimento.
-                            </p>
-                            <a target="_blank" class="mx-0 btn btn-outline-white rounded btn-md more-btn" data-toggle="tooltip" data-placement="bottom"
-                               title="Em Breve">Saiba mais</a>
+                <div class="mask rgba-black-light d-flex justify-content-start align-items-center">
+                    <div class="white-text wow fadeIn container">
+                        <div class="text-md-left text-center animated slideInLeft">
+                            <h1 class="mb-4"><strong><span class="slide-title">Use energia limpa e sustentável!</span> </strong></h1>
+                            <h3 class="mb-4 d-none d-md-block">Economize, ajude o planeta e dê um futuro de presente.</h3>
+                            <button class="btn primary-bg text-white" data-toggle="modal" data-target="#budget">Solicitar orçamento</button>
                         </div>
                     </div>
                 </div>

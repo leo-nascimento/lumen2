@@ -40,10 +40,7 @@
                         <img height="50" src="{{asset("img/icons/real-estate.svg")}}">
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos <br><span>Residenciais</span></h4>
                         <div id="residence-content" class="d-none">
-                            <p class="pt-3">
-                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
-                                especialmente desenvolvidas para o seu consumo.
-                            </p>
+                            <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para residências.</p>
                             <a href="{{route('project', ['type' => 'residence'])}}" class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
@@ -53,10 +50,7 @@
                         <img height="50" src="{{asset("img/icons/company.svg")}}">
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos <br><span>Comerciais</span></h4>
                         <div id="comercial-content" class="d-none">
-                            <p class="pt-3">
-                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
-                                especialmente desenvolvidas para o seu consumo.
-                            </p>
+                            <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para empresas.</p>
                             <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
                                class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
@@ -67,10 +61,7 @@
                         <img height="50" src="{{asset("img/icons/tree.svg")}}">
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos em<br><span>Condominios</span></h4>
                         <div id="condominium-content" class="d-none">
-                            <p class="pt-3">
-                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
-                                especialmente desenvolvidas para o seu consumo.
-                            </p>
+                            <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para condomínios.</p>
                             <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
                                class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
@@ -81,10 +72,7 @@
                         <img height="50" src="{{asset("img/icons/farm.svg")}}">
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos<br><span>Rurais</span></h4>
                         <div id="rural-content" class="d-none">
-                            <p class="pt-3">
-                                Reduza gastos com energia elétrica em sua residência através de nossas soluções
-                                especialmente desenvolvidas para o seu consumo.
-                            </p>
+                            <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para áreas rurais.</p>
                             <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
                                class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
@@ -97,9 +85,8 @@
         <div class="container p-5">
             <div class="row text-center text-md-left">
                 <div class="col-md-8 col-12">
-                    <h1 class="font-weight-bold text-white">Comece a economizar</h1>
-                    <h4 class="text-white py-md-0 py-3">Não perca tempo, investa em qualidade de vida e reduza
-                        custos</h4>
+                    <h1 class="font-weight-bold text-white">Pare de perder dinheiro com conta de luz!</h1>
+                    <h4 class="text-white py-md-0 py-3">Entre em contato conosco descubra quanto você pode economizar.</h4>
                 </div>
                 <div class="col-md-4 col-12 d-flex justify-content-center justify-content-md-end">
                     <div class="d-flex align-items-center">
@@ -135,6 +122,24 @@
                                         </p>
                                         <h4 class="font-weight-bold">Lucimar Marcos</h4>
                                         <h6 class="font-weight-bold my-3">Cliente Residencial e Comercial</h6>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star text-warning"> </i>
+                                        <i class="fas fa-star-half-alt text-warning"> </i>
+                                    </div>
+                                </div>
+                                <div class="carousel-item mt-5">
+                                    <div class="testimonial text-center">
+                                        <p><i class="fas fa-quote-left"></i>
+                                            Achava que a energia solar não compensava para contas pequenas, mas quando vi
+                                            o valor do investimento, e o retorno acumulado no futuro tive certeza que
+                                            seria muito vantajoso. O serviço da Lumen Solar foi excepcional! A instalação
+                                            foi extremamente rápida, os instaladores foram bastante cuidadosos e os
+                                            consultores da empresa ainda me ajudaram na utilização do consórcio do meu Banco.
+                                        </p>
+                                        <h4 class="font-weight-bold">Adair Reis</h4>
+                                        <h6 class="font-weight-bold my-3">Cliente Residencial</h6>
                                         <i class="fas fa-star text-warning"> </i>
                                         <i class="fas fa-star text-warning"> </i>
                                         <i class="fas fa-star text-warning"> </i>
