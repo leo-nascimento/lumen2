@@ -30,7 +30,7 @@ $(document).ready(function () {
     });
 
     var blog = new Swiper('.swiper-wrapper-blog', {
-        slidesPerView: '1',
+        slidesPerView: 'auto',
         spaceBetween: 30,
         grabCursor: true,
         breakpoints: {
