@@ -6,7 +6,7 @@
                     <div class="h-100 mask rgba-black-light d-flex align-items-center justify-content-center">
                         <div class="my-auto text-center px-5">
                             <h3 class="text-white pb-3 font-weight-bold">Energia Solar</h3>
-                            <p class="text-white d-none d-md-block lead">Saiba como funciona</p>
+                            <p class="text-white lead">Saiba como funciona</p>
                             <button id="open-modal" data-toggle="modal" data-target="#video-modal" class="btn primary-bg text-white"><i class="fas fa-play mr-1"></i> Assistir video</button>
                         </div>
                     </div>
