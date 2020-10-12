@@ -25,38 +25,20 @@ $(document).ready(function () {
         });
     }
 
-    $('.phases-front').on('mouseenter', function () {
-        $(this).trigger('click');
-    });
-
-    $('.phases-back').on('mouseleave', function () {
-        $(this).trigger('click');
-    });
-
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
-    var depoiments = new Swiper('.swiper-depoiments', {
-        slidesPerView: 1,
-        spaceBetween: 40,
-        freeMode: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-    });
-
-    var blog = new Swiper('.swiper-blog', {
-        slidesPerView: 'auto',
+    var blog = new Swiper('.swiper-wrapper-blog', {
+        slidesPerView: '1',
         spaceBetween: 30,
         grabCursor: true,
         breakpoints: {
             320: {
-                slidesPerView: 1,
+                slidesPerView: 3,
             },
             480: {
-                slidesPerView: 1,
+                slidesPerView: 3,
             },
             640: {
                 slidesPerView: 2,

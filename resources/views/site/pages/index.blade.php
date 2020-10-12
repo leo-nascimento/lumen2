@@ -586,7 +586,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <div class="swiper-container swiper-blog mt-3">
+                            <div class="swiper-container swiper-wrapper-blog mt-3">
                                 @if($posts->isNotEmpty())
                                     <div class="swiper-wrapper">
                                         @foreach($posts as $post)

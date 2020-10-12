@@ -15,6 +15,7 @@
     <title>Lumen Bsb</title>
 
     <!-- Styles -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/mdb-pro.css') }}" rel="stylesheet">
     <link href="{{ asset('css/_website.css') }}" rel="stylesheet">
@@ -51,6 +52,7 @@
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
     <script src="{{ asset('js/mdb.js') }}"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
     <script src="https://kit.fontawesome.com/2fab56a2f0.js" crossorigin="anonymous"></script>
