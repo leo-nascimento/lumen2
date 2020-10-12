@@ -82,7 +82,7 @@
         </div>
     </section>
     <section id="budget-call" class="primary-bg pt-5">
-        <div class="container p-5">
+        <div class="container p-md-5 p-0 px-3 mt-5 mt-md-0">
             <div class="row text-center text-md-left">
                 <div class="col-md-8 col-12">
                     <h1 class="font-weight-bold text-white">Pare de perder dinheiro com conta de luz!</h1>
@@ -176,7 +176,7 @@
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     </div>
                     <div class="row mt-4">
-                        <div class="col-3">
+                        <div class="col-md-3 col-12">
                             <div class="card gradient-card">
                                 <div class="card-image">
                                     <a href="#!">
@@ -207,7 +207,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-12 pt-3 pt-md-0">
                             <div class="card gradient-card">
                                 <div class="card-image">
                                     <a href="#!">
@@ -238,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-12 pt-3 pt-md-0">
                             <div class="card gradient-card">
                                 <div class="card-image">
                                     <a href="#!">
@@ -270,7 +270,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-12 pt-3 pt-md-0">
                             <div class="card gradient-card">
                                 <div class="card-image">
                                     <a href="#!">
@@ -574,10 +574,10 @@
                     </div>
                     </div>
                 </div>
-                <div class="col-lg-8 px-5" style="margin-top: -20px;">
+                <div class="col-lg-8 px-md-5 px-3" style="margin-top: -20px;">
                     <div class="row">
                         <div class="col-12">
-                            <h3 class="pb-2">Venha tomar um café conosco</h3>
+                            <h3 class="pb-2 mt-md-0 mt-5">Venha tomar um café conosco</h3>
                             <div class="h-50">
                                 <div id="map-google" class="z-depth-1-half" style="height: 200px;"></div>
                                 <!--<div id='map' class="h200"></div>-->

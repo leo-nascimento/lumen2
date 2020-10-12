@@ -12,37 +12,37 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 wow slideInRight">
+            <div class="col-md-6 col-12 wow slideInRight pt-4 pt-md-0">
                 <h1 class="font-weight-bold mb-0">Vantagens</h1>
                 <hr class="primary-bg w-25 float-left h3">
                 <p class="lead clear-float text-muted mt-4">Conheça as principais vantagens ao investir em energia solar!</p>
                 <div class="row">
                     <div class="col-12 px-0">
                         <div class="row">
-                            <div class="col-11">
+                            <div class="col-md-11 col-12">
                                 <ul class="nav md-pills nav-justified pills-rounded">
                                     <li class="nav-item">
-                                        <a class="z-depth-1 benefits nav-link white active p-4" data-toggle="tab" href="#bill" role="tab">
+                                        <a class="z-depth-1 benefits nav-link white active p-md-4 p-2" data-toggle="tab" href="#bill" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/bill-white.svg')}}">
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#money" role="tab">
+                                        <a class="z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#money" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/money-transfer.svg')}}">
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#energy" role="tab">
+                                        <a class="nav-link z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#energy" role="tab">
                                             <img class="img-fluid"src="{{asset('img/icons/consumption.svg')}}">
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#solar-panel" role="tab">
+                                        <a class="nav-link z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#solar-panel" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/solar-panel.svg')}}">
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link z-depth-1 nav-link benefits white p-4" data-toggle="tab" href="#loan" role="tab">
+                                        <a class="nav-link z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#loan" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/loan.svg')}}">
                                         </a>
                                     </li>
