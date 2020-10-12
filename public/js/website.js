@@ -35,10 +35,10 @@ $(document).ready(function () {
         grabCursor: true,
         breakpoints: {
             320: {
-                slidesPerView: 3,
+                slidesPerView: 1,
             },
             480: {
-                slidesPerView: 3,
+                slidesPerView: 1,
             },
             640: {
                 slidesPerView: 2,
