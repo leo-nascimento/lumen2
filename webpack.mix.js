@@ -17,3 +17,10 @@ mix.js('resources/js/app.js', 'public/js')
 
 mix.sass('resources/sass/mdb/mdb-pro.scss', 'public/css');
 mix.sass('resources/sass/_website.scss', 'public/css');
+
+mix.copy('resources/js/functions.js', 'public/js').minify('public/js/functions.js');
+mix.copy('resources/js/website.js', 'public/js').minify('public/js/website.js');
+mix.copy('resources/js/pages/posts.js', 'public/js').minify('public/js/pages/posts.js');
+mix.copy('resources/js/pages/admin.js', 'public/js').minify('public/js/pages/admin.js');
+
+mix.version();

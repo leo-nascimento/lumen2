@@ -30,7 +30,9 @@ Route::prefix('posts/')->group(function(){
 Route::prefix('admin/')->group(function(){
     Route::resource('posts', 'Admin\PostController', ['except' => ['destroy']]);
     Route::get('/posts/{post}/delete', 'Admin\PostController@destroy')->name('posts.destroy');
-    Route::resource('projects', 'Admin\ProjectController');
+
+    Route::resource('projects', 'Admin\ProjectController', ['except' => ['destroy']]);
+    Route::get('/projects/{projectId}/delete', 'Admin\ProjectController@destroy')->name('projects.destroy');
 });
 
 Auth::routes();

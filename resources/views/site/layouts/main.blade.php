@@ -48,10 +48,10 @@
     @yield('content')
 
     <!-- Scripts -->
-    <script src="{{ asset('js/popper.js') }}"></script>
-    <script src="{{ asset('js/jquery.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.js') }}"></script>
-    <script src="{{ asset('js/mdb.js') }}"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/mdb.min.js') }}"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
@@ -60,8 +60,8 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAGpX9kUmODEkuO-4TOnIAefIWTPA9luk&libraries=&v=weekly" defer></script>
 
     <!-- Custom Scripts -->
-    <script src="{{ asset('js/functions.js') }}"></script>
-    <script src="{{ asset('js/website.js') }}"></script>
+    <script src="{{ asset('js/functions.min.js') }}"></script>
+    <script src="{{ asset('js/website.min.js') }}"></script>
     @stack('scripts')
     {!! toastr()->render() !!}
 </body>

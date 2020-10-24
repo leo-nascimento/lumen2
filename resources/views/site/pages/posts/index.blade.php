@@ -1,7 +1,7 @@
 @extends('site.layouts.main')
 
 @push('scripts')
-    <script type="text/javascript" src="{{asset('js/posts.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/pages/posts.min.js')}}"></script>
 @endpush
 
 @section('content')

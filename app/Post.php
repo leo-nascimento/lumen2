@@ -5,6 +5,8 @@ namespace App;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Facades\Image;
 
 class Post extends Model
 {
@@ -23,5 +25,14 @@ class Post extends Model
             Log::error($e);
             return Carbon::now()->formatLocalized('%d/%m/%Y às %H:%m');
         }
+    }
+
+    /**
+     * @param $file
+     */
+    public function saveImage($file)
+    {
+        $image = getImage($file);
+        Storage::disk('local')->put("public/posts/{$this->id}.jpg", $image->getEncoded());
     }
 }

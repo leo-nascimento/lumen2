@@ -31,7 +31,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts = Post::orderBY('created_at', 'DESC')->get();
+        $posts = Post::query()->orderByDesc('created_at')->get();
         return view('admin.posts.index', compact(['posts']));
     }
 
@@ -67,7 +67,7 @@ class PostController extends Controller
 
         // Save file
         $file = $request->file('file');
-        $this->savePostImage($file, $post->id);
+        $post->saveImage($file);
 
         toastr()->success('O post foi salvo com sucesso');
 
@@ -114,7 +114,7 @@ class PostController extends Controller
 
             // Save file
             $file = $request->file('file');
-            $this->savePostImage($file, $post->id);
+            $post->saveImage($file);
         }
 
         return redirect()->route('posts.index');
@@ -133,18 +133,5 @@ class PostController extends Controller
             $post->delete();
 
         return redirect()->route('posts.index');
-    }
-
-    /**
-     * @param $file
-     * @param $postId
-     */
-    private function savePostImage($file, $postId)
-    {
-        $image = Image::make($file)->orientate()
-            ->resize(768, 768, function ($constraint) {
-                $constraint->aspectRatio();
-            })->encode('jpg', 80);
-        Storage::disk('local')->put("public/posts/{$postId}.jpg", $image->getEncoded());
     }
 }

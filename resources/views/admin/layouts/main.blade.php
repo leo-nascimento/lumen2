@@ -5,13 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lumen Bsb</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/popper.js') }}"></script>
-    <script src="{{ asset('js/jquery.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.js') }}"></script>
-    <script src="{{ asset('js/mdb.js') }}"></script>
-    <script src="{{ asset('js/admin.js') }}"></script>
-
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/mdb-pro.css') }}" rel="stylesheet">
@@ -67,7 +60,14 @@
         @yield('content')
     </main>
 
+    <!-- Scripts -->
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/mdb.min.js') }}"></script>
+    <script src="{{ asset('js/pages/admin.min.js') }}"></script>
     @yield('pageScripts')
+    @stack('scripts')
     {!! toastr()->render() !!}
 </body>
 </html>
