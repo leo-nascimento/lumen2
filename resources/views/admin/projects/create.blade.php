@@ -1,9 +1,5 @@
 @extends('admin.layouts.main')
 
-@push('scripts')
-    <script src="{{asset('js/addons/mdb-file-upload.min.js')}}"></script>
-@endpush
-
 @section('content')
     <div class="container-fluid pt-md-4 px-3 pb-0 h-100">
         <x-title-view title="Cadastro de projetos" titleIcon="blog" buttonColor="bg-dark" buttonIcon="arrow-left"
@@ -118,3 +114,6 @@
         </form>
     </div>
 @endsection
+@section('pageScripts')
+    <script src="{{asset('js/addons/mdb-file-upload.min.js')}}"></script>
+@stop

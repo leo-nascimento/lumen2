@@ -57,7 +57,7 @@ class ProjectController extends Controller
         $file = $request->file('file');
         $project->saveImage($file);
 
-        toastr()->success('projeto criado com sucesso!');
+        toastr()->success('Projeto criado com sucesso!');
 
         return redirect()->route('projects.index');
     }
@@ -86,15 +86,16 @@ class ProjectController extends Controller
      * @param $id
      * @return RedirectResponse
      */
-    public function update(Request $request, $id)
+    public function update(ProjectRequest $request, $id)
     {
         $project = Project::find($id);
 
         if (!empty($project)) {
             $project->update($request->all());
-            // Save file
             $file = $request->file('file');
-            $project->saveImage($file);
+            if (!empty($file)) {
+                $project->saveImage($file);
+            }
         }
 
         return redirect()->route('projects.index');

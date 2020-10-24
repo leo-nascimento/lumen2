@@ -24,20 +24,22 @@ class StorePost extends FormRequest
     public function rules()
     {
         return [
-            'title'         => 'required|min:5|max:30|unique:posts',
-            'summary'       => 'required|min:5|max:100',
-            'description'   => 'required',
+            'file' => 'required|mimes:jpg,jpeg,png',
+            'title' => 'required|min:5|max:30|unique:posts',
+            'summary' => 'required|min:5|max:100',
+            'description' => 'required',
         ];
     }
 
     public function messages()
     {
         return [
-            'required'  => 'Este campo é obrigatório',
-            'unique'    => 'Este título inserida já existe',
-            'min'       => 'Este campo deve ter no minimo :min caracteres',
-            'max'       => 'Este campo deve ter no minimo :max caracteres',
-            'mimes'     => 'O arquivo precisa ser nas extensões: jpg, jpeg ou png'
+            'file.required' => 'Insira uma imagem para este post',
+            'required' => 'Este campo é obrigatório',
+            'unique' => 'Este título inserida já existe',
+            'min' => 'Este campo deve ter no minimo :min caracteres',
+            'max' => 'Este campo deve ter no minimo :max caracteres',
+            'mimes' => 'O arquivo precisa ser nas extensões: jpg, jpeg ou png'
         ];
     }
 }

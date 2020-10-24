@@ -17,7 +17,7 @@
                                     <input name="file" type="file" id="input-file-now" class="file-upload" />
                                     @error('file')
                                         <label class="text-danger pt-2">{{ $errors->first('file') }}</label>
-                                    @endif
+                                    @enderror
                                 </div>
                             </div>
                         </div>

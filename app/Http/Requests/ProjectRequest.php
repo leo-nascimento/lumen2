@@ -21,7 +21,13 @@ class ProjectRequest extends FormRequest
      */
     public function rules()
     {
+        $fileValidate = 'mimes:jpg,jpeg,png';
+        if ($this->method() === 'POST') {
+            $fileValidate = "required|{$fileValidate}";
+        }
+
         return [
+            'file' => $fileValidate,
             'resume' => 'required|min:5|max:200',
             'client' => 'required|max:80',
             'power_system' => 'required|max:40',
@@ -33,6 +39,7 @@ class ProjectRequest extends FormRequest
     public function messages()
     {
         return [
+            'file.required' => 'Insira uma imagem deste projeto',
             'required' => 'Informação obrigatória',
             'client.required' => 'informe o cliente deste projeto',
             'resume.min' => 'Informe mais dados deste projeto caracteres',

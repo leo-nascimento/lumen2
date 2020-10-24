@@ -114,7 +114,9 @@ class PostController extends Controller
 
             // Save file
             $file = $request->file('file');
-            $post->saveImage($file);
+            if (!empty($file)) {
+                $post->saveImage($file);
+            }
         }
 
         return redirect()->route('posts.index');

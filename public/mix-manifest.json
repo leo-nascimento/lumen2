@@ -8,8 +8,8 @@
     "/js/functions.min.js": "/js/functions.min.js?id=373597de9b284b18232b",
     "/js/website.js": "/js/website.js?id=1dbd93c1ec427ad5a6a3",
     "/js/website.min.js": "/js/website.min.js?id=1dbd93c1ec427ad5a6a3",
-    "/js/posts.js": "/js/posts.js?id=c8a733ecf4faec87b397",
-    "/js/pages/posts.min.js": "/js/pages/posts.min.js?id=d41d8cd98f00b204e980",
-    "/js/admin.js": "/js/admin.js?id=fbd4361642db097f902b",
-    "/js/pages/admin.min.js": "/js/pages/admin.min.js?id=d41d8cd98f00b204e980"
+    "/js/pages/posts.js": "/js/pages/posts.js?id=c8a733ecf4faec87b397",
+    "/js/pages/posts.min.js": "/js/pages/posts.min.js?id=c8a733ecf4faec87b397",
+    "/js/pages/admin.js": "/js/pages/admin.js?id=34eaab9580fb8926520a",
+    "/js/pages/admin.min.js": "/js/pages/admin.min.js?id=34eaab9580fb8926520a"
 }

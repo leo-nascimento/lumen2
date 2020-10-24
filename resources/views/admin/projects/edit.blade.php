@@ -18,6 +18,7 @@
                             <div class="col-12">
                                 <div class="file-upload-wrapper">
                                     <input name="file" type="file" id="input-file-now"
+                                           value="{{asset("storage/projects/{$project->id}.jpg")}}"
                                            data-default-file="{{asset("storage/projects/{$project->id}.jpg")}}"
                                            class="file-upload"/>
                                     @error('file')
