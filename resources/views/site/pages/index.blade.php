@@ -97,7 +97,7 @@
             </div>
         </div>
     </section>
-    <section id="section-transition" class="white" style="height: 250px;"></section>
+    <section id="section-transition" class="white" style="height: 350px;"></section>
     <section>
         <div class="container">
             <div class="row d-flex justify-content-center">
