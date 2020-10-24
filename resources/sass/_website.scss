@@ -204,7 +204,7 @@ Customização de barra de navegação
 #section-transition {
     background-image: url('../img/backgrounds/transition2.png');
     background-repeat: no-repeat;
-    background-size: 1400px;
+    background-size: 2000px;
     margin-top: -50px;
 }
 
@@ -247,11 +247,11 @@ Customização de barra de navegação
 
 #project-bg{
     background: url('../img/backgrounds/residence.jpg') no-repeat center center;
-    background-size: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: auto !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    background-size: cover !important;
+    -o-background-size: cover !important;
 }
 
 #contact-bg{
