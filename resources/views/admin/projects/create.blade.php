@@ -25,6 +25,21 @@
                         </div>
                         <div class="form-row">
                             <div class="col-12">
+                                <div class="md-form mt-0">
+                                    <select name="type_id" id="typeSelect"
+                                        class="mdb-select md-form colorful-select dropdown-primary">
+                                        <option value="" disabled selected>Escolha</option>
+                                        @foreach($types as $type)
+                                            <option value="{{$type->id}}">{{$type->title}}</option>
+                                        @endforeach
+                                    </select>
+                                    <label class="mdb-main-label" for="typeSelect">Tipo</label>
+                                    @if($errors->has('type_id'))
+                                        <span class="pt-2 text-danger d-flex">{{ $errors->first('type_id') }}</span>
+                                    @endif
+                                </div>
+                            </div>
+                            <div class="col-12">
                                 <div class="md-form">
                                     <textarea id="resume-project" class="md-textarea form-control" rows="3"
                                               maxlength="200" name="resume">{{ old('resume') }}</textarea>

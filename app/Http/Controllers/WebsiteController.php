@@ -26,15 +26,6 @@ class WebsiteController extends Controller
     }
 
     /**
-     * @param $type
-     * @return Application|Factory|View
-     */
-    public function showProjects($type)
-    {
-        return view('site.pages.project', compact('type'));
-    }
-
-    /**
      * @param Request $request
      * @return JsonResponse
      */

@@ -29,6 +29,7 @@ class ProjectRequest extends FormRequest
         return [
             'file' => $fileValidate,
             'resume' => 'required|min:5|max:200',
+            'type_id' => 'required',
             'client' => 'required|max:80',
             'power_system' => 'required|max:40',
             'economy_money' => 'required|max:20',

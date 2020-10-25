@@ -18,8 +18,8 @@
                             <div class="col-12">
                                 <div class="file-upload-wrapper">
                                     <input name="file" type="file" id="input-file-now"
-                                           value="{{asset("storage/projects/{$project->id}.jpg")}}"
-                                           data-default-file="{{asset("storage/projects/{$project->id}.jpg")}}"
+                                           value="{{$project->getImage()}}"
+                                           data-default-file="{{$project->getImage()}}"
                                            class="file-upload"/>
                                     @error('file')
                                     <label class="text-danger pt-2">{{ $errors->first('file') }}</label>
@@ -28,6 +28,22 @@
                             </div>
                         </div>
                         <div class="form-row">
+                            <div class="col-12">
+                                <div class="md-form mt-0">
+                                    <select name="type_id" id="typeSelect"
+                                            class="mdb-select md-form colorful-select dropdown-primary">
+                                        <option value="" disabled>Escolha</option>
+                                        @foreach($types as $type)
+                                            <option @if($project->type_id === $type->id) selected @endif
+                                                value="{{$type->id}}">{{$type->title}}</option>
+                                        @endforeach
+                                    </select>
+                                    <label class="mdb-main-label" for="typeSelect">Tipo</label>
+                                    @if($errors->has('type_id'))
+                                        <span class="pt-2 text-danger d-flex">{{ $errors->first('type_id') }}</span>
+                                    @endif
+                                </div>
+                            </div>
                             <div class="col-12">
                                 <div class="md-form">
                                     <textarea id="resume-project" class="md-textarea form-control" rows="3"

@@ -41,7 +41,7 @@
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos <br><span>Residenciais</span></h4>
                         <div id="residence-content" class="d-none">
                             <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para residências.</p>
-                            <a href="{{route('project', ['type' => 'residence'])}}" class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
+                            <a href="{{route('project', ['type' => 'residencial'])}}" class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos <br><span>Comerciais</span></h4>
                         <div id="comercial-content" class="d-none">
                             <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para empresas.</p>
-                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
+                            <a href="{{route('project', ['type' => 'comercial'])}}"
                                class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos em<br><span>Condominios</span></h4>
                         <div id="condominium-content" class="d-none">
                             <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para condomínios.</p>
-                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
+                            <a href="{{route('project', ['type' => 'condominio'])}}"
                                class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                         <h4 class="font-weight-bold lh45 f35 pt-4">Projetos<br><span>Rurais</span></h4>
                         <div id="rural-content" class="d-none">
                             <p class="pt-3">Conheça nossos projetos desenvolvidos especialmente para áreas rurais.</p>
-                            <a data-toggle="tooltip" data-placement="bottom" title="Em breve"
+                            <a href="{{route('project', ['type' => 'rural'])}}"
                                class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
                         </div>
                     </div>

@@ -10,6 +10,8 @@
     "/js/website.min.js": "/js/website.min.js?id=1dbd93c1ec427ad5a6a3",
     "/js/pages/posts.js": "/js/pages/posts.js?id=c8a733ecf4faec87b397",
     "/js/pages/posts.min.js": "/js/pages/posts.min.js?id=c8a733ecf4faec87b397",
+    "/js/pages/projects.js": "/js/pages/projects.js?id=1240760f5c4b87e7b480",
+    "/js/pages/projects.min.js": "/js/pages/projects.min.js?id=1240760f5c4b87e7b480",
     "/js/pages/admin.js": "/js/pages/admin.js?id=34eaab9580fb8926520a",
     "/js/pages/admin.min.js": "/js/pages/admin.min.js?id=34eaab9580fb8926520a"
 }

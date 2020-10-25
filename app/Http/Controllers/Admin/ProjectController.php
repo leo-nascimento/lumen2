@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ProjectRequest;
 use App\Project;
+use App\ProjectTypes;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
@@ -36,7 +37,8 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        return view('admin.projects.create');
+        $types = ProjectTypes::all();
+        return view('admin.projects.create', compact(['types']));
     }
 
     /**
@@ -78,11 +80,12 @@ class ProjectController extends Controller
     public function edit($id)
     {
         $project = Project::find($id);
-        return view('admin.projects.edit', compact('project'));
+        $types = ProjectTypes::all();
+        return view('admin.projects.edit', compact(['project', 'types']));
     }
 
     /**
-     * @param Request $request
+     * @param ProjectRequest $request
      * @param $id
      * @return RedirectResponse
      */

@@ -17,7 +17,7 @@ use function foo\func;
 Route::get('logout', 'Auth\LoginController@logout');
 
 Route::get('/', 'WebsiteController@index')->name('site');
-Route::get('/project/{type}', 'WebsiteController@showProjects')->name('project');
+Route::get('/project/{type}', 'ProjectController@show')->name('project');
 Route::post('/send-contact', 'WebsiteController@sendContact')->name('contact.send');
 Route::post('/send-budget' , 'WebsiteController@storeBudget')->name('budget.store');
 Route::post('/calculate-economy' , 'WebsiteController@calculateEconomy')->name('calculate-economy');

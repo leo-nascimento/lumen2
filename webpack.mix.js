@@ -21,6 +21,7 @@ mix.sass('resources/sass/_website.scss', 'public/css');
 mix.copy('resources/js/functions.js', 'public/js').minify('public/js/functions.js');
 mix.copy('resources/js/website.js', 'public/js').minify('public/js/website.js');
 mix.copy('resources/js/pages/posts.js', 'public/js/pages').minify('public/js/pages/posts.js');
+mix.copy('resources/js/pages/projects.js', 'public/js/pages').minify('public/js/pages/projects.js');
 mix.copy('resources/js/pages/admin.js', 'public/js/pages').minify('public/js/pages/admin.js');
 
 mix.version();

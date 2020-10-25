@@ -3,7 +3,7 @@
         <div class="col-12 col-md-3 pb-4">
             <div class="card h-100">
                 <div class="view overlay waves-effect" style="height: 200px">
-                    <img class="card-img-top h-100" src="{{asset("storage/projects/{$project->id}.jpg")}}"
+                    <img class="card-img-top h-100" src="{{$project->getImage()}}"
                          alt="Imagem do projeto">
                 </div>
                 <a class="btn-floating btn-action ml-auto mr-4 bg-dark dropdown-toggle" data-toggle="dropdown">
