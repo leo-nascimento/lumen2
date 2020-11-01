@@ -8,7 +8,7 @@
                             <div id="carouselExampleControls" class="carousel slide h300" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="image image-center d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg">
+                                        <img class="image d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(45).jpg">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -299,17 +299,21 @@ Customização de barra de navegação
     -o-background-size: cover;
 }
 
+#blog-index{
+    background: url('../img/backgrounds/solar.jpg') no-repeat center center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .carousel-control-prev, .carousel-control-next {
     width: 7% !important;
 }
 
 .pic{
     transition: transform .2s;
-}
-
-.image-center{
-   position: absolute;
-    margin-top: -40%;
 }
 
 .pic:hover {
