@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container-fluid pt-md-4 px-3 pb-0 h-100">
-        <x-title-view title="Cadastro de projetos" titleIcon="blog" buttonColor="bg-dark" buttonIcon="arrow-left"
+        <x-title-view title="Cadastro de projetos" titleIcon="tasks" buttonColor="bg-dark" buttonIcon="arrow-left"
                       buttonLabel="Voltar" route="projects.index"></x-title-view>
         <form action="{{ route('projects.store') }}" method="POST" enctype="multipart/form-data">
             @csrf

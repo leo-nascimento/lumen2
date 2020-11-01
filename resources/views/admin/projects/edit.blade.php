@@ -1,7 +1,7 @@
 @extends('admin.layouts.main')
 @section('content')
     <div class="container-fluid pt-md-4 px-3 pb-0 h-100">
-        <x-title-view title="Edição de projeto" titleIcon="project-diagram" buttonColor="bg-dark"
+        <x-title-view title="Edição de projeto" titleIcon="tasks" buttonColor="bg-dark"
                       buttonIcon="arrow-left"
                       buttonLabel="Voltar" route="projects.index"></x-title-view>
         <form action="{{ route('projects.update', $project->id) }}" method="POST" enctype="multipart/form-data">

@@ -4,10 +4,10 @@
             <div class="modal-body py-0 pl-0">
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="img-fluid rounded-left image"
+                        <img class="img-fluid rounded-left image h-100"
                              src="https://mdbootstrap.com/img/Photos/Vertical/7.jpg" alt="project image">
                     </div>
-                    <div class="col-md-6 align-self-center">
+                    <div class="col-md-6 align-self-center py-3">
                         <h5 class="font-weight-normal">Resumo do projeto</h5>
                         <p class="text-muted resume">
                             Out or geared it but to best up samples the for she phase of copy would do in divine

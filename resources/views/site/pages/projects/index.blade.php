@@ -35,10 +35,10 @@
                         <div class="swiper-wrapper h300">
                             @foreach($projects as $project)
                                 <div class="swiper-slide swiper-projects-slide">
-                                    <div class="view overlay zoom">
+                                    <div class="view overlay zoom w-100">
                                         <img id="image-project-{{$project->id}}"
                                             src="{{$project->getImage()}}"
-                                            class="img-fluid rounded h-100" alt="smaple image">
+                                            class="img-fluid rounded h-100 w-100" alt="smaple image">
                                         <div class="mask rgba-black-light flex-center">
                                             <div>
                                                 <p class="white-text">{{$project->client}}</p>
