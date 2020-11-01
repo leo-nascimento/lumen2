@@ -155,3 +155,11 @@ function toMoney(value) {
         return value;
     }
 }
+
+function projectMobileCard(id) {
+    $("#residencial-mobile-content,#comercial-mobile-content,#rural-mobile-content,#condominio-mobile-content").addClass('d-none');
+    document.getElementById("project-mobile").className = '';
+    document.getElementById("project-mobile").className = id;
+    var element = document.getElementById(id + '-mobile-content');
+    element.classList.remove("d-none");
+}

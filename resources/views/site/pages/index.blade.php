@@ -81,6 +81,51 @@
             </div>
         </div>
     </section>
+
+    <section class="d-md-none">
+        <div id="project-mobile" class="">
+            <div class="container-fluid">
+            <div class="row mask rgba-black-strong">
+                <div id="residencial-mobile-card" class="col-12 py-4" onclick="projectMobileCard('residencial')">
+                    <img height="50" src="{{asset("img/icons/real-estate.svg")}}">
+                    <h4 class="font-weight-bold l45 f35 pt-4 text-white">Projetos <br><span>Residenciais</span></h4>
+                    <div id="residencial-mobile-content" class="project-content d-none">
+                        <p class="pt-3 text-white">Conheça nossos projetos desenvolvidos especialmente para residências.</p>
+                        <a href="{{route('project', ['type' => 'residencial'])}}" class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
+                    </div>
+                </div>
+                <div id="comercial-mobile-card" class="col-12 py-4 border-top" onclick="projectMobileCard('comercial')">
+                    <img height="50" src="{{asset("img/icons/company.svg")}}">
+                    <h4 class="font-weight-bold l45 text-white f35 pt-4">Projetos <br><span>Comerciais</span></h4>
+                    <div id="comercial-mobile-content" class="project-content d-none">
+                        <p class="pt-3 text-white">Conheça nossos projetos desenvolvidos especialmente para empresas.</p>
+                        <a href="{{route('project', ['type' => 'comercial'])}}"
+                           class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
+                    </div>
+                </div>
+                <div id="condominio-mobile-card" class="col-12 py-4 border-top" onclick="projectMobileCard('condominio')">
+                    <img height="50" src="{{asset("img/icons/tree.svg")}}">
+                    <h4 class="font-weight-bold l45 text-white f35 pt-4">Projetos em<br><span>Condominios</span></h4>
+                    <div id="condominio-mobile-content" class="project-content d-none">
+                        <p class="pt-3 text-white">Conheça nossos projetos desenvolvidos especialmente para condomínios.</p>
+                        <a href="{{route('project', ['type' => 'condominio'])}}"
+                           class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
+                    </div>
+                </div>
+                <div id="rural-mobile-card" class="col-12 py-4 border-top" onclick="projectMobileCard('rural')">
+                    <img height="50" src="{{asset("img/icons/farm.svg")}}">
+                    <h4 class="font-weight-bold l45 text-white f35 pt-4">Projetos<br><span>Rurais</span></h4>
+                    <div id="rural-mobile-content" class="project-content d-none">
+                        <p class="pt-3 text-white">Conheça nossos projetos desenvolvidos especialmente para áreas rurais.</p>
+                        <a href="{{route('project', ['type' => 'rural'])}}"
+                           class="mx-0 btn btn-md white text-warning">VER PROJETOS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
     <section id="budget-call" class="primary-bg pt-5">
         <div class="container p-md-5 p-0 px-3 mt-5 mt-md-0">
             <div class="row text-center text-md-left">

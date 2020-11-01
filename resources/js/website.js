@@ -47,13 +47,25 @@ $(document).ready(function () {
     });
 
     var projects = new Swiper('.swiper-projects', {
-        slidesPerView: 3,
+        slidesPerView: 'auto',
+        grabCursor: true,
         spaceBetween: 30,
         freeMode: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+            },
+            480: {
+                slidesPerView: 2,
+            },
+            640: {
+                slidesPerView: 2,
+            }
+        }
     });
 
     $('.benefits').click(function () {
@@ -190,3 +202,4 @@ function avarageChange() {
     } catch (e) {
     }
 }
+

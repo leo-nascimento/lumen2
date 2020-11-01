@@ -245,7 +245,7 @@ Customização de barra de navegação
     -o-background-size: cover;
 }
 
-#project-bg{
+#project-bg, #project-mobile{
     background: url('../img/backgrounds/residence.jpg') no-repeat center center;
     background-size: auto !important;
     -webkit-background-size: cover !important;
@@ -264,7 +264,7 @@ Customização de barra de navegação
 }
 
 .comercial{
-     background: url('../img/backgrounds/comercial.jpg') no-repeat center center;
+     background: url('../img/backgrounds/comercial.jpg') no-repeat center center !important;
      background-size: auto !important;
      -webkit-background-size: cover !important;
      -moz-background-size: cover !important;
@@ -273,7 +273,7 @@ Customização de barra de navegação
  }
 
 .rural{
-    background: url('../img/backgrounds/rural.jpg') no-repeat center center;
+    background: url('../img/backgrounds/rural.jpg') no-repeat center center !important;
     background-size: auto !important;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
@@ -282,7 +282,7 @@ Customização de barra de navegação
 }
 
 .condominio{
-    background: url('../img/backgrounds/condominium.jpg') no-repeat center center;
+    background: url('../img/backgrounds/condominium.jpg') no-repeat center center !important;
     background-size: auto !important;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
@@ -397,6 +397,9 @@ Customização de barra de navegação
     .lumen-data {
         position: inherit;
         margin-top: 100px;
+    }
+    .project-details h2{
+        font-size: 26px;
     }
     .slide-title{
         font-size: 22px !important;
