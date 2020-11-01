@@ -8,7 +8,6 @@
                 <a class="btn-floating btn-action ml-auto mr-4 bg-dark dropdown-toggle" data-toggle="dropdown"><i class="fas fa-{{$icon}} pl-1"></i></a>
                 <div class="dropdown-menu">
                     <a href="{{route($routeEdit, $post->id)}}" class="dropdown-item" href="#">Editar</a>
-                    <a href="{{route($routeShow, $post->id)}}" class="dropdown-item" href="#">Visualizar</a>
                     <a href="{{route($routeDestroy, $post->id)}}" class="dropdown-item" href="#">Deletar</a>
                 </div>
                 <div class="card-body border-top">

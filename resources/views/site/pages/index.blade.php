@@ -98,15 +98,15 @@
         </div>
     </section>
     <section id="section-transition" class="white" style="height: 350px;"></section>
-    <section>
-        <div class="container">
+    <section id="clients">
+        <div class="container mt-md-0 mt-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-12">
                     <div class="text-center">
                         <h1>O que dizem nossos clientes</h1>
                         <hr class="primary-bg w-25" style="height: 3px;">
-                        <h4 style="clear: both">Confira os depoimentos de quem já fez a diferença usando energia
-                            solar</h4>
+                        <h6 class="text-muted" style="clear: both">Confira os depoimentos de quem já fez a diferença usando energia
+                            solar</h6>
                     </div>
                     <div class="wrapper-carousel-fix">
                         <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
@@ -122,11 +122,6 @@
                                         </p>
                                         <h4 class="font-weight-bold">Lucimar Marcos</h4>
                                         <h6 class="font-weight-bold my-3">Cliente Residencial e Comercial</h6>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star-half-alt text-warning"> </i>
                                     </div>
                                 </div>
                                 <div class="carousel-item mt-5">
@@ -140,21 +135,16 @@
                                         </p>
                                         <h4 class="font-weight-bold">Adair Reis</h4>
                                         <h6 class="font-weight-bold my-3">Cliente Residencial</h6>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star text-warning"> </i>
-                                        <i class="fas fa-star-half-alt text-warning"> </i>
                                     </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev left carousel-control" href="#carousel-example-1"
+                            <a class="d-none d-md-block carousel-control-prev left carousel-control" href="#carousel-example-1"
                                role="button"
                                data-slide="prev">
                                 <span class="icon-prev" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next right carousel-control" href="#carousel-example-1"
+                            <a class="d-none d-md-block carousel-control-next right carousel-control" href="#carousel-example-1"
                                role="button"
                                data-slide="next">
                                 <span class="icon-next" aria-hidden="true"></span>
@@ -167,12 +157,12 @@
         </div>
     </section>
     <section id="section-thin-transition" style="height: 250px"></section>
-    <section>
+    <section id="process-installation">
         <div class="container">
             <div class="row d-flex justify-content-between">
                 <div class="order-1 col-12">
                     <div class="pb-5">
-                        <h2>Como adquirir seu sistema de Geração de Energia Solar Fotovoltaica</h2>
+                        <h2 class="l45">Como adquirir seu sistema de Geração de Energia Solar Fotovoltaica</h2>
                         <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     </div>
                     <div class="row mt-4">
@@ -525,7 +515,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="section-heading h1 pt-4">Vamos conversar melhor!</h2>
+                    <h2 class="pt-4">Vamos conversar melhor!</h2>
                     <hr class="primary-bg w-25 float-left" style="height: 3px;">
                     <p class="section-description clear-float pt-2 pb-4">
                         Não fique com dúvidas, entre em contato conosco estamos a disposição para explicar nosso sistema

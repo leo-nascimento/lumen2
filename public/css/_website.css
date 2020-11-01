@@ -270,6 +270,27 @@ Customização de barra de navegação
   -o-background-size: cover !important;
 }
 
+.comercial {
+  background: url(/images/comercial.jpg?e3398cc2c83e8ab4f36e5a4d28e7f6a1) no-repeat center center;
+  background-size: auto !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+}
+
+.rural {
+  background: url(/images/rural.jpg?288954ce636ce8add86ee05f95e47f86) no-repeat center center;
+  background-size: auto !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+}
+
+.condominio {
+  background: url(/images/condominium.jpg?1931ad26053480a0a134cfcdd2188d0c) no-repeat center center;
+  background-size: auto !important;
+  background-size: cover !important;
+  -o-background-size: cover !important;
+}
+
 #contact-bg {
   background: url(/images/contact.jpg?9d98c8563df20d22a730c55942fc3337) no-repeat center center fixed;
   background-size: auto;
@@ -339,8 +360,48 @@ Customização de barra de navegação
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 18px;
+  }
+
+  .testimonial-carousel .testimonial {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  #video {
+    height: 330px;
+  }
+
+  #advantage h1,
+  #clients h1 {
+    font-size: 26px;
+  }
+
+  #clients h4 {
+    font-size: 18px;
+  }
+
+  #section-transition {
+    margin-top: -170px;
+  }
+
+  .lumen-data h5,
+  #process-installation h2 {
+    font-size: 24px;
+  }
+
+  .lumen-data p {
+    font-size: 12px;
+  }
+
+  .lumen-data {
+    position: inherit;
+    margin-top: 100px;
+  }
+
   .slide-title {
-    font-size: 38px !important;
+    font-size: 22px !important;
   }
 
   .slide-text {

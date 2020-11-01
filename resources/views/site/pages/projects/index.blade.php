@@ -34,7 +34,7 @@
                     <div class="swiper-container swiper-projects">
                         <div class="swiper-wrapper h300">
                             @foreach($projects as $project)
-                                <div class="swiper-slide swiper-projects-slide">
+                                <div class="swiper-slide swiper-projects-slide wow slideInRight">
                                     <div class="view overlay zoom w-100">
                                         <img id="image-project-{{$project->id}}"
                                             src="{{$project->getImage()}}"

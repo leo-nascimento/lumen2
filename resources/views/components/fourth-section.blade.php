@@ -1,5 +1,5 @@
-<section class="py-5 mt-5">
-    <div class="container py-5 mt-5">
+<section id="advantage" class="py-5 mt-5">
+    <div class="container py-md-5 mt-5">
         <div class="row">
             <div class="col-12 col-md-6 wow slideInLeft">
                 <div id="video" class="card z-depth-2 z-index-5">
@@ -12,7 +12,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-12 wow slideInRight pt-4 pt-md-0">
+            <div class="col-md-6 col-12 wow slideInRight pt-5 pt-md-0">
                 <h1 class="font-weight-bold mb-0">Vantagens</h1>
                 <hr class="primary-bg w-25 float-left h3">
                 <p class="lead clear-float text-muted mt-4">Conheça as principais vantagens ao investir em energia solar!</p>

@@ -7,7 +7,7 @@
                         <div class="text-md-left text-center animated slideInLeft">
                             <h1 class="mb-4"><strong><span class="slide-title">Reduza sua conta de luz</span> </strong></h1>
                             <h3 class="mb-4">Economize até 95% do valor gasto com energia mensalmente.</h3>
-                            <button class="btn primary-bg text-white" data-toggle="modal" data-target="#budget">Solicitar orçamento</button>
+                            <button class="btn primary-bg text-white btn-md" data-toggle="modal" data-target="#budget">Solicitar orçamento</button>
                         </div>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                         <div class="text-md-left text-center animated slideInLeft">
                             <h1 class="mb-4"><strong><span class="slide-title">Use energia limpa e sustentável!</span> </strong></h1>
                             <h3 class="mb-4">Economize, ajude o planeta e dê um futuro de presente.</h3>
-                            <button class="btn primary-bg text-white" data-toggle="modal" data-target="#budget">Solicitar orçamento</button>
+                            <button class="btn primary-bg text-white btn-md" data-toggle="modal" data-target="#budget">Solicitar orçamento</button>
                         </div>
                     </div>
                 </div>

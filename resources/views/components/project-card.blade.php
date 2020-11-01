@@ -10,7 +10,6 @@
                     <i class="fas fa-{{$icon}} pl-1"></i></a>
                 <div class="dropdown-menu">
                     <a href="{{route($routeEdit, $project->id)}}" class="dropdown-item" href="#">Editar</a>
-                    <a href="{{route($routeShow, $project->id)}}" class="dropdown-item" href="#">Visualizar</a>
                     <a href="{{route($routeDestroy, $project->id)}}" class="dropdown-item" href="#">Deletar</a>
                 </div>
                 <div class="card-body border-top">

@@ -1,12 +1,12 @@
-<section class="p-md-5 p-2 background-logo">
+<section class="p-md-5 p-2 background-logo mt-md-0 mt-5">
     <div class="container py-5">
-        <div class="row pt-5 d-flex justify-content-between">
+        <div class="row pt-md-5 pt-0 d-flex justify-content-between">
             <div class="col-md-8 col-12 d-flex align-items-center">
                 <div class="wow slideInUp">
                     <h2>A Lumen Solar</h2>
                     <hr class="primary-bg w-25 float-left h3">
                     <h6 class="text-muted clear-float">Dê um futuro de presente</h6>
-                    <div class="py-4">
+                    <div class="py-4 text-dark">
                         <p class="lead text-justify">
                             Luz. A história do mundo pode ser contada pela história da luz. Milhões de anos atrás,
                             o ser humano assumiu o topo da cadeia alimentar quando conseguiu dominar o fogo. A partir
