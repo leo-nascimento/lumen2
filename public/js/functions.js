@@ -91,6 +91,7 @@ $(document).ready(function () {
 });
 
 function economyResult(res) {
+    console.log('res', res)
     const form = $('#economy-search');
     const div = $('#economy-result');
     form.addClass('d-none');

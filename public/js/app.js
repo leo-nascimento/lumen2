@@ -50466,11 +50466,11 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\lumen\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\xampp\htdocs\lumen\resources\sass\app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! C:\xampp\htdocs\lumen\node_modules\font-awesome\scss\font-awesome.scss */"./node_modules/font-awesome/scss/font-awesome.scss");
-__webpack_require__(/*! C:\xampp\htdocs\lumen\resources\sass\mdb\mdb-pro.scss */"./resources/sass/mdb/mdb-pro.scss");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\lumen\resources\sass\_website.scss */"./resources/sass/_website.scss");
+__webpack_require__(/*! /home/leonardo/Documentos/projetos/others/lumen/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /home/leonardo/Documentos/projetos/others/lumen/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/leonardo/Documentos/projetos/others/lumen/node_modules/font-awesome/scss/font-awesome.scss */"./node_modules/font-awesome/scss/font-awesome.scss");
+__webpack_require__(/*! /home/leonardo/Documentos/projetos/others/lumen/resources/sass/mdb/mdb-pro.scss */"./resources/sass/mdb/mdb-pro.scss");
+module.exports = __webpack_require__(/*! /home/leonardo/Documentos/projetos/others/lumen/resources/sass/_website.scss */"./resources/sass/_website.scss");
 
 
 /***/ })

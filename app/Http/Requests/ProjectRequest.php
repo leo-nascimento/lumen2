@@ -45,6 +45,7 @@ class ProjectRequest extends FormRequest
             'client.required' => 'informe o cliente deste projeto',
             'resume.min' => 'Informe mais dados deste projeto caracteres',
             'max' => 'Este campo deve ter no minimo :max caracteres',
+            'decimal' => 'O valor deve ser decimal',
             'mimes' => 'O arquivo precisa ser nas extensões: jpg, jpeg ou png'
         ];
     }

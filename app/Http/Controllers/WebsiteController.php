@@ -88,6 +88,7 @@ class WebsiteController extends Controller
         try {
             $byBillPrice = $request->avarage_option === 'avarage_bill_price';
 
+            $billPrice = null;
             if ($byBillPrice) {
                 $source = array('R$ ', '.', ',');
                 $replace = array('', '', '.');
@@ -95,9 +96,10 @@ class WebsiteController extends Controller
             }
 
             $accountCalculation = AccountCalculation::query()
-                ->where('average_consumption', '>=', intval($request->consumption))
-                ->when($byBillPrice, function($query) use($request) {
+                ->when(!$byBillPrice, function($query) use($request) {
                     $query->where('average_consumption', '>=', intval($request->consumption));
+                })->when(!!$byBillPrice, function($query) use($billPrice) {
+                    $query->where('average_bill_price', '>=', $billPrice);
                 })->first();
 
             if (empty($accountCalculation)) {
