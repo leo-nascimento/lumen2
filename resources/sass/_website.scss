@@ -307,6 +307,11 @@ Customização de barra de navegação
     transition: transform .2s;
 }
 
+.image-center{
+   position: absolute;
+    margin-top: -40%;
+}
+
 .pic:hover {
     transform: scale(0.9);
 }

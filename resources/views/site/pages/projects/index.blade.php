@@ -66,7 +66,7 @@
                     <div class="row">
                         <div class="col-12 px-0">
                             <div class="row">
-                                <div class="col-md-11 col-12">
+                                <div class="col-md-6 col-12">
                                     <ul class="nav md-pills nav-justified pills-rounded">
                                         <li class="nav-item">
                                             <a class="z-depth-1 benefits nav-link white active p-md-4 p-2" data-toggle="tab" href="#bill" role="tab">
@@ -157,14 +157,13 @@
         </div>
     </section>
     <section id="section-thin-transition-full-left" style="height: 200px"></section>
-    <section class="py-5 secondary-bg">
+    <section class="py-md-5 py-4 secondary-bg">
         <div class="container">
             <div class="row">
-                <div class="col-8">
-                    <h1 class="text-white">Solicitar orçamento</h1>
-                    <hr class="white w-25 float-left h3">
+                <div class="col-md-8 col-12">
+                    <h2 class="text-white text-center text-md-left">Solicitar orçamento</h2>
                 </div>
-                <div class="col-4 d-flex justify-content-end clear-float">
+                <div class="col-md-4 col-12 d-flex justify-content-md-end justify-content-center clear-float">
                     <div>
                         <button type="button" class="btn white text-warning btn-md" data-toggle="modal" data-target="#budget">
                             Quero economizar

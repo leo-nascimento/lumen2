@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-dark navbar-expand-lg scrolling-navbar w-100">
+<nav class="navbar fixed-top navbar-dark navbar-expand-lg scrolling-navbar">
     <a class="navbar-brand d-none d-md-block"  target="_blank">
         <img src="{{asset('img/logos/logo-navbar-white.png')}}" height="35">
     </a>
