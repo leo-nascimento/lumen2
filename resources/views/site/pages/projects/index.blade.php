@@ -64,7 +64,7 @@
                     <hr class="primary-bg w-25 float-left h3">
                     <p class="lead clear-float text-muted mt-4">Conheça as principais vantagens ao investir em energia solar!</p>
                     <div class="row">
-                        <div class="col-12 px-0">
+                        <div class="col-12">
                             <div class="row">
                                 <div class="col-md-6 col-12">
                                     <ul class="nav md-pills nav-justified pills-rounded">
