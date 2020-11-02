@@ -17,17 +17,4 @@ $(document).ready(function() {
     } catch (e) {
         console.log('CKEDITOR não carregado!')
     }
-
-    $(document).on('keydown', 'input[pattern]', function(e){
-        const input = $(this);
-        const oldVal = input.val();
-        const regex = new RegExp(input.attr('pattern'), 'g');
-
-        setTimeout(function(){
-            const newVal = input.val();
-            if(!regex.test(newVal)){
-                input.val(oldVal);
-            }
-        }, 0);
-    });
 });

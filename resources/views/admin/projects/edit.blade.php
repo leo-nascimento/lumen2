@@ -79,7 +79,7 @@
                             <div class="col-12 mb-2">
                                 <div class="md-form mt-0">
                                     <input value="{{ $project->power_system }}" id="power-project" name="power_system"
-                                           type="tel" max="9999" min="0" step="any"
+                                           type="number" max="9999" min="0"
                                            class="form-control {{$errors->has('power_system') ? 'is-invalid' : ''}}">
                                     <label for="power-project">Potência do sistema</label>
                                     @if($errors->has('power_system'))
@@ -106,7 +106,7 @@
                             <div class="col-12 mb-2">
                                 <div class="md-form mt-0">
                                     <input value="{{ $project->economy_co2 }}" id="economy-co-project"
-                                           name="economy_co2" type="number" min="0" max="999"
+                                           name="economy_co2" type="tel" step="any"
                                            class="form-control {{$errors->has('economy_co2') ? 'is-invalid' : ''}}">
                                     <label for="economy-co-project">Economia gerada (CO²)</label>
                                     @if($errors->has('economy_co2'))

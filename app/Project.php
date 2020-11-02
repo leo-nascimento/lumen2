@@ -8,11 +8,15 @@ use Illuminate\Support\Facades\Storage;
 
 class Project extends Model
 {
+    protected $casts = [
+        'economy_co2' => 'decimal:2'
+    ];
+
     /**
      * @var string[]
      */
     protected $fillable = [
-        'resume', 'client', 'power_system','economy_money','economy_co2', 'type_id'
+        'resume', 'client', 'power_system', 'economy_money', 'economy_co2', 'type_id'
     ];
 
     /**

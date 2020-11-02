@@ -11,6 +11,7 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 use Illuminate\View\View;
 
 class ProjectController extends Controller
@@ -55,6 +56,9 @@ class ProjectController extends Controller
             return back()->withErrors($validator)->withInput();
         }
 
+        $request->merge([
+           'economy_co2' =>  Str::replaceFirst(',', '.', $request->economy_co2)
+        ]);
         $project = Project::create($request->all());
         $file = $request->file('file');
         $project->saveImage($file);
@@ -94,6 +98,9 @@ class ProjectController extends Controller
         $project = Project::find($id);
 
         if (!empty($project)) {
+            $request->merge([
+                'economy_co2' =>  Str::replaceFirst(',', '.', $request->economy_co2)
+            ]);
             $project->update($request->all());
             $file = $request->file('file');
             if (!empty($file)) {

@@ -17,31 +17,31 @@
                 <hr class="primary-bg w-25 float-left h3">
                 <p class="lead clear-float text-muted mt-4">Conheça as principais vantagens ao investir em energia solar!</p>
                 <div class="row">
-                    <div class="col-12 px-0">
+                    <div class="col-12">
                         <div class="row">
                             <div class="col-md-11 col-12">
                                 <ul class="nav md-pills nav-justified pills-rounded">
-                                    <li class="nav-item">
+                                    <li class="nav-item p-0">
                                         <a class="z-depth-1 benefits nav-link white active p-md-4 p-2" data-toggle="tab" href="#bill" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/bill-white.svg')}}">
                                         </a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item p-0 pl-2">
                                         <a class="z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#money" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/money-transfer.svg')}}">
                                         </a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item p-0 pl-2">
                                         <a class="nav-link z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#energy" role="tab">
                                             <img class="img-fluid"src="{{asset('img/icons/consumption.svg')}}">
                                         </a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item p-0 pl-2">
                                         <a class="nav-link z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#solar-panel" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/solar-panel.svg')}}">
                                         </a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item p-0 pl-2">
                                         <a class="nav-link z-depth-1 nav-link benefits white p-md-4 p-2" data-toggle="tab" href="#loan" role="tab">
                                             <img class="img-fluid" src="{{asset('img/icons/loan.svg')}}">
                                         </a>
@@ -49,7 +49,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="tab-content">
+                        <div class="tab-content px-0">
                             <div class="tab-pane fade in show active" id="bill" role="tabpanel">
                                 <h5 class="font-weight-bold pb-3">Redução de até 95% em sua conta de luz.</h5>
                                 <p class="text-justify text-muted font-small">

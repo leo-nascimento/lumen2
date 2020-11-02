@@ -1,3 +1,4 @@
+<x-fluid-modal></x-fluid-modal>
 <div class="mask rgba-black-light">
     <div class="container h-100">
         <div class="row">

@@ -100,8 +100,8 @@
                             </div>
                             <div class="col-12 mb-2">
                                 <div class="md-form mt-0">
-                                    <input value="{{ old('economy_co2') }}" id="economy-co-project" name="economy_co2"
-                                           type="tel" pattern="^\d*(\.\d{0,2})?$"
+                                    <input value="{{ old('economy_co2') }}" id="economy-co-project"
+                                           name="economy_co2" type="tel" step="any"
                                            class="form-control {{$errors->has('economy_co2') ? 'is-invalid' : ''}}">
                                     <label for="economy-co-project">Economia gerada (CO²)</label>
                                     @if($errors->has('economy_co2'))

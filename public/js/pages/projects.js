@@ -9,12 +9,13 @@ $(document).on('click', '.show-modal-project', function (event) {
         modal.find('.image').attr('src', imageTag.src)
         modal.find('.resume').text(projectObj.resume)
         modal.find('.client').text(projectObj.client)
-        modal.find('.power').text(projectObj.power_system + 'kWp')
+        modal.find('.power').text(projectObj.power_system+'kWp')
         modal.find('.economy-money').text(projectObj.economy_money)
-        modal.find('.economy-co2').text(projectObj.economy_co2)
+        modal.find('.economy-co2').text(projectObj.economy_co2.replace(/\.00$/,''))
 
         modal.modal('show')
     } catch (e) {
+        console.log(e)
         console.log('Falha ao setar os dados na modal')
     }
 })

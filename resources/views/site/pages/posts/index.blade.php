@@ -5,7 +5,7 @@
 @endpush
 
 @section('content')
-    <section>
+    <section id="blog-index">
         <x-header-back icon="blog-outline.svg" title="Blog"></x-header-back>
     </section>
 
