@@ -19,7 +19,7 @@ class UpdateTableProjects extends Migration
         });
 
         \DB::statement('ALTER TABLE projects MODIFY power_system INTEGER;');
-        \DB::statement('ALTER TABLE projects MODIFY economy_co2 decimal;');
+        \DB::statement('ALTER TABLE projects MODIFY economy_co2 decimal(6,2);');
     }
 
     /**
