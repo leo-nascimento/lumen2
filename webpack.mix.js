@@ -13,10 +13,19 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-    .sass('node_modules/font-awesome/scss/font-awesome.scss', 'public/css');
+    .sass('node_modules/font-awesome/scss/font-awesome.scss', 'public/css')
+    .options({
+        processCssUrls: false
+    });
 
-mix.sass('resources/sass/mdb/mdb-pro.scss', 'public/css');
-mix.sass('resources/sass/_website.scss', 'public/css');
+mix.sass('resources/sass/mdb/mdb-pro.scss', 'public/css')
+    .options({
+        processCssUrls: false
+    });
+mix.sass('resources/sass/_website.scss', 'public/css')
+    .options({
+        processCssUrls: false
+    });
 
 mix.copy('resources/js/functions.js', 'public/js').minify('public/js/functions.js');
 mix.copy('resources/js/website.js', 'public/js').minify('public/js/website.js');
